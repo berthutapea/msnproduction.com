@@ -1,39 +1,35 @@
 const Reviews = [
   {
     id: 1,
-    name: "Aldi Ramdani",
-    bio: "Mobile Developer",
-    img: "https://i.ibb.co/3M64m0f/aldi.jpg",
+    name: "Pratama Budiaji",
+    bio: "CEO PT. Mala Sejati",
+    img: "https://i.ibb.co/r53shNs/pratama-budiaji.jpg",
     description:
-      "I am very impressed to work with him. He is a very good and skilled person. I want to work with him again.",
-    rating: 5.0,
+      "Pengerjaan website luar biasa cepat, resolusi bagus, kecepatan bagus. Terima kasih MSN PRODUCTION Recommended banget😊",
   },
   {
     id: 2,
-    name: "Ilham Wahyu Budiaji",
-    bio: "Front-end Developer",
-    img: "https://i.ibb.co/dKYnQM8/ilham.jpg",
+    name: "Bapak Kurniawan",
+    bio: "Pengusaha Es Buah",
+    img: "https://i.ibb.co/mJJ8sm1/bapak-kurniawan.jpg",
     description:
-      "He is my partner. We work together. When I fall into an error or any other problem he support me always.",
-    rating: 5.0,
+      "Website sudah saya cek bangus bangget, pelayanan terbaik rekomandasi teman memang gak salah. Iklannya juga bagus, sudah ada prospek pelanggan 7 orang👍👍",
   },
   {
     id: 3,
-    name: "Dadang Darsono",
-    bio: "CEO MSN Production",
-    img: "https://i.ibb.co/yPSV6Fv/dadang.jpg",
+    name: "Wahyu & Meta",
+    bio: "Mempelai Pasangan",
+    img: "https://i.ibb.co/dgLRQZw/mempelai-1.jpg",
     description:
-      "I was give him to make an webpage. He made me an awesome website. I recommend himself and wanna work with him again.",
-    rating: 5.0,
+      "Kami sangat senang atas pegerjaan website undangan sangat cepat dan efisien dan website bangus bangeet pokoknya rekomended bangett 🥰😍😍",
   },
   {
     id: 4,
-    name: "Raden Amal Prayogo",
-    bio: "Full Stack Developer",
-    img: "https://i.ibb.co/chG1v0f/Amal.jpg",
+    name: "Ibu Silvana",
+    bio: "Founder Restoran Cilengsi",
+    img: "https://i.ibb.co/FVnbpjM/ibu-silvana.jpg",
     description:
-      "I was finding someone to help me to build my Grocery website for my store. He made me an E-commerce Store. I am satisfied with his work.",
-    rating: 5.0,
+      "Luar biasa bangus dan keren pokoknya, seja pakai Goggle Ads penjualan dan profit usaha saya memenuhi target yang saya inginkan, the bestt lahh pokoknya 👌😁",
   },
 ];
 
