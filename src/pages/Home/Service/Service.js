@@ -29,7 +29,7 @@ const Service = () => {
       title: "Website & Mobile Applications",
       icon: <BiMobile />,
       description:
-        "As a Front-end developer, I would love to develope any front-end application using React and its libraries.",
+        "Kembangkan sistem informasi, sistem administrasi, atau sistem promosi, berbasis website & aplikasi mobile sesuai kebutuhan untuk meningkatkan keuntungan dan efisiensi operasional bisnis anda.",
     },
     {
       id: 2,
