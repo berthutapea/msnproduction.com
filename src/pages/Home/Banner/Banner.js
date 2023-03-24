@@ -74,8 +74,8 @@ const Banner = () => {
         animate={{ x: 0 }}
         transition={{ duration: 1 }}
       >
-        <div className="banner-image-wrapper order-1 lg:order-3 lg:pt-0 md:pt-0 sm:pt-0 pt-10">
-          <img src={bannerImg} alt="Banner"></img>
+        <div className="order-1 lg:order-3 lg:pt-0 md:pt-0 sm:pt-0 pt-10">
+          <img src={bannerImg} alt="Banner MSN PRODUCTION"></img>
         </div>
       </motion.div>
     </div>
