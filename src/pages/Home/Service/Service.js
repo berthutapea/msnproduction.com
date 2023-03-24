@@ -4,6 +4,7 @@ import { useInView } from "react-intersection-observer";
 import Services from "../../../assets/Reviews";
 // import { BiPalette, BiLaptop, BiMobile } from "react-icons/bi";
 import { FaBullhorn, FaLaptop, FaMobileAlt } from "react-icons/fa";
+import { FiArrowRight } from "react-icons/fi";
 // import { CheckCircle } from "react-feather";
 // import { FiServer } from "react-icons/fi";
 import {
@@ -31,7 +32,7 @@ const Service = () => {
       title: "Website & Mobile Applications",
       icon: <FaMobileAlt />,
       description:
-        "Kembangkan sistem informasi, sistem administrasi, atau sistem promosi, berbasis website & aplikasi mobile sesuai kebutuhan untuk meningkatkan keuntungan dan efisiensi operasional bisnis Anda. \n ✅ iOS App Development \n ✅ Android App Development \n ✅ UI/UX Web/Mobile App Design \n ✅ WordPress Web Development \n ✅ Custom Web App Development",
+        "Kembangkan sistem informasi, sistem administrasi, atau sistem promosi, berbasis website & aplikasi mobile sesuai kebutuhan untuk meningkatkan keuntungan dan efisiensi operasional bisnis di perusahaan Anda. \n ✅ iOS App Development \n ✅ Android App Development \n ✅ UI/UX Web/Mobile App Design \n ✅ WordPress Web Development \n ✅ Custom Web App Development",
     },
     {
       id: 2,
@@ -90,10 +91,24 @@ const Service = () => {
             <p className="text-accent">
               {service.description.split("\n").map((s, i) => (
                 <React.Fragment key={i + 1}>
-                  <span className="text-gray-500 text-justify inline-block align-bottom mb-4">{s}</span>
+                  <span className="text-gray-500 text-justify inline-block align-bottom mb-4">{s}
+                  </span>
                   <br />
                 </React.Fragment>
               ))}
+              {/* <div className="flex items-center mb-5"> */}
+                <a
+                  href="https://wa.me/6282125664554"
+                  target="blank"
+                >
+                  <button className="primary-button">
+                    <span className="text-button-mobile">Konsultasi Gratis</span>
+                    <span>
+                      <FiArrowRight />
+                    </span>
+                  </button>
+                </a>
+              {/* </div> */}
             </p>
           </div>
         ))}
