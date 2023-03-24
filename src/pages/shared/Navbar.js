@@ -5,8 +5,9 @@ import {
   RiContactsBook2Fill,
   RiFolderInfoFill,
 } from "react-icons/ri";
+import logo from "../../assets/MSN-PRODUCTION-LOGO.png";
 import { GiCrossMark } from "react-icons/gi";
-import { FaHome} from "react-icons/fa";
+import { FaHome } from "react-icons/fa";
 import { MdWork } from "react-icons/md";
 import { ImBlog } from "react-icons/im";
 import Drawer from "react-modern-drawer";
@@ -63,7 +64,11 @@ export default function Navbar() {
       <div className="w-full flex items-center justify-between px-3 md:px-24 py-3">
         <div>
           <Link to="/">
-            <h1 className="text-2xl text-primary font-lobster">Gilbert Hutapea</h1>
+            <img
+              className="w-40 pr-10 "
+              src={logo}
+              alt="MSN PRODUCTION Logo"
+            />
           </Link>
         </div>
         <div>
