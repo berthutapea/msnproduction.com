@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
-import Services from "../../../assets/Reviews";
+// import Services from "../../../assets/Reviews";
 // import { BiPalette, BiLaptop, BiMobile } from "react-icons/bi";
 import { FaBullhorn, FaLaptop, FaMobileAlt } from "react-icons/fa";
 import { FiArrowRight } from "react-icons/fi";
