@@ -14,7 +14,7 @@
     position: relative;
 }
 
-.inner-circle {
+/* .inner-circle {
     height: 10px;
     width: 10px;
     background-color: #ffffff;
@@ -38,4 +38,4 @@
     50% {
         left: 97%;
     }
-}
+} */
