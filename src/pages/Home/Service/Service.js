@@ -75,11 +75,12 @@ const Service = () => {
         animate={viewDiv && "visible"}
         variants={headingAnimation}
       >
-        <h3 className="text-accent text-center">What I Provide</h3>
+        <h3 className="text-accent text-center">Fokus & Layanan</h3>
         <h1 className="text-4xl font-semibold text-center">
-          My <span className="text-primary">Services</span>
+          Solusi <span className="text-primary">Digital & Kreatif</span>
         </h1>
         <BottomLine />
+        <h2 className="text-accent text-center py-5">Kami fokus memberikan solusi holistik bagi bisnis Anda dalam membangun brand Anda secara Efektif & Konsisten melalui berbagai saluran Digital. Kami akan membantu Anda dalam mengembangkan bisnis sehingga tercapai tujuan Perusahaan Anda dengan lebih Efektif.</h2>
       </motion.div>
 
       <motion.div

@@ -40,10 +40,10 @@ const Banner = () => {
             wrapper="div"
             repeat={Infinity}
           /> */}
-        <h2 className="text-2xl text-primary font-bold my-8">Kreavitas & Teknologi Kami Wujudkan Visi Bisnis Anda!</h2>
+        <h2 className="text-2xl text-primary font-bold my-8">Digital & Kreativitas Kami Wujudkan Visi Bisnis Anda!</h2>
         {/* </div> */}
         <p className="text-accent max-w-md mb-10 font-medium">
-          MSN Production adalah perusahaan penyedia layanan jasa pembuatan website, aplikasi mobile, branding & konten kreatif, serta internet marketing, & Advertising sesuai kebutuhan bisnis anda dengan harga murah kualitas mewah.
+          MSN PRODUCTION adalah perusahaan penyedia layanan jasa pembuatan Website, Aplikasi Mobile, Branding & Konten Kreatif, serta Internet Marketing & Advertising sesuai kebutuhan bisnis anda dengan harga murah kualitas mewah.
         </p>
 
         <div className="flex items-center mb-20">
