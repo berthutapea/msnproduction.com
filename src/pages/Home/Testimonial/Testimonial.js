@@ -81,12 +81,12 @@ const Testimonial = () => {
 
               >
                 <div className="px-6">
-                  <FaQuoteLeft className="text-6xl text-primary mb-4"></FaQuoteLeft>
+                  <FaQuoteLeft className="text-4xl text-primary mb-4"></FaQuoteLeft>
                   <h2 className="text-center">{review.description}</h2>
                 </div>
                 <div className="bg-primary mt-12 flex justify-end px-6 py-2 rounded-b">
-                  <div className="text-right mr-4 text-white">
-                    <h2 className="font-medium leading-none">{review.name}</h2>
+                  <div className="text-right mr-4 text-white ">
+                    <h2 className="font-medium leading-none py-1">{review.name}</h2>
                     <p className="text-xs leading-none">{review.bio}</p>
                   </div>
                   <img
