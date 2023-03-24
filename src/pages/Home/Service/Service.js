@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from "react";
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
-import { BiPalette } from "react-icons/bi";
-import { DiAtom } from "react-icons/di";
-import { FiServer } from "react-icons/fi";
+import { BiPalette, BiLaptop, BiMobile } from "react-icons/bi";
+// import { FaDuotone } from "react-icons/fa";
+// import { FiServer } from "react-icons/fi";
 import {
   headingAnimation,
   sectionBodyAnimation,
@@ -26,22 +26,22 @@ const Service = () => {
   const services = [
     {
       id: 1,
-      title: "Front End Development",
-      icon: <DiAtom />,
+      title: "Website & Mobile Applications",
+      icon: <BiMobile />,
       description:
         "As a Front-end developer, I would love to develope any front-end application using React and its libraries.",
     },
     {
       id: 2,
-      title: "MERN Development",
-      icon: <FiServer />,
+      title: "Branding & Content Creative",
+      icon: < BiPalette />,
       description:
         "I am very familiar with NodeJS, Express JS, and MongoDB/Mongoose. So I can build full-stack application with MERN.",
     },
     {
       id: 3,
-      title: "Web Design",
-      icon: <BiPalette />,
+      title: "Digital Marketing & Advertising",
+      icon: <BiLaptop />,
       description:
         "I also provide Fully Responsive Static Website Design with HTML, CSS, Bootstrap, Tailwind.",
     },
@@ -93,11 +93,10 @@ const Service = () => {
         {services?.map((service) => (
           <div
             key={service.id}
-            className={`${
-              service.id % 2 === 0
-                ? "bg-base-100 shadow-lg"
-                : "bg-base-100 shadow-lg"
-            } rounded-lg p-6 hover:shadow-primary cursor-pointer duration-300`}
+            className={`${service.id % 2 === 0
+              ? "bg-base-100 shadow-lg"
+              : "bg-base-100 shadow-lg"
+              } rounded-lg p-6 duration-300`}
           >
             <div className="text-center mb-4">
               <span className="text-primary text-5xl inline-block">
