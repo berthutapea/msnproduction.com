@@ -12,6 +12,7 @@ import {
   sectionBodyAnimation,
 } from "../../../hooks/useAnimation";
 import BottomLine from "../../../components/BottomLine";
+import "../Service/Service.css";
 
 const Service = () => {
   const [ref, inView] = useInView();
@@ -76,8 +77,8 @@ const Service = () => {
           <div
             key={service.id}
             className={`${service.id % 2 === 0
-              ? "bg-base-100 shadow-lg"
-              : "bg-base-100 shadow-lg"
+              ? "bg-base-100 impactfull-card shadow-lg"
+              : "bg-base-100 impactfull-card shadow-lg"
               } rounded-lg p-6 duration-300`}
           >
             <div className="text-center mb-4">
@@ -91,7 +92,7 @@ const Service = () => {
             <p className="text-accent">
               {service.description.split("\n").map((s, i) => (
                 <React.Fragment key={i + 1}>
-                  <span className="text-gray-500 text-justify inline-block align-bottom mb-4">{s}</span>
+                  <span className="text-gray-600 text-justify inline-block align-bottom mb-4">{s}</span>
                   <br />
                 </React.Fragment>
               ))}
