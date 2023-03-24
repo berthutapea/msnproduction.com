@@ -36,7 +36,7 @@ const Service = () => {
       title: "Branding & Content Creative",
       icon: < BiPalette />,
       description:
-        "I am very familiar with NodeJS, Express JS, and MongoDB/Mongoose. So I can build full-stack application with MERN.",
+        "Tingkatkan reputasi bisnis Anda untuk membangun persepsi yang baik dan mudah dikenali di mata masyarakat dengan layanan Branding & Content Creative yang didambakan pelangggan bisnis anda.",
     },
     {
       id: 3,
@@ -45,27 +45,6 @@ const Service = () => {
       description:
         "I also provide Fully Responsive Static Website Design with HTML, CSS, Bootstrap, Tailwind.",
     },
-    // {
-    //   id: 4,
-    //   title: "Web Management",
-    //   icon: <FiServer />,
-    //   description:
-    //     "I will manage any kinds of website. Data Management, Component management, Service management and so on.",
-    // },
-    // {
-    //   id: 5,
-    //   title: "Backend Development",
-    //   icon: <FiServer />,
-    //   description:
-    //   "MVC Architectural Backend Development with Mongoose (Schema, Model etc) to manage the server easily.",
-    // },
-    // {
-    //   id: 6,
-    //   title: "Database Management",
-    //   icon: <FiServer />,
-    //   description:
-    //     "Connecting Web Database to the server. Fixing All kinds of issue with related to database with database advanced operators.",
-    // },
   ];
   return (
     <div className="parent py-20 bg-neutral">
