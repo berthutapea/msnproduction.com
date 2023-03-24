@@ -45,7 +45,7 @@ const Service = () => {
       title: "Digital Marketing & Advertising",
       icon: <FaLaptop />,
       description:
-        "Dapatkan pelanggan baru dan penjualan lebih banyak dengan bantuan layanan pemasaran online atau Digital Marketing & Advertising sesuai anggaran pemasaran, target market, dan jangkauan wilayah usaha Anda. \n ✅ Tiktok Ads \n ",
+        "Dapatkan pelanggan baru dan penjualan lebih banyak dengan bantuan layanan pemasaran online atau Digital Marketing & Advertising sesuai anggaran pemasaran, target market, dan jangkauan wilayah usaha Anda. \n ✅ Tiktok Ads \n ✅ Google Search Ads \n ✅ GDN & Youtube Ads \n ✅ Facebook & Instagram Ads \n ✅ Search Engine Optimization",
     },
   ];
   return (
