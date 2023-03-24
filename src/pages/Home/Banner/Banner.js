@@ -4,20 +4,18 @@ import { FiArrowRight } from "react-icons/fi";
 // import { RiFolderInfoFill } from "react-icons/ri";
 // import TypeAnimation from "react-type-animation";
 import { motion } from "framer-motion";
-import Lottie from "react-lottie";
-import coding from "../../../assets/coding.json";
+// import Lottie from "react-lottie";
+// import coding from "../../../assets/coding.json";
+import bannerImg from "../../../assets/banner-msn-production.png"
 import "../../shared/Shared.css";
 import SecondaryBtn from "../../../components/SecondaryBtn";
 
 const Banner = () => {
-  const defaultOptions = {
-    loop: true,
-    autoplay: true,
-    animationData: coding,
-    rendererSettings: {
-      preserveAspectRatio: "xMidYMid slice",
-    },
-  };
+  // const defaultOptions = {
+  //   rendererSettings: {
+  //     preserveAspectRatio: "xMidYMid slice",
+  //   },
+  // };
   return (
     <div className="parent min-h-[100vh] flex flex-col-reverse lg:flex-row items-center justify-between">
       <motion.div
@@ -50,7 +48,7 @@ const Banner = () => {
 
         <div className="flex items-center mb-20">
           <a
-            // href="https://drive.google.com/file/d/1qVQ1OLO-5RxHy1rwbe5Ib9igCTfeO99f/view?usp=sharing"
+            href="https://wa.me/6282125664554"
             target="blank"
           >
             <button className="primary-button">
@@ -76,7 +74,9 @@ const Banner = () => {
         animate={{ x: 0 }}
         transition={{ duration: 1 }}
       >
-        <Lottie options={defaultOptions} height="90%" width="90%" />
+        <div className="banner-image-wrapper order-1 lg:order-3 lg:pt-0 md:pt-0 sm:pt-0 pt-10">
+          <img src={bannerImg} alt="Banner"></img>
+        </div>
       </motion.div>
     </div>
   );
