@@ -3,7 +3,7 @@
     display: flex;
     justify-content: center;
     list-style-type: none;
-    bottom: -30px !important;
+    bottom: -50px !important;
 }
 
 .slick-dots li {

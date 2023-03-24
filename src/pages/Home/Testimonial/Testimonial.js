@@ -52,7 +52,7 @@ const Testimonial = () => {
     ],
   };
   return (
-    <div className="parent py-12 bg-neutral">
+    <div className="parent py-16 bg-neutral ">
       <motion.div
         className="mb-8"
         initial="hidden"
@@ -77,14 +77,14 @@ const Testimonial = () => {
             <div key={review.id} className="mt-6">
               <div
                 className="mx-4 rounded-lg shadow-xl single-blog cursor-pointer border-2 border-primary pt-6 flex flex-col justify-between h-[300px]"
-                style={{ backgroundColor: "#FFFFFF" }}
+
               >
                 <div className="px-6">
                   <FaQuoteLeft className="text-6xl text-primary mb-4"></FaQuoteLeft>
                   <h2 className="text-center">{review.description}</h2>
                 </div>
                 <div className="bg-primary mt-12 flex justify-end px-6 py-2 rounded-b">
-                  <div className="text-right mr-4 text-gray-200">
+                  <div className="text-right mr-4 text-white">
                     <h2 className="font-medium leading-none">{review.name}</h2>
                     <p className="text-xs leading-none">{review.bio}</p>
                   </div>
