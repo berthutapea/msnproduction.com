@@ -91,23 +91,25 @@ const Service = () => {
             <p className="text-accent">
               {service.description.split("\n").map((s, i) => (
                 <React.Fragment key={i + 1}>
-                  <span className="text-gray-500 text-justify inline-block align-bottom mb-4">{s}
-                  </span>
+                  <span className="text-gray-500 text-justify inline-block align-bottom mb-4">{s}</span>
                   <br />
                 </React.Fragment>
               ))}
+              <br />
               {/* <div className="flex items-center mb-5"> */}
+              <span className="flex justify-center mb-5">
                 <a
                   href="https://wa.me/6282125664554"
                   target="blank"
                 >
-                  <button className="primary-button">
-                    <span className="text-button-mobile">Konsultasi Gratis</span>
+                  <button className="btn text-black flex items-center gap-3 border-2 border-primary bg-transparent hover:bg-primary hover:border-transparent hover:text-white duration-500">
+                    <span className="text-button-mobile">Hubungi Kami</span>
                     <span>
                       <FiArrowRight />
                     </span>
                   </button>
                 </a>
+              </span>
               {/* </div> */}
             </p>
           </div>
