@@ -18,6 +18,7 @@ const Project = () => {
   const location = useLocation();
   const [ref, inView] = useInView();
   const [viewDiv, setViewDiv] = useState(false);
+  const [showMore, setShowMore] = useState(false);
   const animation = useAnimation();
 
   useEffect(() => {
@@ -112,7 +113,7 @@ const Project = () => {
                   transition: { duration: 0.3 },
                 }}
                 key={item.id}
-                className="item-container rounded-lg shadow-lg p-3  flex flex-col justify-between duration-500 impactfull-card "
+                className="item-container rounded-lg shadow-lg p-3  flex flex-col  duration-500 impactfull-card "
               >
                 <span className="paket-featured text-center">Diskon 34%</span>
                 <h3 className="text-lg text-accent font-semibold text-center">
@@ -143,16 +144,26 @@ const Project = () => {
                     </button>
                   </a>
                 </span>
+                <div className="w-full h-[1px] bg-primary inline-block align-bottom mb-4"></div>
                 <div className="text-accent">
-                  <div className="w-full h-[1px] bg-primary inline-block align-bottom mb-4"></div>
                   {item.description.split("\n").map((s, i) => (
                     <React.Fragment key={i + 1}>
-                      <div className="flex items-center mb-2">
-                        <span className="text-xs mr-2 text-gray-500">{item.icon}</span>
-                        <span className=" text-sm text-gray-600">{s}</span>
-                      </div>
+                      {(showMore || i < 7) && (
+                        <div className="flex items-center mb-2">
+                          <span className="text-xs mr-2 text-gray-500">{item.icon}</span>
+                          <span className=" text-sm text-gray-600">{s}</span>
+                        </div>
+                      )}
                     </React.Fragment>
                   ))}
+                  <div style={{ display: "flex", justifyContent: "center" }}>
+                    <button
+                      className="text-accent text-center font-medium text-base hover:text-primary cursor-pointer"
+                      onClick={() => setShowMore(!showMore)}
+                    >
+                      {showMore ? "Lihat Sedikit" : "Lihat Lebih Banyak"}
+                    </button>
+                  </div>
                 </div>
               </motion.div>
             ))}

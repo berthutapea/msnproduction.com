@@ -11,27 +11,34 @@
     background-color: transparent;
 }
 
-.item-container {
-    height: 900px;
+/* .item-container {
+    height: 1000px;
     overflow: hidden;
-}
+} */
 
-.item {
+/* .item {
     background: transparent;
     position: relative;
-}
+} */
 
 .paket-featured {
     width: 200px;
     position: absolute;
-    top: 18px;
+    top: 21px;
     right: -68px;
     transform: rotate(45deg);
-    z-index: 1;
-    font-size: 14px;
+    /* z-index: -1; */
+    font-size: 13px;
     padding: 1px 0 3px 0;
-    background: #0011ff;
-    color: #fff;
+    /* background: #0011ff; */
+    color: #1500ff;
+    animation: blink 1s ease-in-out infinite;
+}
+
+@keyframes blink {
+    50% {
+        opacity: 0.5;
+    }
 }
 
 /* .item img {
