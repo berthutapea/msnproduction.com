@@ -48,12 +48,13 @@ const Project = () => {
         >
           <div className="mb-12">
             <h3 className="text-accent text-center">
-              Some of my recent Projects
+              Segera Booking Slot Promo Sebelum Kehabisan!
             </h3>
             <h1 className="text-4xl font-semibold text-center">
               Harga Paket Promo<span className="text-primary">Spesial Lebaran!</span>
             </h1>
             <BottomLine />
+            <h2 className="text-accent text-center py-5">Segera Booking Slot Promo Sebelum Kehabisan!</h2>
           </div>
         </motion.div>
 
