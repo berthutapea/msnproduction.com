@@ -64,7 +64,7 @@ const Project = () => {
           animate={viewDiv && "visible"}
           variants={sectionBodyAnimation}
         >
-          <div className="mt-6 mb-2 flex items-center justify-center flex-wrap">
+          <div className="mt-6 mb-12 flex items-center justify-center flex-wrap">
             <button
               className={`btn btn-sm bg-primary border-2 border-primary text-white hover:bg-transparent hover:border-primary hover:text-primary duration-300 mx-3 my-3 sm:my-0 ${activeBtn === "all" && "active-btn"
                 }`}
@@ -75,7 +75,7 @@ const Project = () => {
                   : setItems(Items);
               }}
             >
-              All
+              Website Wedding
             </button>
             <button
               className={`btn btn-sm bg-primary border-2 border-primary text-white hover:bg-transparent hover:border-primary hover:text-primary duration-300 mx-3 my-3 sm:my-0 ${activeBtn === "business" && "active-btn"
@@ -85,7 +85,7 @@ const Project = () => {
                 filterItem("business");
               }}
             >
-              Business
+              Website Toko Online
             </button>
             {/* <button
             className={`btn btn-sm bg-primary border-2 border-primary text-white hover:bg-transparent hover:border-primary duration-300 mx-3 my-3 sm:my-0 ${
@@ -106,7 +106,7 @@ const Project = () => {
                 filterItem("personal");
               }}
             >
-              Personal
+              Website Company Profile
             </button>
           </div>
 
@@ -139,9 +139,9 @@ const Project = () => {
                       to={`/project/${item.id}`}
                       className="mt-3 inline-block"
                     >
-                      <button className="btn btn-sm border-2 border-transparent bg-primary hover:bg-transparent text-white hover:border-primary duration-500">
+                      {/* <button className="btn btn-sm border-2 border-transparent bg-primary hover:bg-transparent text-white hover:border-primary duration-500">
                         See Details
-                      </button>
+                      </button> */}
                     </Link>
                   </div>
                 </div>
