@@ -4,7 +4,7 @@
     border-image-slice: 1;
     background-color: transparent;
     backdrop-filter: blur(10px);
-  }
+}
 
 .active-btn {
     color: #1500ff;
@@ -19,6 +19,19 @@
 .item {
     background: transparent;
     position: relative;
+}
+
+.paket-featured {
+    width: 200px;
+    position: absolute;
+    top: 18px;
+    right: -68px;
+    transform: rotate(45deg);
+    z-index: 1;
+    font-size: 14px;
+    padding: 1px 0 3px 0;
+    background: #0011ff;
+    color: #fff;
 }
 
 /* .item img {

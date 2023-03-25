@@ -133,6 +133,7 @@ const Project = () => {
                     alt={item.title || "Item Image"}
                   /> */}
                 {/* <div className=""> */}
+                <span className="paket-featured text-center">Diskon 34%</span>
                 <h3 className="text-2xl text-accent font-semibold text-center">
                   {item.title}
                 </h3>
@@ -150,7 +151,7 @@ const Project = () => {
                     {item.diskon}
                   </small>
                 </div>
-                <span className="flex justify-center mb-5">
+                <span className="flex justify-center mb-5 ">
                   <a
                     href="https://wa.me/6282125664554"
                     target="blank"
@@ -158,12 +159,11 @@ const Project = () => {
                     <button className="btn text-black flex items-center gap-3 border-2 border-primary bg-transparent hover:bg-primary hover:border-transparent hover:text-white duration-500">
                       <FaWhatsapp className="text-2xl" />
                       <span className="text-button-mobile">Info Lebih Lanjut</span>
-                      <span>
-                      </span>
                     </button>
                   </a>
                 </span>
-                <p className="text-accent">
+                <div className="text-accent ">
+                  <div className="w-full h-[1px] bg-primary inline-block align-bottom mb-4"></div>
                   {item.description.split("\n").map((s, i) => (
                     <React.Fragment key={i + 1}>
                       <span className="text-gray-600 text-justify inline-block align-bottom mb-4">{s}</span>
@@ -171,17 +171,15 @@ const Project = () => {
                     </React.Fragment>
                   ))}
                   <br />
-                  {/* <div className="flex items-center mb-5"> */}
-                  {/* </div> */}
-                </p>
-                <Link
+                </div>
+                {/* <Link
                   to={`/project/${item.id}`}
                   className="mt-3 inline-block"
                 >
-                  {/* <button className="btn btn-sm border-2 border-transparent bg-primary hover:bg-transparent text-white hover:border-primary duration-500">
+                  <button className="btn btn-sm border-2 border-transparent bg-primary hover:bg-transparent text-white hover:border-primary duration-500">
                         See Details
-                      </button> */}
-                </Link>
+                      </button>
+                </Link> */}
                 {/* </div> */}
                 {/* </div> */}
               </motion.div>
