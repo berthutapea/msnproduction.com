@@ -4,7 +4,7 @@ const Items = [
     title: "SIP",
     subtitle: "(Standar)",
     label: "Rp.",
-    price: "139",
+    price: "139K",
     diskon: "240K",
     // icon: <FaMobileAlt />,
     description:
@@ -15,7 +15,7 @@ const Items = [
     title: "BASIC",
     subtitle: "(Standar)",
     label: "Rp.",
-    price: "199",
+    price: "199K",
     diskon: "329K",
     // icon: <FaBullhorn />,
     description:
@@ -26,7 +26,7 @@ const Items = [
     title: "ADVANCE",
     subtitle: "(Full Fitur)",
     label: "Rp.",
-    price: "249",
+    price: "249K",
     diskon: "499K",
     // icon: <FaLaptop />,
     description:
@@ -46,6 +46,9 @@ const Items = [
     id: 5,
     title: "PAKET STARTER",
     subtitle: "(Standar)",
+    label: "Rp.",
+    price: "1.999K",
+    diskon: "2.699K",
     // icon: <FaLaptop />,
     description:
       "Dapatkan pelanggan baru dan penjualan lebih banyak dengan bantuan layanan pemasaran online atau Digital Marketing & Advertising sesuai anggaran pemasaran, target market, dan jangkauan wilayah usaha Anda. \n ✅ Tiktok Ads \n ✅ Google Search Ads \n ✅ GDN & Youtube Ads \n ✅ Facebook & Instagram Ads \n ✅ Search Engine Optimization",
@@ -55,6 +58,8 @@ const Items = [
     id: 6,
     title: "PAKET UMKM",
     subtitle: "(Standar)",
+    price: "CALL US",
+    diskon: "x.xxxK",
     // icon: <FaLaptop />,
     description:
       "Dapatkan pelanggan baru dan penjualan lebih banyak dengan bantuan layanan pemasaran online atau Digital Marketing & Advertising sesuai anggaran pemasaran, target market, dan jangkauan wilayah usaha Anda. \n ✅ Tiktok Ads \n ✅ Google Search Ads \n ✅ GDN & Youtube Ads \n ✅ Facebook & Instagram Ads \n ✅ Search Engine Optimization",
@@ -64,6 +69,8 @@ const Items = [
     id: 7,
     title: "PAKET CORPORATE",
     subtitle: "(Full Fitur)",
+    price: "CALL US",
+    diskon: "x.xxxK",
     // icon: <FaLaptop />,
     description:
       "Dapatkan pelanggan baru dan penjualan lebih banyak dengan bantuan layanan pemasaran online atau Digital Marketing & Advertising sesuai anggaran pemasaran, target market, dan jangkauan wilayah usaha Anda. \n ✅ Tiktok Ads \n ✅ Google Search Ads \n ✅ GDN & Youtube Ads \n ✅ Facebook & Instagram Ads \n ✅ Search Engine Optimization",
@@ -73,6 +80,8 @@ const Items = [
     id: 8,
     title: "PAKET CORPORATE",
     subtitle: "(Full Fitur)",
+    price: "CALL US",
+    diskon: "x.xxxK",
     // icon: <FaLaptop />,
     description:
       "Dapatkan pelanggan baru dan penjualan lebih banyak dengan bantuan layanan pemasaran online atau Digital Marketing & Advertising sesuai anggaran pemasaran, target market, dan jangkauan wilayah usaha Anda. \n ✅ Tiktok Ads \n ✅ Google Search Ads \n ✅ GDN & Youtube Ads \n ✅ Facebook & Instagram Ads \n ✅ Search Engine Optimization",
@@ -82,6 +91,9 @@ const Items = [
     id: 9,
     title: "PAKET STARTER",
     subtitle: "(Ideal Untuk Pemula)",
+    label: "Rp.",
+    price: "999K",
+    diskon: "2.699K",
     // icon: <FaLaptop />,
     description:
       "Dapatkan pelanggan baru dan penjualan lebih banyak dengan bantuan layanan pemasaran online atau Digital Marketing & Advertising sesuai anggaran pemasaran, target market, dan jangkauan wilayah usaha Anda. \n ✅ Tiktok Ads \n ✅ Google Search Ads \n ✅ GDN & Youtube Ads \n ✅ Facebook & Instagram Ads \n ✅ Search Engine Optimization",
@@ -91,6 +103,8 @@ const Items = [
     id: 10,
     title: "PAKET UMKM",
     subtitle: "(Ideal Untuk Usaha Menengah)",
+    price: "CALL US",
+    diskon: "x.xxxK",
     // icon: <FaLaptop />,
     description:
       "Dapatkan pelanggan baru dan penjualan lebih banyak dengan bantuan layanan pemasaran online atau Digital Marketing & Advertising sesuai anggaran pemasaran, target market, dan jangkauan wilayah usaha Anda. \n ✅ Tiktok Ads \n ✅ Google Search Ads \n ✅ GDN & Youtube Ads \n ✅ Facebook & Instagram Ads \n ✅ Search Engine Optimization",
@@ -100,6 +114,8 @@ const Items = [
     id: 11,
     title: "PAKET CORPORATE",
     subtitle: "(Ideal Untuk Instansi & Perusahaan)",
+    price: "CALL US",
+    diskon: "x.xxxK",
     // icon: <FaLaptop />,
     description:
       "Dapatkan pelanggan baru dan penjualan lebih banyak dengan bantuan layanan pemasaran online atau Digital Marketing & Advertising sesuai anggaran pemasaran, target market, dan jangkauan wilayah usaha Anda. \n ✅ Tiktok Ads \n ✅ Google Search Ads \n ✅ GDN & Youtube Ads \n ✅ Facebook & Instagram Ads \n ✅ Search Engine Optimization",
@@ -109,10 +125,14 @@ const Items = [
     id: 12,
     title: "PAKET CORPORATE",
     subtitle: "(Ideal Untuk Instansi & Perusahaan)",
+    price: "CALL US",
+    diskon: "x.xxxK",
     // icon: <FaLaptop />,
     description:
       "Dapatkan pelanggan baru dan penjualan lebih banyak dengan bantuan layanan pemasaran online atau Digital Marketing & Advertising sesuai anggaran pemasaran, target market, dan jangkauan wilayah usaha Anda. \n ✅ Tiktok Ads \n ✅ Google Search Ads \n ✅ GDN & Youtube Ads \n ✅ Facebook & Instagram Ads \n ✅ Search Engine Optimization",
     category: "companyprofile",
+    price: "CALL US",
+    diskon: "x.xxxK",
   },
   //   id: 1,
   //   mainImage: "https://i.ibb.co/Nm206nP/jobs-ladder-main.png",
