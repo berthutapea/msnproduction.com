@@ -5,7 +5,6 @@ import { useInView } from "react-intersection-observer";
 import { Link, useLocation } from "react-router-dom";
 import { FiArrowRight } from "react-icons/fi";
 import { FaWhatsapp } from "react-icons/fa";
-// import { FaBullhorn, FaLaptop, FaMobileAlt } from "react-icons/fa";
 import "./Project.css";
 import {
   headingAnimation,
@@ -89,17 +88,6 @@ const Project = () => {
             >
               Website Toko Online
             </button>
-            {/* <button
-            className={`btn btn-sm bg-primary border-2 border-primary text-white hover:bg-transparent hover:border-primary duration-300 mx-3 my-3 sm:my-0 ${
-              activeBtn === "e-commerce" && "active-btn"
-            }`}
-            onClick={() => {
-              setActiveBtn("e-commerce");
-              filterItem("e-commerce");
-            }}
-          >
-            E-Commerce
-          </button> */}
             <button
               className={`btn btn-sm bg-primary border-2 border-primary text-white hover:bg-transparent hover:border-primary hover:text-primary duration-300 mx-3 my-3 sm:my-0 ${activeBtn === "companyprofile" && "active-btn"
                 }`}
@@ -126,13 +114,6 @@ const Project = () => {
                 key={item.id}
                 className="item-container rounded-lg shadow-lg p-3  flex flex-col justify-between duration-500 impactfull-card "
               >
-                {/* <div className=""> */}
-                {/* <img
-                    className="rounded-lg h-full w-full"
-                    src={item.mainImage}
-                    alt={item.title || "Item Image"}
-                  /> */}
-                {/* <div className=""> */}
                 <span className="paket-featured text-center">Diskon 34%</span>
                 <h3 className="text-lg text-accent font-semibold text-center">
                   {item.title}
@@ -162,11 +143,6 @@ const Project = () => {
                     </button>
                   </a>
                 </span>
-                {/* <div className="mb-4">
-                    <small className="text-gray-600 text-1xl inline-block">
-                      {item.icon}
-                    </small>
-                  </div> */}
                 <div className="text-accent">
                   <div className="w-full h-[1px] bg-primary inline-block align-bottom mb-4"></div>
                   {item.description.split("\n").map((s, i) => (
@@ -178,17 +154,6 @@ const Project = () => {
                     </React.Fragment>
                   ))}
                 </div>
-
-                {/* <Link
-                  to={`/project/${item.id}`}
-                  className="mt-3 inline-block"
-                >
-                  <button className="btn btn-sm border-2 border-transparent bg-primary hover:bg-transparent text-white hover:border-primary duration-500">
-                        See Details
-                      </button>
-                </Link> */}
-                {/* </div> */}
-                {/* </div> */}
               </motion.div>
             ))}
           </div>
