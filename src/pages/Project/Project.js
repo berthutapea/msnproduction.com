@@ -161,7 +161,7 @@ const Project = () => {
                       className="text-accent text-center font-medium text-base hover:text-primary cursor-pointer"
                       onClick={() => setShowMore(!showMore)}
                     >
-                      {showMore ? "Lihat Sediki" : "Lihat Lebih Banyak"}
+                      {showMore ? "Lihat Sedikit" : "Lihat Lebih Banyak"}
                     </button>
                   </div>
                 </div>
