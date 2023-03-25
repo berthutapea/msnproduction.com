@@ -4,6 +4,7 @@ import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import { Link, useLocation } from "react-router-dom";
 import { FiArrowRight } from "react-icons/fi";
+import { FaWhatsapp } from "react-icons/fa";
 // import { FaBullhorn, FaLaptop, FaMobileAlt } from "react-icons/fa";
 import "./Project.css";
 import {
@@ -65,7 +66,7 @@ const Project = () => {
           animate={viewDiv && "visible"}
           variants={sectionBodyAnimation}
         >
-          <div className="mt-6 mb-12 flex items-center justify-center flex-wrap">
+          <div className="mt-6 mb-12 flex items-center justify-center flex-wrap ">
             <button
               className={`btn btn-sm bg-primary border-2 border-primary text-white hover:bg-transparent hover:border-primary hover:text-primary duration-300 mx-3 my-3 sm:my-0 ${activeBtn === "all" && "active-btn"
                 }`}
@@ -100,11 +101,11 @@ const Project = () => {
             E-Commerce
           </button> */}
             <button
-              className={`btn btn-sm bg-primary border-2 border-primary text-white hover:bg-transparent hover:border-primary hover:text-primary duration-300 mx-3 my-3 sm:my-0 ${activeBtn === "personal" && "active-btn"
+              className={`btn btn-sm bg-primary border-2 border-primary text-white hover:bg-transparent hover:border-primary hover:text-primary duration-300 mx-3 my-3 sm:my-0 ${activeBtn === "companyprofile" && "active-btn"
                 }`}
               onClick={() => {
-                setActiveBtn("personal");
-                filterItem("personal");
+                setActiveBtn("companyprofile");
+                filterItem("companyprofile");
               }}
             >
               Website Company Profile
@@ -112,7 +113,7 @@ const Project = () => {
           </div>
 
           {/* Items Card */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 ">
             {items.map((item) => (
               <motion.div
                 initial={{ x: 200, opacity: 0, scale: 0 }}
@@ -123,51 +124,51 @@ const Project = () => {
                   transition: { duration: 0.3 },
                 }}
                 key={item.id}
-                className="item-container rounded-lg shadow-lg p-3 flex flex-col justify-between duration-500 impactfull-card "
+                className="item-container rounded-lg shadow-lg p-3  flex flex-col justify-between duration-500 impactfull-card "
               >
-                <div className="item h-full">
+                <div className="">
                   {/* <img
                     className="rounded-lg h-full w-full"
                     src={item.mainImage}
                     alt={item.title || "Item Image"}
                   /> */}
-                  <div className="">
-                    <h3 className="text-2xl text-primary font-semibold text-center">
-                      {item.title}
-                    </h3>
-                    <p className="text-accent">
-                      {item.description.split("\n").map((s, i) => (
-                        <React.Fragment key={i + 1}>
-                          <span className="text-gray-600 text-justify inline-block align-bottom mb-4">{s}</span>
-                          <br />
-                        </React.Fragment>
-                      ))}
-                      <br />
-                      {/* <div className="flex items-center mb-5"> */}
-                      <span className="flex justify-center mb-5">
-                        <a
-                          href="https://wa.me/6282125664554"
-                          target="blank"
-                        >
-                          <button className="btn text-black flex items-center gap-3 border-2 border-primary bg-transparent hover:bg-primary hover:border-transparent hover:text-white duration-500">
-                            <span className="text-button-mobile">Hubungi Kami</span>
-                            <span>
-                              <FiArrowRight />
-                            </span>
-                          </button>
-                        </a>
-                      </span>
-                      {/* </div> */}
-                    </p>
-                    <Link
-                      to={`/project/${item.id}`}
-                      className="mt-3 inline-block"
-                    >
-                      {/* <button className="btn btn-sm border-2 border-transparent bg-primary hover:bg-transparent text-white hover:border-primary duration-500">
+                  {/* <div className=""> */}
+                  <h3 className="text-2xl text-primary font-semibold text-center">
+                    {item.title}
+                  </h3>
+                  <p className="text-accent">
+                    {item.description.split("\n").map((s, i) => (
+                      <React.Fragment key={i + 1}>
+                        <span className="text-gray-600 text-justify inline-block align-bottom mb-4">{s}</span>
+                        <br />
+                      </React.Fragment>
+                    ))}
+                    <br />
+                    {/* <div className="flex items-center mb-5"> */}
+                    <span className="flex justify-center mb-5">
+                      <a
+                        href="https://wa.me/6282125664554"
+                        target="blank"
+                      >
+                        <button className="btn text-black flex items-center gap-3 border-2 border-primary bg-transparent hover:bg-primary hover:border-transparent hover:text-white duration-500">
+                          <FaWhatsapp className="text-2xl" />
+                          <span className="text-button-mobile">Info Lebih Lanjut</span>
+                          <span>
+                          </span>
+                        </button>
+                      </a>
+                    </span>
+                    {/* </div> */}
+                  </p>
+                  <Link
+                    to={`/project/${item.id}`}
+                    className="mt-3 inline-block"
+                  >
+                    {/* <button className="btn btn-sm border-2 border-transparent bg-primary hover:bg-transparent text-white hover:border-primary duration-500">
                         See Details
                       </button> */}
-                    </Link>
-                  </div>
+                  </Link>
+                  {/* </div> */}
                 </div>
               </motion.div>
             ))}
