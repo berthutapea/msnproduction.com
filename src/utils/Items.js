@@ -32,7 +32,7 @@ const Items = [
     diskon: "499K",
     icon: <FaCheck />,
     description:
-      "Dapatkan pelanggan baru dan penjualan lebih banyak dengan bantuan layanan pemasaran online atau Digital Marketing & Advertising sesuai anggaran pemasaran, target market, dan jangkauan wilayah usaha Anda. \n ✅ Tiktok Ads \n ✅ Google Search Ads \n ✅ GDN & Youtube Ads \n ✅ Facebook & Instagram Ads \n ✅ Search Engine Optimization",
+      "Desain Tema GOLD & PREMIUM \n Masa Aktif 12 bulan \n  Revisi UNLIMITED \n Unlimited Share \n Hitungan Mundur \n Quotes / Kutipan Ayat \n Tombol Petunjuk Arah \n Custom Nama Tamu \n Bebas Request Musik \n Musik Auto-play \n Protokol Kesehatan Std. \n Tombol Menu Ucapan Wish Box Foto di Galeri (Max. 12) \n Video di Galeri/Love Story (Max. 2) \n Peta Google Maps \n Link Live Streaming \n Simpan ke Google Calender \n RSVP - Konfirmasi Kehadiran \n Amplop Digital (Max. 3 Rek) \n Love Story (Max. 5 Timeline)",
   },
   {
     id: 4,
