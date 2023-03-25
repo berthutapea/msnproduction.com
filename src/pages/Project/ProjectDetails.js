@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import Slider from "react-slick";
-import Items from "../../assets/Items";
+import Items from "../../utils/Items";
 import PrimaryBtn from "../../components/PrimaryBtn";
 import SecondaryBtn from "../../components/SecondaryBtn";
 import { FaLink, FaCode } from "react-icons/fa";

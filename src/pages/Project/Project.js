@@ -1,9 +1,10 @@
 import React, { useEffect, useState } from "react";
-import Items from "../../assets/Items";
+import Items from "../../utils/Items";
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import { Link, useLocation } from "react-router-dom";
 import { FiArrowRight } from "react-icons/fi";
+// import { FaBullhorn, FaLaptop, FaMobileAlt } from "react-icons/fa";
 import "./Project.css";
 import {
   headingAnimation,
@@ -123,18 +124,42 @@ const Project = () => {
                 }}
                 key={item.id}
                 className="item-container rounded-lg shadow-lg p-3 flex flex-col justify-between duration-500 impactfull-card "
-                // style={{ backgroundColor: "#313131" }}
+              // style={{ backgroundColor: "#313131" }}
               >
                 <div className="item h-full">
-                  <img
+                  {/* <img
                     className="rounded-lg h-full w-full"
                     src={item.mainImage}
                     alt={item.title || "Item Image"}
-                  />
-                  <div className="overlay">
+                  /> */}
+                  <div className="">
                     <h3 className="text-2xl text-primary font-semibold">
                       {item.title}
                     </h3>
+                    <p className="text-accent">
+                      {item.description.split("\n").map((s, i) => (
+                        <React.Fragment key={i + 1}>
+                          <span className="text-gray-600 text-justify inline-block align-bottom mb-4">{s}</span>
+                          <br />
+                        </React.Fragment>
+                      ))}
+                      <br />
+                      {/* <div className="flex items-center mb-5"> */}
+                      <span className="flex justify-center mb-5">
+                        <a
+                          href="https://wa.me/6282125664554"
+                          target="blank"
+                        >
+                          <button className="btn text-black flex items-center gap-3 border-2 border-primary bg-transparent hover:bg-primary hover:border-transparent hover:text-white duration-500">
+                            <span className="text-button-mobile">Hubungi Kami</span>
+                            <span>
+                              <FiArrowRight />
+                            </span>
+                          </button>
+                        </a>
+                      </span>
+                      {/* </div> */}
+                    </p>
                     <Link
                       to={`/project/${item.id}`}
                       className="mt-3 inline-block"
