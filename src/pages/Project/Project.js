@@ -51,7 +51,7 @@ const Project = () => {
               Some of my recent Projects
             </h3>
             <h1 className="text-4xl font-semibold text-center">
-              Featured <span className="text-primary">Projects</span>
+              Harga Paket Promo<span className="text-primary">Spesial Lebaran!</span>
             </h1>
             <BottomLine />
           </div>
