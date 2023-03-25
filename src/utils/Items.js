@@ -30,7 +30,7 @@ const Items = [
     label: "Rp.",
     price: "249K",
     diskon: "499K",
-    // icon: <FaLaptop />,
+    icon: <FaCheck />,
     description:
       "Dapatkan pelanggan baru dan penjualan lebih banyak dengan bantuan layanan pemasaran online atau Digital Marketing & Advertising sesuai anggaran pemasaran, target market, dan jangkauan wilayah usaha Anda. \n ✅ Tiktok Ads \n ✅ Google Search Ads \n ✅ GDN & Youtube Ads \n ✅ Facebook & Instagram Ads \n ✅ Search Engine Optimization",
   },
@@ -40,7 +40,7 @@ const Items = [
     subtitle: "(Full Fitur, Photo & Video Prewed)",
     price: "CALL US",
     diskon: "x.xxxK",
-    // icon: <FaLaptop />,
+    icon: <FaCheck />,
     description:
       "Dapatkan pelanggan baru dan penjualan lebih banyak dengan bantuan layanan pemasaran online atau Digital Marketing & Advertising sesuai anggaran pemasaran, target market, dan jangkauan wilayah usaha Anda. \n ✅ Tiktok Ads \n ✅ Google Search Ads \n ✅ GDN & Youtube Ads \n ✅ Facebook & Instagram Ads \n ✅ Search Engine Optimization",
   },
@@ -51,7 +51,7 @@ const Items = [
     label: "Rp.",
     price: "1.999K",
     diskon: "2.699K",
-    // icon: <FaLaptop />,
+    icon: <FaCheck />,
     description:
       "Dapatkan pelanggan baru dan penjualan lebih banyak dengan bantuan layanan pemasaran online atau Digital Marketing & Advertising sesuai anggaran pemasaran, target market, dan jangkauan wilayah usaha Anda. \n ✅ Tiktok Ads \n ✅ Google Search Ads \n ✅ GDN & Youtube Ads \n ✅ Facebook & Instagram Ads \n ✅ Search Engine Optimization",
     category: "tokoonline",
@@ -62,7 +62,7 @@ const Items = [
     subtitle: "(Standar)",
     price: "CALL US",
     diskon: "x.xxxK",
-    // icon: <FaLaptop />,
+    icon: <FaCheck />,
     description:
       "Dapatkan pelanggan baru dan penjualan lebih banyak dengan bantuan layanan pemasaran online atau Digital Marketing & Advertising sesuai anggaran pemasaran, target market, dan jangkauan wilayah usaha Anda. \n ✅ Tiktok Ads \n ✅ Google Search Ads \n ✅ GDN & Youtube Ads \n ✅ Facebook & Instagram Ads \n ✅ Search Engine Optimization",
     category: "tokoonline",
@@ -73,7 +73,7 @@ const Items = [
     subtitle: "(Full Fitur)",
     price: "CALL US",
     diskon: "x.xxxK",
-    // icon: <FaLaptop />,
+    icon: <FaCheck />,
     description:
       "Dapatkan pelanggan baru dan penjualan lebih banyak dengan bantuan layanan pemasaran online atau Digital Marketing & Advertising sesuai anggaran pemasaran, target market, dan jangkauan wilayah usaha Anda. \n ✅ Tiktok Ads \n ✅ Google Search Ads \n ✅ GDN & Youtube Ads \n ✅ Facebook & Instagram Ads \n ✅ Search Engine Optimization",
     category: "tokoonline",
@@ -84,7 +84,7 @@ const Items = [
     subtitle: "(Full Fitur)",
     price: "CALL US",
     diskon: "x.xxxK",
-    // icon: <FaLaptop />,
+    icon: <FaCheck />,
     description:
       "Dapatkan pelanggan baru dan penjualan lebih banyak dengan bantuan layanan pemasaran online atau Digital Marketing & Advertising sesuai anggaran pemasaran, target market, dan jangkauan wilayah usaha Anda. \n ✅ Tiktok Ads \n ✅ Google Search Ads \n ✅ GDN & Youtube Ads \n ✅ Facebook & Instagram Ads \n ✅ Search Engine Optimization",
     category: "tokoonline",
@@ -96,7 +96,7 @@ const Items = [
     label: "Rp.",
     price: "999K",
     diskon: "2.699K",
-    // icon: <FaLaptop />,
+    icon: <FaCheck />,
     description:
       "Dapatkan pelanggan baru dan penjualan lebih banyak dengan bantuan layanan pemasaran online atau Digital Marketing & Advertising sesuai anggaran pemasaran, target market, dan jangkauan wilayah usaha Anda. \n ✅ Tiktok Ads \n ✅ Google Search Ads \n ✅ GDN & Youtube Ads \n ✅ Facebook & Instagram Ads \n ✅ Search Engine Optimization",
     category: "companyprofile",
@@ -107,7 +107,7 @@ const Items = [
     subtitle: "(Ideal Untuk Usaha Menengah)",
     price: "CALL US",
     diskon: "x.xxxK",
-    // icon: <FaLaptop />,
+    icon: <FaCheck />,
     description:
       "Dapatkan pelanggan baru dan penjualan lebih banyak dengan bantuan layanan pemasaran online atau Digital Marketing & Advertising sesuai anggaran pemasaran, target market, dan jangkauan wilayah usaha Anda. \n ✅ Tiktok Ads \n ✅ Google Search Ads \n ✅ GDN & Youtube Ads \n ✅ Facebook & Instagram Ads \n ✅ Search Engine Optimization",
     category: "companyprofile",
@@ -118,7 +118,7 @@ const Items = [
     subtitle: "(Ideal Untuk Instansi & Perusahaan)",
     price: "CALL US",
     diskon: "x.xxxK",
-    // icon: <FaLaptop />,
+    icon: <FaCheck />,
     description:
       "Dapatkan pelanggan baru dan penjualan lebih banyak dengan bantuan layanan pemasaran online atau Digital Marketing & Advertising sesuai anggaran pemasaran, target market, dan jangkauan wilayah usaha Anda. \n ✅ Tiktok Ads \n ✅ Google Search Ads \n ✅ GDN & Youtube Ads \n ✅ Facebook & Instagram Ads \n ✅ Search Engine Optimization",
     category: "companyprofile",
@@ -129,7 +129,7 @@ const Items = [
     subtitle: "(Ideal Untuk Instansi & Perusahaan)",
     price: "CALL US",
     diskon: "x.xxxK",
-    // icon: <FaLaptop />,
+    icon: <FaCheck />,
     description:
       "Dapatkan pelanggan baru dan penjualan lebih banyak dengan bantuan layanan pemasaran online atau Digital Marketing & Advertising sesuai anggaran pemasaran, target market, dan jangkauan wilayah usaha Anda. \n ✅ Tiktok Ads \n ✅ Google Search Ads \n ✅ GDN & Youtube Ads \n ✅ Facebook & Instagram Ads \n ✅ Search Engine Optimization",
     category: "companyprofile",
