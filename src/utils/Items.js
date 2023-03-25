@@ -10,7 +10,7 @@ const Items = [
     diskon: "240K",
     icon: <FaCheck />,
     description:
-      "iOS App Development \n Android App Development \n UI/UX Web/Mobile App Design \n WordPress Web Development \n Custom Web App Development",
+      "Desain Tema GOLD & PREMIUM \n Masa Aktif 6 bulan \n Revisi Max. 5 point \n Unlimited Share \n Hitungan Mundur \n Quotes / Kutipan Ayat \n Tombol Petunjuk Arah \n Custom Nama Tamu \n Bebas Request Musik \n Musik Auto-play \n Protokol Kesehatan Std. \n Tombol Menu \n Ucapan WhatsApp \n Foto di Galeri (Max. 5)",
   },
   {
     id: 2,
