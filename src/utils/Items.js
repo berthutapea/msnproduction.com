@@ -21,7 +21,7 @@ const Items = [
     diskon: "329K",
     // icon: <FaBullhorn />,
     description:
-      "Tingkatkan reputasi bisnis Anda untuk membangun persepsi yang baik dan mudah dikenali di mata masyarakat dengan layanan Branding & Content Creative yang didambakan pelangggan bisnis Anda. \n ✅ Logo Design \n ✅ Stationary Design \n ✅ Marketing Kit Design \n ✅ Photo & Videography \n ✅ Social Media Content Design ",
+      "Desain Tema GOLD & PREMIUM \n Masa Aktif 12 bulan \n Revisi Max. 10 point \n Unlimited Share \n Hitungan Mundur \n Quotes / Kutipan Ayat \n Tombol Petunjuk Arah \n Custom Nama Tamu \n Bebas Request Musik \n Musik Auto-play \n Protokol Kesehatan Std. \n Tombol Menu \n Ucapan Wish Box \n Foto di Galeri (Max. 8) \n Video di Galeri/Love Story (Max. 1) \n Peta Google Maps \n Link Live Streaming \n Simpan ke Google Calender \n RSVP - Konfirmasi Kehadiran \n Amplop Digital (Max. 3 Rek)",
   },
   {
     id: 3,
