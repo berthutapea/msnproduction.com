@@ -136,6 +136,20 @@ const Project = () => {
                   <h3 className="text-2xl text-accent font-semibold text-center">
                     {item.title}
                   </h3>
+                  <h3 className="text-1xl text-gray-600 text-center">
+                    {item.subtitle}
+                  </h3>
+                  <div className="text-center py-2">
+                    <sup className="text-2xl text-accent bottom-2">
+                      {item.label}
+                    </sup>
+                    <span className="text-4xl text-accent font-semibold uppercase">
+                      {item.price}
+                    </span>
+                    <small className="text-base text-gray-400 line-through p-1">
+                      {item.diskon}
+                    </small>
+                  </div>
                   <p className="text-accent">
                     {item.description.split("\n").map((s, i) => (
                       <React.Fragment key={i + 1}>

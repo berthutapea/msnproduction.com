@@ -2,6 +2,10 @@ const Items = [
   {
     id: 1,
     title: "SIP",
+    subtitle: "(Standar)",
+    label: "Rp.",
+    price: "139",
+    diskon: "240K",
     // icon: <FaMobileAlt />,
     description:
       "Kembangkan sistem informasi, sistem administrasi, atau sistem promosi, berbasis website & aplikasi mobile sesuai kebutuhan untuk meningkatkan keuntungan dan efisiensi operasional bisnis di perusahaan Anda. \n ✅ iOS App Development \n ✅ Android App Development \n ✅ UI/UX Web/Mobile App Design \n ✅ WordPress Web Development \n ✅ Custom Web App Development",
@@ -9,6 +13,10 @@ const Items = [
   {
     id: 2,
     title: "BASIC",
+    subtitle: "(Standar)",
+    label: "Rp.",
+    price: "199",
+    diskon: "329K",
     // icon: <FaBullhorn />,
     description:
       "Tingkatkan reputasi bisnis Anda untuk membangun persepsi yang baik dan mudah dikenali di mata masyarakat dengan layanan Branding & Content Creative yang didambakan pelangggan bisnis Anda. \n ✅ Logo Design \n ✅ Stationary Design \n ✅ Marketing Kit Design \n ✅ Photo & Videography \n ✅ Social Media Content Design ",
@@ -16,6 +24,10 @@ const Items = [
   {
     id: 3,
     title: "ADVANCE",
+    subtitle: "(Full Fitur)",
+    label: "Rp.",
+    price: "249",
+    diskon: "499K",
     // icon: <FaLaptop />,
     description:
       "Dapatkan pelanggan baru dan penjualan lebih banyak dengan bantuan layanan pemasaran online atau Digital Marketing & Advertising sesuai anggaran pemasaran, target market, dan jangkauan wilayah usaha Anda. \n ✅ Tiktok Ads \n ✅ Google Search Ads \n ✅ GDN & Youtube Ads \n ✅ Facebook & Instagram Ads \n ✅ Search Engine Optimization",
@@ -23,6 +35,9 @@ const Items = [
   {
     id: 4,
     title: "PRO",
+    subtitle: "(Full Fitur, Photo & Video Prewed)",
+    price: "CALL US",
+    diskon: "x.xxxK",
     // icon: <FaLaptop />,
     description:
       "Dapatkan pelanggan baru dan penjualan lebih banyak dengan bantuan layanan pemasaran online atau Digital Marketing & Advertising sesuai anggaran pemasaran, target market, dan jangkauan wilayah usaha Anda. \n ✅ Tiktok Ads \n ✅ Google Search Ads \n ✅ GDN & Youtube Ads \n ✅ Facebook & Instagram Ads \n ✅ Search Engine Optimization",
@@ -30,6 +45,7 @@ const Items = [
   {
     id: 5,
     title: "PAKET STARTER",
+    subtitle: "(Standar)",
     // icon: <FaLaptop />,
     description:
       "Dapatkan pelanggan baru dan penjualan lebih banyak dengan bantuan layanan pemasaran online atau Digital Marketing & Advertising sesuai anggaran pemasaran, target market, dan jangkauan wilayah usaha Anda. \n ✅ Tiktok Ads \n ✅ Google Search Ads \n ✅ GDN & Youtube Ads \n ✅ Facebook & Instagram Ads \n ✅ Search Engine Optimization",
@@ -38,6 +54,7 @@ const Items = [
   {
     id: 6,
     title: "PAKET UMKM",
+    subtitle: "(Standar)",
     // icon: <FaLaptop />,
     description:
       "Dapatkan pelanggan baru dan penjualan lebih banyak dengan bantuan layanan pemasaran online atau Digital Marketing & Advertising sesuai anggaran pemasaran, target market, dan jangkauan wilayah usaha Anda. \n ✅ Tiktok Ads \n ✅ Google Search Ads \n ✅ GDN & Youtube Ads \n ✅ Facebook & Instagram Ads \n ✅ Search Engine Optimization",
@@ -46,6 +63,7 @@ const Items = [
   {
     id: 7,
     title: "PAKET CORPORATE",
+    subtitle: "(Full Fitur)",
     // icon: <FaLaptop />,
     description:
       "Dapatkan pelanggan baru dan penjualan lebih banyak dengan bantuan layanan pemasaran online atau Digital Marketing & Advertising sesuai anggaran pemasaran, target market, dan jangkauan wilayah usaha Anda. \n ✅ Tiktok Ads \n ✅ Google Search Ads \n ✅ GDN & Youtube Ads \n ✅ Facebook & Instagram Ads \n ✅ Search Engine Optimization",
@@ -54,6 +72,7 @@ const Items = [
   {
     id: 8,
     title: "PAKET CORPORATE",
+    subtitle: "(Full Fitur)",
     // icon: <FaLaptop />,
     description:
       "Dapatkan pelanggan baru dan penjualan lebih banyak dengan bantuan layanan pemasaran online atau Digital Marketing & Advertising sesuai anggaran pemasaran, target market, dan jangkauan wilayah usaha Anda. \n ✅ Tiktok Ads \n ✅ Google Search Ads \n ✅ GDN & Youtube Ads \n ✅ Facebook & Instagram Ads \n ✅ Search Engine Optimization",
@@ -62,6 +81,7 @@ const Items = [
   {
     id: 9,
     title: "PAKET STARTER",
+    subtitle: "(Ideal Untuk Pemula)",
     // icon: <FaLaptop />,
     description:
       "Dapatkan pelanggan baru dan penjualan lebih banyak dengan bantuan layanan pemasaran online atau Digital Marketing & Advertising sesuai anggaran pemasaran, target market, dan jangkauan wilayah usaha Anda. \n ✅ Tiktok Ads \n ✅ Google Search Ads \n ✅ GDN & Youtube Ads \n ✅ Facebook & Instagram Ads \n ✅ Search Engine Optimization",
@@ -70,6 +90,7 @@ const Items = [
   {
     id: 10,
     title: "PAKET UMKM",
+    subtitle: "(Ideal Untuk Usaha Menengah)",
     // icon: <FaLaptop />,
     description:
       "Dapatkan pelanggan baru dan penjualan lebih banyak dengan bantuan layanan pemasaran online atau Digital Marketing & Advertising sesuai anggaran pemasaran, target market, dan jangkauan wilayah usaha Anda. \n ✅ Tiktok Ads \n ✅ Google Search Ads \n ✅ GDN & Youtube Ads \n ✅ Facebook & Instagram Ads \n ✅ Search Engine Optimization",
@@ -78,6 +99,7 @@ const Items = [
   {
     id: 11,
     title: "PAKET CORPORATE",
+    subtitle: "(Ideal Untuk Instansi & Perusahaan)",
     // icon: <FaLaptop />,
     description:
       "Dapatkan pelanggan baru dan penjualan lebih banyak dengan bantuan layanan pemasaran online atau Digital Marketing & Advertising sesuai anggaran pemasaran, target market, dan jangkauan wilayah usaha Anda. \n ✅ Tiktok Ads \n ✅ Google Search Ads \n ✅ GDN & Youtube Ads \n ✅ Facebook & Instagram Ads \n ✅ Search Engine Optimization",
@@ -86,6 +108,7 @@ const Items = [
   {
     id: 12,
     title: "PAKET CORPORATE",
+    subtitle: "(Ideal Untuk Instansi & Perusahaan)",
     // icon: <FaLaptop />,
     description:
       "Dapatkan pelanggan baru dan penjualan lebih banyak dengan bantuan layanan pemasaran online atau Digital Marketing & Advertising sesuai anggaran pemasaran, target market, dan jangkauan wilayah usaha Anda. \n ✅ Tiktok Ads \n ✅ Google Search Ads \n ✅ GDN & Youtube Ads \n ✅ Facebook & Instagram Ads \n ✅ Search Engine Optimization",
