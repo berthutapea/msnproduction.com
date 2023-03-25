@@ -26,16 +26,16 @@ const Project = () => {
     } else {
       setViewDiv(false);
     }
-    if (location.pathname === "/" && items.length > 3) {
-      setItems(items.slice(0, 3));
+    if (location.pathname === "/" && items.length > 4) {
+      setItems(items.slice(0, 4));
     }
   }, [inView, animation, location, items]);
 
   const filterItem = (category) => {
     const filtered = Items.filter((item) => item.category === category);
     setItems(filtered);
-    if (filtered.length > 3 && location.pathname === "/") {
-      setItems(filtered.slice(0, 3));
+    if (filtered.length > 4 && location.pathname === "/") {
+      setItems(filtered.slice(0, 4));
     }
   };
 
@@ -72,7 +72,7 @@ const Project = () => {
               onClick={() => {
                 setActiveBtn("all");
                 location.pathname === "/"
-                  ? setItems(Items.slice(0, 3))
+                  ? setItems(Items.slice(0, 4))
                   : setItems(Items);
               }}
             >
@@ -112,7 +112,7 @@ const Project = () => {
           </div>
 
           {/* Items Card */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {items.map((item) => (
               <motion.div
                 initial={{ x: 200, opacity: 0, scale: 0 }}
@@ -124,7 +124,6 @@ const Project = () => {
                 }}
                 key={item.id}
                 className="item-container rounded-lg shadow-lg p-3 flex flex-col justify-between duration-500 impactfull-card "
-              // style={{ backgroundColor: "#313131" }}
               >
                 <div className="item h-full">
                   {/* <img
@@ -133,7 +132,7 @@ const Project = () => {
                     alt={item.title || "Item Image"}
                   /> */}
                   <div className="">
-                    <h3 className="text-2xl text-primary font-semibold">
+                    <h3 className="text-2xl text-primary font-semibold text-center">
                       {item.title}
                     </h3>
                     <p className="text-accent">
