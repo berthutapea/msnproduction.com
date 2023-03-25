@@ -127,62 +127,62 @@ const Project = () => {
                 className="item-container rounded-lg shadow-lg p-3  flex flex-col justify-between duration-500 impactfull-card "
               >
                 {/* <div className=""> */}
-                  {/* <img
+                {/* <img
                     className="rounded-lg h-full w-full"
                     src={item.mainImage}
                     alt={item.title || "Item Image"}
                   /> */}
-                  {/* <div className=""> */}
-                  <h3 className="text-2xl text-accent font-semibold text-center">
-                    {item.title}
-                  </h3>
-                  <h3 className="text-1xl text-gray-600 text-center">
-                    {item.subtitle}
-                  </h3>
-                  <div className="text-center py-2">
-                    <sup className="text-2xl text-accent bottom-2">
-                      {item.label}
-                    </sup>
-                    <span className="text-4xl text-accent font-semibold uppercase">
-                      {item.price}
-                    </span>
-                    <small className="text-base text-gray-400 line-through p-1">
-                      {item.diskon}
-                    </small>
-                  </div>
-                  <p className="text-accent">
-                    {item.description.split("\n").map((s, i) => (
-                      <React.Fragment key={i + 1}>
-                        <span className="text-gray-600 text-justify inline-block align-bottom mb-4">{s}</span>
-                        <br />
-                      </React.Fragment>
-                    ))}
-                    <br />
-                    {/* <div className="flex items-center mb-5"> */}
-                    <span className="flex justify-center mb-5">
-                      <a
-                        href="https://wa.me/6282125664554"
-                        target="blank"
-                      >
-                        <button className="btn text-black flex items-center gap-3 border-2 border-primary bg-transparent hover:bg-primary hover:border-transparent hover:text-white duration-500">
-                          <FaWhatsapp className="text-2xl" />
-                          <span className="text-button-mobile">Info Lebih Lanjut</span>
-                          <span>
-                          </span>
-                        </button>
-                      </a>
-                    </span>
-                    {/* </div> */}
-                  </p>
-                  <Link
-                    to={`/project/${item.id}`}
-                    className="mt-3 inline-block"
+                {/* <div className=""> */}
+                <h3 className="text-2xl text-accent font-semibold text-center">
+                  {item.title}
+                </h3>
+                <h3 className="text-1xl text-gray-600 text-center">
+                  {item.subtitle}
+                </h3>
+                <div className="text-center py-2">
+                  <sup className="text-2xl text-accent bottom-2">
+                    {item.label}
+                  </sup>
+                  <span className="text-4xl text-accent font-semibold uppercase">
+                    {item.price}
+                  </span>
+                  <small className="text-base text-gray-400 line-through p-1">
+                    {item.diskon}
+                  </small>
+                </div>
+                <span className="flex justify-center mb-5">
+                  <a
+                    href="https://wa.me/6282125664554"
+                    target="blank"
                   >
-                    {/* <button className="btn btn-sm border-2 border-transparent bg-primary hover:bg-transparent text-white hover:border-primary duration-500">
+                    <button className="btn text-black flex items-center gap-3 border-2 border-primary bg-transparent hover:bg-primary hover:border-transparent hover:text-white duration-500">
+                      <FaWhatsapp className="text-2xl" />
+                      <span className="text-button-mobile">Info Lebih Lanjut</span>
+                      <span>
+                      </span>
+                    </button>
+                  </a>
+                </span>
+                <p className="text-accent">
+                  {item.description.split("\n").map((s, i) => (
+                    <React.Fragment key={i + 1}>
+                      <span className="text-gray-600 text-justify inline-block align-bottom mb-4">{s}</span>
+                      <br />
+                    </React.Fragment>
+                  ))}
+                  <br />
+                  {/* <div className="flex items-center mb-5"> */}
+                  {/* </div> */}
+                </p>
+                <Link
+                  to={`/project/${item.id}`}
+                  className="mt-3 inline-block"
+                >
+                  {/* <button className="btn btn-sm border-2 border-transparent bg-primary hover:bg-transparent text-white hover:border-primary duration-500">
                         See Details
                       </button> */}
-                  </Link>
-                  {/* </div> */}
+                </Link>
+                {/* </div> */}
                 {/* </div> */}
               </motion.div>
             ))}
