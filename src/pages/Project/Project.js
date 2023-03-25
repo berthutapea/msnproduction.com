@@ -126,7 +126,7 @@ const Project = () => {
                 key={item.id}
                 className="item-container rounded-lg shadow-lg p-3  flex flex-col justify-between duration-500 impactfull-card "
               >
-                <div className="">
+                {/* <div className=""> */}
                   {/* <img
                     className="rounded-lg h-full w-full"
                     src={item.mainImage}
@@ -183,7 +183,7 @@ const Project = () => {
                       </button> */}
                   </Link>
                   {/* </div> */}
-                </div>
+                {/* </div> */}
               </motion.div>
             ))}
           </div>
