@@ -40,7 +40,7 @@ const Project = () => {
 
   return (
     <div className={`${location.pathname !== "/" && "pt-16"}`}>
-      <div className="parent py-12">
+      <div className="parent py-12 ">
         <motion.div
           initial="hidden"
           animate={viewDiv && "visible"}
@@ -111,7 +111,7 @@ const Project = () => {
           </div>
 
           {/* Items Card */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
             {items.map((item) => (
               <motion.div
                 initial={{ x: 200, opacity: 0, scale: 0 }}
@@ -122,8 +122,8 @@ const Project = () => {
                   transition: { duration: 0.3 },
                 }}
                 key={item.id}
-                className="item-container rounded-lg shadow-lg p-3 flex flex-col justify-between hover:shadow-primary duration-500"
-                style={{ backgroundColor: "#313131" }}
+                className="item-container rounded-lg shadow-lg p-3 flex flex-col justify-between duration-500 impactfull-card "
+                // style={{ backgroundColor: "#313131" }}
               >
                 <div className="item h-full">
                   <img
