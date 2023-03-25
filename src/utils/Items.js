@@ -1,3 +1,5 @@
+import { FaCheck } from "react-icons/fa";
+
 const Items = [
   {
     id: 1,
@@ -6,9 +8,9 @@ const Items = [
     label: "Rp.",
     price: "139K",
     diskon: "240K",
-    // icon: <FaMobileAlt />,
+    icon: <FaCheck />,
     description:
-      "Kembangkan sistem informasi, sistem administrasi, atau sistem promosi, berbasis website & aplikasi mobile sesuai kebutuhan untuk meningkatkan keuntungan dan efisiensi operasional bisnis di perusahaan Anda. \n ✅ iOS App Development \n ✅ Android App Development \n ✅ UI/UX Web/Mobile App Design \n ✅ WordPress Web Development \n ✅ Custom Web App Development",
+      "iOS App Development \n Android App Development \n UI/UX Web/Mobile App Design \n WordPress Web Development \n Custom Web App Development",
   },
   {
     id: 2,

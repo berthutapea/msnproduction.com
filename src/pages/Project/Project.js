@@ -162,16 +162,23 @@ const Project = () => {
                     </button>
                   </a>
                 </span>
-                <div className="text-accent ">
+                {/* <div className="mb-4">
+                    <small className="text-gray-600 text-1xl inline-block">
+                      {item.icon}
+                    </small>
+                  </div> */}
+                <div className="text-accent">
                   <div className="w-full h-[1px] bg-primary inline-block align-bottom mb-4"></div>
                   {item.description.split("\n").map((s, i) => (
                     <React.Fragment key={i + 1}>
-                      <span className="text-gray-600 text-justify inline-block align-bottom mb-4">{s}</span>
-                      <br />
+                      <div className="flex items-center mb-2">
+                        <span className="text-xs mr-2 text-gray-500">{item.icon}</span>
+                        <span className=" text-sm text-gray-600">{s}</span>
+                      </div>
                     </React.Fragment>
                   ))}
-                  <br />
                 </div>
+
                 {/* <Link
                   to={`/project/${item.id}`}
                   className="mt-3 inline-block"
