@@ -33,7 +33,7 @@ const Items = [
     // icon: <FaLaptop />,
     description:
       "Dapatkan pelanggan baru dan penjualan lebih banyak dengan bantuan layanan pemasaran online atau Digital Marketing & Advertising sesuai anggaran pemasaran, target market, dan jangkauan wilayah usaha Anda. \n ✅ Tiktok Ads \n ✅ Google Search Ads \n ✅ GDN & Youtube Ads \n ✅ Facebook & Instagram Ads \n ✅ Search Engine Optimization",
-    category: "business",
+    category: "tokoonline",
   },
   {
     id: 6,
@@ -41,7 +41,7 @@ const Items = [
     // icon: <FaLaptop />,
     description:
       "Dapatkan pelanggan baru dan penjualan lebih banyak dengan bantuan layanan pemasaran online atau Digital Marketing & Advertising sesuai anggaran pemasaran, target market, dan jangkauan wilayah usaha Anda. \n ✅ Tiktok Ads \n ✅ Google Search Ads \n ✅ GDN & Youtube Ads \n ✅ Facebook & Instagram Ads \n ✅ Search Engine Optimization",
-    category: "business",
+    category: "tokoonline",
   },
   {
     id: 7,
@@ -49,7 +49,7 @@ const Items = [
     // icon: <FaLaptop />,
     description:
       "Dapatkan pelanggan baru dan penjualan lebih banyak dengan bantuan layanan pemasaran online atau Digital Marketing & Advertising sesuai anggaran pemasaran, target market, dan jangkauan wilayah usaha Anda. \n ✅ Tiktok Ads \n ✅ Google Search Ads \n ✅ GDN & Youtube Ads \n ✅ Facebook & Instagram Ads \n ✅ Search Engine Optimization",
-    category: "business",
+    category: "tokoonline",
   },
   {
     id: 8,
@@ -57,7 +57,7 @@ const Items = [
     // icon: <FaLaptop />,
     description:
       "Dapatkan pelanggan baru dan penjualan lebih banyak dengan bantuan layanan pemasaran online atau Digital Marketing & Advertising sesuai anggaran pemasaran, target market, dan jangkauan wilayah usaha Anda. \n ✅ Tiktok Ads \n ✅ Google Search Ads \n ✅ GDN & Youtube Ads \n ✅ Facebook & Instagram Ads \n ✅ Search Engine Optimization",
-    category: "business",
+    category: "tokoonline",
   },
   {
     id: 9,

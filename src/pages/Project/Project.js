@@ -80,11 +80,11 @@ const Project = () => {
               Website Wedding
             </button>
             <button
-              className={`btn btn-sm bg-primary border-2 border-primary text-white hover:bg-transparent hover:border-primary hover:text-primary duration-300 mx-3 my-3 sm:my-0 ${activeBtn === "business" && "active-btn"
+              className={`btn btn-sm bg-primary border-2 border-primary text-white hover:bg-transparent hover:border-primary hover:text-primary duration-300 mx-3 my-3 sm:my-0 ${activeBtn === "tokoonline" && "active-btn"
                 }`}
               onClick={() => {
-                setActiveBtn("business");
-                filterItem("business");
+                setActiveBtn("tokoonline");
+                filterItem("tokoonline");
               }}
             >
               Website Toko Online
@@ -133,7 +133,7 @@ const Project = () => {
                     alt={item.title || "Item Image"}
                   /> */}
                   {/* <div className=""> */}
-                  <h3 className="text-2xl text-primary font-semibold text-center">
+                  <h3 className="text-2xl text-accent font-semibold text-center">
                     {item.title}
                   </h3>
                   <p className="text-accent">
