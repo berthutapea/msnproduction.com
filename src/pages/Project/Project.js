@@ -153,10 +153,10 @@ const Project = () => {
           <div className="mt-4 text-right">
             <Link
               to="/project"
-              className="text-2xl hover:text-primary duration-300"
+              className="text-1xl hover:text-primary duration-300"
             >
-              <button className="primary-button">
-                <span>See All</span>
+              <button className="primary-button ">
+                <span>Lihat Semua</span>
                 <span>
                   <FiArrowRight />
                 </span>
