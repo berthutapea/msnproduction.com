@@ -134,10 +134,10 @@ const Project = () => {
                   /> */}
                 {/* <div className=""> */}
                 <span className="paket-featured text-center">Diskon 34%</span>
-                <h3 className="text-2xl text-accent font-semibold text-center">
+                <h3 className="text-lg text-accent font-semibold text-center">
                   {item.title}
                 </h3>
-                <h3 className="text-1xl text-gray-600 text-center">
+                <h3 className="text-sm text-gray-600 text-center">
                   {item.subtitle}
                 </h3>
                 <div className="text-center py-2">
