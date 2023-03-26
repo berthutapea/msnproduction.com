@@ -75,7 +75,7 @@ const Items = [
     diskon: "x.xxxK",
     icon: <FaCheck />,
     description:
-      "Dapatkan pelanggan baru dan penjualan lebih banyak dengan bantuan layanan pemasaran online atau Digital Marketing & Advertising sesuai anggaran pemasaran, target market, dan jangkauan wilayah usaha Anda. \n ✅ Tiktok Ads \n ✅ Google Search Ads \n ✅ GDN & Youtube Ads \n ✅ Facebook & Instagram Ads \n ✅ Search Engine Optimization",
+      "Domain .com / .id / .co.id \n SSL Certificate \n Kapasitas 40GB (Private Hosting) \n 30+ Email Profesional \n Request Desain Website \n 20+ Halaman Website \n Akses ke Dashboard Admin \n Akses ke Cpanel \n Fitur Manajemen Produk \n Fitur Manajemen Pemesanan (via keranjang / whatsapp) \n Fitur Manajemen Promosi \n Fitur Manajemen Pembayaran (Transfer bank Manual) \n Fitur Manajemen Pengiriman (JNE, POS, TIKI, J&T, Sicepat, dll) \n 5x Revisi Desain \n Dokumentasi & Video Tutorial \n Gratis Pelatihan Penggunaan Website \n Optimasi SEO On Page \n Gratis Konsultasi Optimasi & Digital Marketing \n Garansi Seumur Hidup*",
     category: "tokoonline",
   },
   {
