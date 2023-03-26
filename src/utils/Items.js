@@ -11,6 +11,7 @@ const Items = [
     icon: <FaCheck />,
     description:
       "Desain Tema GOLD & PREMIUM \n Masa Aktif 6 bulan \n Revisi Max. 5 point \n Unlimited Share \n Hitungan Mundur \n Quotes / Kutipan Ayat \n Tombol Petunjuk Arah \n Custom Nama Tamu \n Bebas Request Musik \n Musik Auto-play \n Protokol Kesehatan Std. \n Tombol Menu \n Ucapan WhatsApp \n Foto di Galeri (Max. 5)",
+    category: "wedding",
   },
   {
     id: 2,
@@ -22,6 +23,7 @@ const Items = [
     icon: <FaCheck />,
     description:
       "Desain Tema GOLD & PREMIUM \n Masa Aktif 12 bulan \n Revisi Max. 10 point \n Unlimited Share \n Hitungan Mundur \n Quotes / Kutipan Ayat \n Tombol Petunjuk Arah \n Custom Nama Tamu \n Bebas Request Musik \n Musik Auto-play \n Protokol Kesehatan Std. \n Tombol Menu \n Ucapan Wish Box \n Foto di Galeri (Max. 8) \n Video di Galeri/Love Story (Max. 1) \n Peta Google Maps \n Link Live Streaming \n Simpan ke Google Calender \n RSVP - Konfirmasi Kehadiran \n Amplop Digital (Max. 3 Rek)",
+    category: "wedding",
   },
   {
     id: 3,
@@ -33,6 +35,7 @@ const Items = [
     icon: <FaCheck />,
     description:
       "Desain Tema GOLD & PREMIUM \n Masa Aktif 12 bulan \n  Revisi UNLIMITED \n Unlimited Share \n Hitungan Mundur \n Quotes / Kutipan Ayat \n Tombol Petunjuk Arah \n Custom Nama Tamu \n Bebas Request Musik \n Musik Auto-play \n Protokol Kesehatan Std. \n Tombol Menu Ucapan Wish Box Foto di Galeri (Max. 12) \n Video di Galeri/Love Story (Max. 2) \n Peta Google Maps \n Link Live Streaming \n Simpan ke Google Calender \n RSVP - Konfirmasi Kehadiran \n Amplop Digital (Max. 3 Rek) \n Love Story (Max. 5 Timeline)",
+    category: "wedding",
   },
   {
     id: 4,
@@ -43,6 +46,7 @@ const Items = [
     icon: <FaCheck />,
     description:
       "Desain Tema GOLD & PREMIUM \n Masa Aktif 12 bulan \n Revisi UNLIMITED \n Unlimited Share \n Hitungan Mundur \n Quotes / Kutipan Ayat \n Tombol Petunjuk Arah \n Custom Nama Tamu \n Bebas Request Musik \n Musik Auto-play \n Protokol Kesehatan Std. \n Tombol Menu \n Ucapan Wish Box \n Foto di Galeri (Max. 12) \n Video di Galeri/Love Story (Max. 2) \n Peta Google Maps \n Link Live Streaming \n Simpan ke Google Calender \n RSVP - Konfirmasi Kehadiran \n Amplop Digital (Max. 3 Rek) \n Love Story (Max. 5 Timeline) \n Photogrpher PreWed \n Photogrpher Pelaminan \n Video Cinematic",
+    category: "wedding",
   },
   {
     id: 5,

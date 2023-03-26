@@ -51,7 +51,7 @@ const Project = () => {
           animate={viewDiv && "visible"}
           variants={headingAnimation}
         >
-          <div className="mb-12">
+          <div className="mb-6">
             <h3 className="text-accent text-center">
               Segera Booking Slot Promo Sebelum Kehabisan!
             </h3>
@@ -59,7 +59,7 @@ const Project = () => {
               Harga Paket Promo<span className="text-primary">Spesial Lebaran!</span>
             </h1>
             <BottomLine />
-            <h2 className="text-accent text-center py-5">Segera Booking Slot Promo Sebelum Kehabisan!</h2>
+            <h2 className="text-accent text-center py-4">Segera Booking Slot Promo Sebelum Kehabisan!</h2>
           </div>
         </motion.div>
 
@@ -69,19 +69,18 @@ const Project = () => {
           animate={viewDiv && "visible"}
           variants={sectionBodyAnimation}
         >
-          <div className="mt-6 mb-12 flex items-center justify-center flex-wrap ">
+          <div className="flex flex-wrap justify-center mt-2 mb-6 items-center">
             <button
               className={`btn btn-sm bg-primary border-2 border-primary text-white hover:bg-transparent hover:border-primary hover:text-primary duration-300 mx-3 my-3 sm:my-0 ${activeBtn === "all" && "active-btn"
                 }`}
               onClick={() => {
                 setActiveBtn("all");
-                location.pathname === "/"
-                  ? setItems(Items.slice(0, 4))
-                  : setItems(Items);
+                setItems(location.pathname === "/" ? Items.slice(0, 4) : Items);
               }}
             >
               Website Wedding
             </button>
+
             <button
               className={`btn btn-sm bg-primary border-2 border-primary text-white hover:bg-transparent hover:border-primary hover:text-primary duration-300 mx-3 my-3 sm:my-0 ${activeBtn === "tokoonline" && "active-btn"
                 }`}
@@ -92,6 +91,7 @@ const Project = () => {
             >
               Website Toko Online
             </button>
+
             <button
               className={`btn btn-sm bg-primary border-2 border-primary text-white hover:bg-transparent hover:border-primary hover:text-primary duration-300 mx-3 my-3 sm:my-0 ${activeBtn === "companyprofile" && "active-btn"
                 }`}
@@ -102,6 +102,33 @@ const Project = () => {
             >
               Website Company Profile
             </button>
+          </div>
+
+          <div className="mt-6 mb-6 flex items-center justify-center flex-wrap">
+            {activeBtn === "all" && (
+              <h3 className="text-3xl font-semibold text-center" onClick={() => {
+                setItems(location.pathname === "/" ? Items.slice(0, 4) : Items);
+                setActiveBtn("all");
+              }}>
+                Paket Pembuatan Website <span className="text-primary">Wedding</span>
+              </h3>
+            )}
+            {activeBtn === "tokoonline" && (
+              <h3 className="text-3xl font-semibold text-center" onClick={() => {
+                filterItem("tokoonline");
+                setActiveBtn("tokoonline");
+              }}>
+                Paket Pembuatan Website <span className="text-primary">Toko Online</span>
+              </h3>
+            )}
+            {activeBtn === "companyprofile" && (
+              <h3 className="text-3xl font-semibold text-center" onClick={() => {
+                filterItem("companyprofile");
+                setActiveBtn("companyprofile");
+              }}>
+                Paket Pembuatan Website <span className="text-primary">Company Profile</span>
+              </h3>
+            )}
           </div>
 
           {/* Items Card */}
