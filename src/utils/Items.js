@@ -53,7 +53,7 @@ const Items = [
     diskon: "2.699K",
     icon: <FaCheck />,
     description:
-      "Dapatkan pelanggan baru dan penjualan lebih banyak dengan bantuan layanan pemasaran online atau Digital Marketing & Advertising sesuai anggaran pemasaran, target market, dan jangkauan wilayah usaha Anda. \n ✅ Tiktok Ads \n ✅ Google Search Ads \n ✅ GDN & Youtube Ads \n ✅ Facebook & Instagram Ads \n ✅ Search Engine Optimization",
+      "Domain .com \n SSL Certificate \n Kapasitas 1GB (Shared Hosting) \n 1 Email Profesional \n 10+ Tema Pilihan \n Akses ke Dashboard Admin \n Fitur Manajemen Produk \n Fitur Manajemen Pemesanan (via keranjang / whatsapp) \n Fitur Manajemen Promosi \n Fitur Manajemen Pembayaran (Transfer bank Manual) \n Fitur Manajemen Pengiriman (JNE, POS, TIKI, J&T, Sicepat, dll) \n 2x Revisi Desain \n Dokumentasi & Video Tutorial \n Gratis Pelatihan Penggunaan Website \n Gratis Konsultasi Optimasi & Digital Marketing \n Garansi Seumur Hidup*",
     category: "tokoonline",
   },
   {
