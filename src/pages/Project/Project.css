@@ -41,6 +41,24 @@
     }
 }
 
+
+/* Styles for expanding the description */
+/* .expanded {
+    height: auto;
+    opacity: 1;
+    transform: translateY(0);
+    transition: height 0.3s ease-in-out, opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+  } */
+  
+  /* Styles for collapsing the description */
+  /* .collapsed {
+    height: auto;
+    opacity: 0;
+    transform: translateY(-20px);
+    transition: height 0.3s ease-in-out, opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+  } */
+  
+
 /* .item img {
     opacity: 1;
     transition: opacity 0.35s;

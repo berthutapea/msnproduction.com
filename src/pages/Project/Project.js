@@ -20,6 +20,9 @@ const Project = () => {
   const [viewDiv, setViewDiv] = useState(false);
   const [showMore, setShowMore] = useState(false);
   const animation = useAnimation();
+  const handleOnClick = () => {
+    setShowMore(!showMore);
+  };
 
   useEffect(() => {
     if (inView) {
@@ -113,7 +116,7 @@ const Project = () => {
                   transition: { duration: 0.3 },
                 }}
                 key={item.id}
-                className="item-container rounded-lg shadow-lg p-3  flex flex-col  duration-500 impactfull-card "
+                className=" rounded-lg shadow-lg p-3 flex flex-col duration-500 impactfull-card"
               >
                 <span className="paket-featured text-center">Diskon 34%</span>
                 <h3 className="text-lg text-accent font-semibold text-center">
@@ -156,14 +159,20 @@ const Project = () => {
                       )}
                     </React.Fragment>
                   ))}
-                  <div style={{ display: "flex", justifyContent: "center" }}>
-                    <button
-                      className="text-accent text-center font-medium text-base hover:text-primary cursor-pointer"
-                      onClick={() => setShowMore(!showMore)}
+                  <span className="text-accent text-center font-medium py-4 text-base hover:text-primary cursor-pointer" style={{ display: "flex", justifyContent: "center" }}>
+                    <motion.button
+                      initial={{ y: -500 }}
+                      animate={{ y: 1 }}
+                      transition={{ duration: 0.5, type: "spring" }}
+                      onClick={() => window.scrollBy(0, showMore ? -600 : 600)}
                     >
-                      {showMore ? "Lihat Sedikit" : "Lihat Lebih Banyak"}
-                    </button>
-                  </div>
+                      <span
+                        onClick={handleOnClick}
+                      >
+                        {showMore ? "Lihat Lebih Sedikit" : "Lihat Lebih Banyak"}
+                      </span>
+                    </motion.button>
+                  </span>
                 </div>
               </motion.div>
             ))}
