@@ -109,7 +109,7 @@ const Items = [
     diskon: "x.xxxK",
     icon: <FaCheck />,
     description:
-      "Dapatkan pelanggan baru dan penjualan lebih banyak dengan bantuan layanan pemasaran online atau Digital Marketing & Advertising sesuai anggaran pemasaran, target market, dan jangkauan wilayah usaha Anda. \n ✅ Tiktok Ads \n ✅ Google Search Ads \n ✅ GDN & Youtube Ads \n ✅ Facebook & Instagram Ads \n ✅ Search Engine Optimization",
+      "Domain .com \n SSL Certificate \n Kapasitas 10GB (Private Hosting) \n 10 Email Profesional \n Request Desain Website \n 8-20 Halaman Website \n Full Akses Admin & cPanel \n 3x Revisi Desain \n Gratis Video Tutorial & Pelatihan \n Gratis Konsultasi Optimasi & Digital Marketing \n Garansi Seumur Hidup*",
     category: "companyprofile",
   },
   {
