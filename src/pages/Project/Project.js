@@ -60,7 +60,6 @@ const Project = () => {
               Harga Paket Promo <span className="text-primary">Spesial Lebaran!</span>
             </h1>
             <BottomLine />
-            {/* <h2 className="text-accent text-center py-4">Segera Booking Slot Promo Sebelum Kehabisan!</h2> */}
             <CountdownTimer />
           </div>
         </motion.div>
