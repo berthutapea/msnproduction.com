@@ -4,7 +4,7 @@ import { FaQuoteLeft } from "react-icons/fa";
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import "./Testimonial.css";
-import Reviews from "../../../assets/Reviews";
+import Reviews from "../../../utils/Reviews";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import {
