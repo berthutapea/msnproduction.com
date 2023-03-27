@@ -29,8 +29,6 @@ const Banner = () => {
             className="text-2xl text-primary font-bold"
             cursor={true}
             sequence={[
-              "A Front-end Developer",
-              2000,
               "A React JS Developer",
               2000,
               "A Mern-stack Developer",
