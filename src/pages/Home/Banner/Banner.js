@@ -25,8 +25,6 @@ const Banner = () => {
             className="text-2xl text-primary font-bold"
             cursor={true}
             sequence={[
-              "A React JS Developer",
-              2000,
             ]}
             wrapper="div"
             repeat={Infinity}
