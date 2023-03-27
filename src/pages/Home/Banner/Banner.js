@@ -20,15 +20,6 @@ const Banner = () => {
         transition={{ duration: 1 }}
       >
         <h1 className="text-4xl font-bold mb-0">MSN PRODUCTION</h1>
-        {/* <div className="my-10"> */}
-        {/* <TypeAnimation
-            className="text-2xl text-primary font-bold"
-            cursor={true}
-            sequence={[
-            ]}
-            wrapper="div"
-            repeat={Infinity}
-          /> */}
         <h2 className="text-2xl text-primary font-bold my-6">Digital & Kreativitas Kami Wujudkan Visi Bisnis Anda!</h2>
         {/* </div> */}
         <p className="text-accent max-w-md mb-10 font-medium">
