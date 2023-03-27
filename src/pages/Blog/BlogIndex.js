@@ -2,7 +2,7 @@ import React from "react";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import { Link } from "react-router-dom";
 import placeholderImage from "../../assets/placeholder.jpg";
-import blogs from "../../assets/blogs";
+import blogs from "../../utils/blogs";
 
 const BlogIndex = () => {
   return (
@@ -17,16 +17,14 @@ const BlogIndex = () => {
           return (
             <div
               key={_id}
-              className={`${
-                isOdd ? "flex-col md:flex-row-reverse" : "flex-col md:flex-row"
-              } w-full flex items-center justify-between gap-8 my-20 rounded-lg min-h-32`}
+              className={`${isOdd ? "flex-col md:flex-row-reverse" : "flex-col md:flex-row"
+                } w-full flex items-center justify-between gap-8 my-20 rounded-lg min-h-32`}
             >
               <div
-                className={` ${
-                  isOdd
-                    ? "text-center md:text-right"
-                    : "text-center md:text-left"
-                } w-full md:w-2/3`}
+                className={` ${isOdd
+                  ? "text-center md:text-right"
+                  : "text-center md:text-left"
+                  } w-full md:w-2/3`}
               >
                 <LazyLoadImage
                   placeholderSrc={placeholderImage}
