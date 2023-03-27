@@ -1,114 +1,94 @@
 import React from "react";
-import { FaTwitter, FaLinkedin, FaGithub, FaInstagram } from "react-icons/fa";
+import logoMSN from "../../assets/images/MSN-PRODUCTION-LOGO.png";
+import { Link } from 'react-router-dom'
+import {
+  FaPhoneAlt,
+  FaLinkedin,
+  FaFacebookSquare,
+  FaTwitterSquare,
+  FaInstagramSquare,
+} from "react-icons/fa";
+import { MdEmail } from "react-icons/md";
 
 const Footer = () => {
-  const year = new Date();
-
   return (
-    <>
-      <footer
-        className="w-full text-center p-6"
+    <div>
+      <footer className="footer p-10 text-base-100"
         style={{ backgroundColor: "#e5e7eb" }}
       >
-        <div className="flex items-center justify-center mb-6">
+        <div>
+          <Link to='/'><img src={logoMSN} alt="MNS PRODUCTION" className="sm:w-46 w-32" /></Link>
+          <span className="text-accent">Kp. Cigintung RT 010 RW 004, <br />
+            Ds. Kertasari, Kec. Pangkalan, <br />
+            Kab. Karawang Jawa Barat, 41362.</span>
+          <div className="flex items-center my-1">
+            <FaPhoneAlt className="text-2xl mr-6 text-accent"></FaPhoneAlt>
+            <h3 className="font-medium text-accent">+62 821 2566 4554</h3>
+          </div>
+          <div className="flex items-center my-1">
+            <MdEmail className="text-2xl mr-6 text-accent"></MdEmail>
+            <h3 className="font-medium text-accent">info@msnproduction.com</h3>
+          </div>
+        </div>
+        <div>
+          <span className="footer-title text-accent">Tautan</span>
+          <a className="link link-hover text-accent">Beranda</a>
+          <a className="link link-hover text-accent">Jasa</a>
+          <a className="link link-hover text-accent">Tentang</a>
+          <a className="link link-hover text-accent">Paket</a>
+          <a className="link link-hover text-accent">Artikel</a>
+          <a className="link link-hover text-accent">Kontak</a>
+        </div>
+        <div>
+          <span className="footer-title text-accent">Fokus & Layanan</span>
+          <a className="link link-hover text-accent">Web Wedding</a>
+          <a className="link link-hover text-accent">Web E-Commerce</a>
+          <a className="link link-hover text-accent">Web Company Profile</a>
+          <a className="link link-hover text-accent">Web & Mobile Applications</a>
+          <a className="link link-hover text-accent">Branding & Content Creative</a>
+          <a className="link link-hover text-accent">Digital Marketing & Advertising</a>
+        </div>
+        <div className="mt-4 flex items-center">
+          <h3 className="text-lg text-accent">Social</h3>
+          <div className="bg-accent w-12 h-[2px] mx-4"></div>
           <a
-            className="inline-block mx-2"
-            href="https://twitter.com/GilbertHutapeaa"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <FaTwitter className="text-2xl text-blue-600" />
-          </a>
-          <a
-            className="inline-block mx-2"
             href="https://linkedin.com/in/gilberthutapea"
-            target="_blank"
-            rel="noopener noreferrer"
+            target="blank"
+            className="text-2xl text-accent hover:text-primary hover:-translate-y-1.5 shadow-lg mx-1 duration-300"
           >
-            <FaLinkedin className="text-2xl text-blue-400" />
+            <FaLinkedin></FaLinkedin>
           </a>
           <a
-            className="inline-block mx-2"
             href="https://www.github.com/berthutapea"
-            target="_blank"
-            rel="noopener noreferrer"
+            target="blank"
+            className="text-2xl text-accent hover:text-primary hover:-translate-y-1.5 shadow-lg mx-1 duration-300"
           >
-            <FaGithub className="text-2xl text-black" />
+            <FaFacebookSquare></FaFacebookSquare>
           </a>
           <a
-            className="inline-block mx-2"
+            href="https://twitter.com/GilbertHutapeaa"
+            target="blank"
+            className="text-2xl text-accent hover:text-primary hover:-translate-y-1.5 shadow-lg mx-1 duration-300"
+          >
+            <FaTwitterSquare></FaTwitterSquare>
+          </a>
+          <a
             href="https://www.instagram.com/bethup97/"
-            target="_blank"
-            rel="noopener noreferrer"
+            target="blank"
+            className="text-2xl text-accent hover:text-primary hover:-translate-y-1.5 shadow-lg mx-1 duration-300"
           >
-            <FaInstagram className="text-2xl text-pink-500" />
+            <FaInstagramSquare></FaInstagramSquare>
           </a>
-        </div>
-        <div className="hidden  md:flex items-center justify-center mb-6 flex-wrap">
-          <a
-            className="text-xl inline-bloc mx-6 text-accent"
-            href="https://www.fiverr.com/berthutapea"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Fiverr
-          </a>
-          <a
-            className="text-xl inline-bloc mx-6 text-accent"
-            href="https://www.upwork.com/freelancers/~0171c0d54d5dea86ec"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            UpWork
-          </a>
-          <a
-            className="text-xl inline-bloc mx-6 text-accent"
-            href="http://freelancer.com/u/berthutapea"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Freelancer
-          </a>
-          <a
-            className="text-xl inline-bloc mx-6 text-accent"
-            href="https://themeforest.net/user/berthutapea"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            ThemeForest
-          </a>
-          <a
-            className="text-xl inline-bloc mx-6 text-accent"
-            href="https://remotehub.com/gilbert.hutapea"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            RemoteHub
-          </a>
-          <a
-            className="text-xl inline-bloc mx-6 text-accent"
-            href="https://dribbble.com/berthutapea"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Dribbble
-          </a>
-          <a
-            className="text-xl inline-bloc mx-6 text-accent"
-            // href="https://drive.google.com/file/d/1qVQ1OLO-5RxHy1rwbe5Ib9igCTfeO99f/view?usp=sharing"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Resume
-          </a>
-        </div>
-
-        <div className="w-full h-[2px] bg-gray-600"></div>
-        <div className="flex flex-col md:flex-row items-center justify-center mt-4">
-          <p>&copy; Copyright 2023, MSN PRODUCTION - PT. Mulia Sejati Nusantara. All Rights Reserved</p>
         </div>
       </footer>
-    </>
+      <footer className="text-sm text-center px-10 py-6 text-base-100 border-base-300 bg-neutral ">
+        <div className="w-full h-[2px] bg-gray-600"></div>
+        <div className="flex flex-col md:flex-row items-center justify-center mt-6 text-accent">
+          <p>&copy; Copyright 2023, MSN PRODUCTION - PT. Mulia Sejati Nusantara. All Rights Reserved</p>
+        </div>
+
+      </footer>
+    </div>
   );
 };
 

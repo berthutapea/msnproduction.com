@@ -7,10 +7,6 @@ import {
   FaClock,
   FaPhoneAlt,
   FaLocationArrow,
-  FaLinkedin,
-  FaGithubSquare,
-  FaTwitterSquare,
-  FaInstagramSquare,
 } from "react-icons/fa";
 import { MdEmail, MdSend } from "react-icons/md";
 import emailjs from "@emailjs/browser";
@@ -158,7 +154,7 @@ const Contact = () => {
               Kab. Karawang, Jawa Barat, 41362
             </h3>
           </div>
-          <div className="mt-8 flex items-center">
+          {/* <div className="mt-8 flex items-center">
             <h3 className="text-xl text-accent">Social</h3>
             <div className="bg-accent w-10 h-[2px] mx-4"></div>
             <a
@@ -189,7 +185,7 @@ const Contact = () => {
             >
               <FaInstagramSquare></FaInstagramSquare>
             </a>
-          </div>
+          </div> */}
         </motion.div>
       </div>
     </div>
