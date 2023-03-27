@@ -11,6 +11,7 @@ import {
   sectionBodyAnimation,
 } from "../../hooks/useAnimation";
 import BottomLine from "../../components/BottomLine";
+import CountdownTimer from "../../components/Countdown";
 
 const Project = () => {
   const [items, setItems] = useState(Items);
@@ -59,7 +60,8 @@ const Project = () => {
               Harga Paket Promo <span className="text-primary">Spesial Lebaran!</span>
             </h1>
             <BottomLine />
-            <h2 className="text-accent text-center py-4">Segera Booking Slot Promo Sebelum Kehabisan!</h2>
+            {/* <h2 className="text-accent text-center py-4">Segera Booking Slot Promo Sebelum Kehabisan!</h2> */}
+            <CountdownTimer />
           </div>
         </motion.div>
 
@@ -196,7 +198,7 @@ const Project = () => {
                       <span
                         onClick={handleOnClick}
                       >
-                        {showMore ? "Lihat Lebih Sedikit" : "Lihat Lebih Banyak"}
+                        {showMore ? "Lihat Lebih Sedikit" : "Lihat Fitur Lengkap"}
                       </span>
                     </motion.button>
                   </span>

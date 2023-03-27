@@ -10,6 +10,7 @@
     "daisyui": "^2.15.2",
     "framer-motion": "^6.3.10",
     "react": "^18.1.0",
+    "react-countdown": "^2.3.5",
     "react-dom": "^18.1.0",
     "react-icons": "^4.4.0",
     "react-intersection-observer": "^9.2.2",

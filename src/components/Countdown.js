@@ -1,0 +1,45 @@
+import React, { useState } from 'react';
+import Countdown from 'react-countdown';
+
+const CountdownTimer = () => {
+    const [completed, setCompleted] = useState(false);
+
+    const renderer = ({ days, hours, minutes, seconds, completed }) => {
+        if (completed) {
+            setCompleted(true);
+            return <span>Promo Sudah Habis</span>;
+        } else {
+            return (
+                <div className="flex justify-center">
+                    <div className="flex flex-col items-center mr-2">
+                        <span className=" btn-sm bottom-100 px-4 text-2xl border-2 rounded-lg border-primary text-primary mx-2 my-2 sm:my-0 ">{days}</span>
+                        <span>Hari</span>
+                    </div>
+                    <div className="flex flex-col items-center mr-2">
+                        <span className="btn-sm  text-2xl border-2 rounded-lg border-primary text-primary mx-2 my-2 sm:my-0">{hours}</span>
+                        <span>Jam</span>
+                    </div>
+                    <div className="flex flex-col items-center mr-2">
+                        <span className="btn-sm  text-2xl border-2 rounded-lg border-primary text-primary mx-2 my-2 sm:my-0">{minutes}</span>
+                        <span>Menit</span>
+                    </div>
+                    <div className="flex flex-col items-center">
+                        <span className="btn-sm  text-2xl border-2 rounded-lg border-primary text-primary mx-2 my-2 sm:my-0">{seconds}</span>
+                        <span>Detik</span>
+                    </div>
+                </div>
+            );
+        }
+    };
+
+    // Set tanggal target
+    const targetDate = new Date('April 27, 2023 00:00:00');
+
+    return (
+        <div className="container mx-auto mt-10">
+            <Countdown date={targetDate} renderer={renderer} />
+        </div>
+    );
+};
+
+export default CountdownTimer;
