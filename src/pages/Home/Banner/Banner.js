@@ -6,7 +6,7 @@ import { FiArrowRight } from "react-icons/fi";
 import { motion } from "framer-motion";
 // import Lottie from "react-lottie";
 // import coding from "../../../assets/coding.json";
-import bannerImg from "../../../assets/banner-msn-production.png"
+import bannerImg from "../../../assets/images/banner-msn-production.png"
 import "../../shared/Shared.css";
 import SecondaryBtn from "../../../components/SecondaryBtn";
 

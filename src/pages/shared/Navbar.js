@@ -5,7 +5,7 @@ import {
   RiContactsBook2Fill,
   RiFolderInfoFill,
 } from "react-icons/ri";
-import logo from "../../assets/MSN-PRODUCTION-LOGO.png";
+import logo from "../../assets/images/MSN-PRODUCTION-LOGO.png";
 import { GiCrossMark } from "react-icons/gi";
 import { FaHome } from "react-icons/fa";
 import { MdWork } from "react-icons/md";
