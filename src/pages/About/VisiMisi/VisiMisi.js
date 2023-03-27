@@ -22,7 +22,7 @@ const VisiMisi = () => {
     }
   }, [inView, animation]);
   return (
-    <div className="parent py-20 bg-neutral">
+    <div className="parent py-16 bg-neutral">
       <motion.div
         className="mb-12"
         initial="hidden"
@@ -51,10 +51,8 @@ const VisiMisi = () => {
               : "bg-base-100 impactfull-card shadow-lg"
               } rounded-lg p-6 duration-300`}
           >
-            <div className="text-center mb-4">
-              <span className="text-primary text-5xl inline-block">
-                {visiMisi.icon}
-              </span>
+            <div className="text-center mb-4 w-40 mx-auto">
+              {visiMisi.icon}
             </div>
             <h2 className="text-2xl font-semibold text-center mb-4">
               {visiMisi.title}
