@@ -22,9 +22,9 @@ const About = () => {
             transition: { duration: 1, type: "spring" },
           }}
         >
-          <h3 className="text-neutral text-center">Something About Myself</h3>
+          <h3 className="text-accent text-center">Apa itu MSN PRODUCTION?</h3>
           <h1 className="text-4xl font-semibold drop-shadow-md text-center">
-            About <span className="text-primary">Me</span>
+            Tentang <span className="text-primary">Kami</span>
           </h1>
           <BottomLine />
         </motion.div>
