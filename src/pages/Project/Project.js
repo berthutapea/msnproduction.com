@@ -6,6 +6,7 @@ import { Link, useLocation } from "react-router-dom";
 import { FiArrowRight } from "react-icons/fi";
 import { FaWhatsapp } from "react-icons/fa";
 import "./Project.css";
+import "../../components/Blur.css";
 import {
   headingAnimation,
   sectionBodyAnimation,

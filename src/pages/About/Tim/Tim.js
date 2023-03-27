@@ -1,8 +1,8 @@
 import React from "react";
 import Lottie from "react-lottie";
-import readingBook from "../../assets/reading-book.json";
+import readingBook from "../../../assets/reading-book.json";
 
-const Education = () => {
+const Tim = () => {
   const defaultOptions = {
     loop: true,
     autoplay: true,
@@ -72,4 +72,4 @@ const Education = () => {
   );
 };
 
-export default Education;
+export default Tim;

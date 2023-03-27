@@ -1,11 +1,3 @@
-.impactfull-card {
-    border: 1px solid transparent;
-    border-image: linear-gradient(to top, #1500ff 0%, #1500ff 100%);
-    border-image-slice: 1;
-    background-color: transparent;
-    backdrop-filter: blur(10px);
-}
-
 .active-btn {
     color: #1500ff;
     background-color: transparent;
