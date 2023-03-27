@@ -1,4 +1,3 @@
-// import { FaBullhorn, FaLaptop, FaMobileAlt } from "react-icons/fa";
 import MisiMSN from "../assets/images/VisiMisiImg/misi.png"
 import LayananMSN from "../assets/images/VisiMisiImg/layanan.png"
 import VisiMSN from "../assets/images/VisiMisiImg/visi.png"
