@@ -23,7 +23,6 @@ const Banner = () => {
         animate={{ x: 0 }}
         transition={{ duration: 1 }}
       >
-        {/* <h2 className="text-neutral text-xl font-medium">Hello, I'm</h2> */}
         <h1 className="text-4xl font-bold mb-0">MSN PRODUCTION</h1>
         {/* <div className="my-10"> */}
         {/* <TypeAnimation
