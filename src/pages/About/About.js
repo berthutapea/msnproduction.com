@@ -1,5 +1,5 @@
 import React from "react";
-import TypeAnimation from "react-type-animation";
+// import TypeAnimation from "react-type-animation";
 import { motion } from "framer-motion";
 import "./About.css";
 import "../../components/PrimaryBtn.css";
@@ -28,8 +28,8 @@ const About = () => {
           </h1>
           <BottomLine />
         </motion.div>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          <motion.div
+        <div className="pt-6 sm:px-20 px-5 items-center text-center">
+          {/* <motion.div
             initial={{ x: -200, opacity: 0 }}
             animate={{
               x: 0,
@@ -42,7 +42,7 @@ const About = () => {
               alt="Gilbert Hutapea"
               className="mx-auto"
             />
-          </motion.div>
+          </motion.div> */}
           <motion.div
             className=""
             initial={{ x: 200, opacity: 0 }}
@@ -52,8 +52,8 @@ const About = () => {
               transition: { duration: 1, delay: 1.25 },
             }}
           >
-            <h1 className="text-4xl font-semibold mb-0">Gilbert Hutapea</h1>
-            <div className="my-8">
+            {/* <h1 className="text-4xl font-semibold mb-0">Gilbert Hutapea</h1> */}
+            {/* <div className="my-8">
               <TypeAnimation
                 className="text-2xl text-primary font-bold"
                 cursor={true}
@@ -68,19 +68,19 @@ const About = () => {
                 wrapper="div"
                 repeat={Infinity}
               />
-            </div>
-            <p className="text-neutral font-medium">
+            </div> */}
+            <p className="text-accent font-medium">
               Dedicated Front-end developer. Capable to solve working problems.
               Passionate about learning & development to reach the target. Eager
               to tackle more complex problems and continue to find ways to
               maximize user efficiency.
             </p>
-            <br />
+            {/* <br />
             <p className="text-neutral font-medium">
               My next mission is how to become a Mern stack Developer. I would
               love to build some Giant Website which will shine myself.
-            </p>
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-x-12 gap-y-4 mt-4">
+            </p> */}
+            {/* <div className="grid grid-cols-1 lg:grid-cols-2 gap-x-12 gap-y-4 mt-4">
               <h2 className="font-medium">
                 <span className="mr-4 text-primary">Name : </span>Gilbert Hutapea
               </h2>
@@ -105,7 +105,7 @@ const About = () => {
                   </span>
                 </button>
               </a>
-            </div>
+            </div> */}
           </motion.div>
         </div>
       </div>

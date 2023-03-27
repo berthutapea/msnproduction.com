@@ -13,7 +13,7 @@ import { MdEmail } from "react-icons/md";
 const Footer = () => {
   return (
     <div>
-      <footer className="footer p-10 text-base-100"
+      <footer className="footer p-20 text-base-100"
         style={{ backgroundColor: "#e5e7eb" }}
       >
         <div>
