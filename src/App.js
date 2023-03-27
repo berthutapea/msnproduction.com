@@ -3,7 +3,6 @@ import React, { Suspense } from "react";
 import NotFound from "./pages/shared/NotFound";
 import Loader from "./pages/shared/Loader";
 import ScrollToTop from "./components/ScrollToTop";
-import ProjectDetails from "./pages/Project/ProjectDetails";
 import Navbar from "./pages/shared/Navbar";
 import Footer from "./pages/shared/Footer";
 import Blog from "./pages/Blog/Blog";
@@ -26,7 +25,6 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/project" element={<Project />} />
-          <Route path="/project/:id" element={<ProjectDetails />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/blog" element={<Blog />}>
             <Route index element={<BlogIndex/>} />
