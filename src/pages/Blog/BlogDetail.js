@@ -1,6 +1,6 @@
 import React from "react";
 import { useParams } from "react-router-dom";
-import placeholderImage from "../../assets/placeholder.jpg";
+import placeholderImage from "../../assets/images/placeholder.jpg";
 import blogs from "../../utils/blogs";
 import { useState } from "react";
 import { useEffect } from "react";

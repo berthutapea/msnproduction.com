@@ -1,7 +1,7 @@
 import React from "react";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import { Link } from "react-router-dom";
-import placeholderImage from "../../assets/placeholder.jpg";
+import placeholderImage from "../../assets/images/placeholder.jpg";
 import blogs from "../../utils/blogs";
 
 const BlogIndex = () => {
