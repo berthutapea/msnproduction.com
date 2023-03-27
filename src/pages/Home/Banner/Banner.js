@@ -27,8 +27,6 @@ const Banner = () => {
             sequence={[
               "A React JS Developer",
               2000,
-              "A Mern-stack Developer",
-              2000,
             ]}
             wrapper="div"
             repeat={Infinity}
