@@ -56,34 +56,38 @@ const BlogIndex = () => {
                 <p className="text-accent mt-2 mb-6">
                   {description?.slice(0, 200)} ...
                 </p>
-                <Link to={"/blog/" + path}>
-                  {/* <button className="px-6 py-1 border-accent border rounded hover:border-primary duration-300">
+                {/* <Link to={"/blog/" + path}> */}
+                {/* <button className="px-6 py-1 border-accent border rounded hover:border-primary duration-300">
                     Read More
                   </button> */}
-                </Link>
+                {/* </Link> */}
               </div>
             </div>
           );
         })}
       </div>
       <div className="flex justify-center items-center mt-10">
-        <button
-          onClick={handlePreviousPageClick}
-          disabled={currentPage === 1}
-          className="btn text-black flex items-center gap-3 border-2 border-primary bg-transparent hover:bg-primary hover:border-transparent hover:text-white duration-500"
-        >
-          <FaAngleDoubleLeft />
-        </button>
-        <span className="text-accent text-2xl">
+        <Link to={"/blog/"}>
+          <button
+            onClick={handlePreviousPageClick}
+            disabled={currentPage === 1}
+            className="btn text-black flex items-center gap-3 border-2 border-primary bg-transparent hover:bg-primary hover:border-transparent hover:text-white duration-500"
+          >
+            <FaAngleDoubleLeft />
+          </button>
+        </Link>
+        <span className="text-accent text-2xl px-4">
           {currentPage} / {totalPages}
         </span>
-        <button
-          onClick={handleNextPageClick}
-          disabled={currentPage === totalPages}
-          className="btn text-black flex items-center gap-3 border-2 border-primary bg-transparent hover:bg-primary hover:border-transparent hover:text-white duration-500"
-        >
-          <FaAngleDoubleRight />
-        </button>
+        <Link to={"/blog/"}>
+          <button
+            onClick={handleNextPageClick}
+            disabled={currentPage === totalPages}
+            className="btn text-black flex items-center gap-3 border-2 border-primary bg-transparent hover:bg-primary hover:border-transparent hover:text-white duration-500"
+          >
+            <FaAngleDoubleRight />
+          </button>
+        </Link>
       </div>
     </div>
   );
