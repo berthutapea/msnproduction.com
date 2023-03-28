@@ -49,8 +49,6 @@ const Footer = () => {
           <a className="link link-hover text-accent">Digital Marketing & Advertising</a>
         </div>
         <div className="mt-4 flex items-center">
-          <h3 className="text-lg text-accent">Social</h3>
-          <div className="bg-accent w-12 h-[2px] mx-4"></div>
           <a
             href="https://linkedin.com/in/gilberthutapea"
             target="blank"
