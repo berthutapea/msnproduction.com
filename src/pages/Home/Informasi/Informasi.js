@@ -28,7 +28,7 @@ const Informasi = () => {
     // };
 
     return (
-        <div className="mt-20 parent py-20">
+        <div className=" parent py-20">
             <h1 className="text-3xl font-semibold text-center">
                 Informasi <span className="text-primary">Terbaru</span>
             </h1>
