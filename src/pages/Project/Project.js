@@ -3,8 +3,7 @@ import Items from "../../utils/Items";
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import { Link, useLocation } from "react-router-dom";
-import { FiArrowRight } from "react-icons/fi";
-import { FaWhatsapp } from "react-icons/fa";
+import { FaWhatsapp, FaAngleRight } from "react-icons/fa";
 import "./Project.css";
 import "../../components/Blur.css";
 import {
@@ -216,7 +215,7 @@ const Project = () => {
               <button className="primary-button ">
                 <span>Lihat Semua</span>
                 <span>
-                  <FiArrowRight />
+                  <FaAngleRight />
                 </span>
               </button>
             </Link>
