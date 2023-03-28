@@ -40,11 +40,13 @@ const BlogIndex = () => {
               className="flex flex-col w-full items-center justify-between gap-8 my-20 rounded-lg min-h-32"
             >
               <div className="w-full">
-                <LazyLoadImage
-                  placeholderSrc={placeholderImage}
-                  src={img}
-                  className="rounded-lg blog_image"
-                />
+                <Link to={"/blog/" + path}>
+                  <LazyLoadImage
+                    placeholderSrc={placeholderImage}
+                    src={img}
+                    className="rounded-lg blog_image cursor-pointer"
+                  />
+                </Link>
               </div>
               <div className="w-full">
                 <h2 className="text-2xl font-medium text-accent cursor-pointer hover:text-primary">
