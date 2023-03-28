@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import placeholderImage from "../../assets/images/placeholder.jpg";
 import blogs from "../../utils/blogs";
 import { FaAngleDoubleRight, FaAngleDoubleLeft } from "react-icons/fa";
+import BottomLine from "../../components/BottomLine";
 
 const BlogIndex = () => {
   const [currentPage, setCurrentPage] = useState(1);
@@ -31,13 +32,14 @@ const BlogIndex = () => {
       <h1 className="text-3xl font-semibold text-center">
         Informasi <span className="text-primary">Terbaru</span>
       </h1>
+      <BottomLine />
       <div className="mt-10 grid grid-cols-1 md:grid-cols-3 gap-8">
         {currentBlogs.map((blog) => {
           const { _id, title, date, img, description, path } = blog;
           return (
             <div
               key={_id}
-              className="flex flex-col w-full items-center justify-between gap-8 my-20 rounded-lg min-h-32"
+              className="flex flex-col w-full items-center justify-between gap-8 my-2 rounded-lg min-h-32"
             >
               <div className="w-full">
                 <Link to={"/blog/" + path}>
@@ -56,7 +58,7 @@ const BlogIndex = () => {
                   <strong>{date}</strong>
                 </span>
                 <p className="text-accent mt-2 mb-6">
-                  {description?.slice(0, 200)} ...
+                  {description?.slice(0, 150)} ...
                 </p>
                 {/* <Link to={"/blog/" + path}> */}
                 {/* <button className="px-6 py-1 border-accent border rounded hover:border-primary duration-300">
@@ -69,7 +71,6 @@ const BlogIndex = () => {
         })}
       </div>
       <div className="flex justify-center items-center mt-10">
-        <Link to={"/blog/"}>
           <button
             onClick={handlePreviousPageClick}
             disabled={currentPage === 1}
@@ -77,11 +78,9 @@ const BlogIndex = () => {
           >
             <FaAngleDoubleLeft />
           </button>
-        </Link>
         <span className="text-accent text-2xl px-4">
           {currentPage} / {totalPages}
         </span>
-        <Link to={"/blog/"}>
           <button
             onClick={handleNextPageClick}
             disabled={currentPage === totalPages}
@@ -89,7 +88,6 @@ const BlogIndex = () => {
           >
             <FaAngleDoubleRight />
           </button>
-        </Link>
       </div>
     </div>
   );
