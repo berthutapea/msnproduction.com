@@ -52,14 +52,14 @@ const BlogDetail = () => {
         <div className="md:col-span-2 lg:col-span-3">
           {blog?.description?.split("\n")?.map((s, i) => (
             <>
-              <p key={i + 1} className="text-neutral text-justify">
+              <p key={i + 1} className="text-accent text-justify">
                 {s}
               </p>{" "}
               <br />
             </>
           ))}
         </div>
-        <div className="md:col-span-2 lg:col-span-1 bg-[#313131] px-4 py-6 rounded shadow-lg">
+        <div className="md:col-span-2 lg:col-span-1 bg-neutral px-4 py-6 rounded shadow-lg">
           <div className="">
             <h4 className="text-lg font-medium mb-3">Sponsor:</h4>
             <p className="flex items-center gap-3">
@@ -120,7 +120,7 @@ const BlogDetail = () => {
             {blog?.tags?.map((tag) => (
               <button
                 key={tag}
-                className="bg-neutral bg-opacity-40 px-2 py-0 m-1 rounded"
+                className="bg-accent bg-opacity-40 px-2 py-0 m-1 rounded"
               >
                 {tag}
               </button>
