@@ -54,8 +54,8 @@ const BlogIndex = () => {
                 <h2 className="text-2xl font-medium text-accent cursor-pointer hover:text-primary">
                   <Link to={"/blog/" + path}>{title}</Link>
                 </h2>
-                <span className="text-accent text-xs">
-                  <strong>{date}</strong>
+                <span className="text-gray-600 text-sm">
+                  <p>{date}</p>
                 </span>
                 <p className="text-accent mt-2 mb-6">
                   {description?.slice(0, 150)} ...
