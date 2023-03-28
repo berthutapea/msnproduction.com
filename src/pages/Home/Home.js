@@ -2,6 +2,7 @@ import React from "react";
 import Contact from "../Contact/Contact";
 import Project from "../Project/Project";
 import Banner from "./Banner/Banner";
+import Informasi from "./Informasi/Informasi";
 import Service from "./Service/Service";
 import Testimonial from "./Testimonial/Testimonial";
 
@@ -12,6 +13,7 @@ const Home = () => {
       <Service />
       <Project />
       <Testimonial />
+      <Informasi />
       <Contact />
     </div>
   );
