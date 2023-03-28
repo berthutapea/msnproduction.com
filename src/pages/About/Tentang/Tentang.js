@@ -28,7 +28,7 @@ const Tentang = () => {
                         animate={{
                             x: 0,
                             opacity: 1,
-                            transition: { duration: 0.5, delay: 1.25 },
+                            transition: { duration: 1, delay: 1.25 },
                         }}
                     >
                         <p className="text-accent font-medium">

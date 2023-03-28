@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import placeholderImage from "../../../assets/images/placeholder.jpg";
 import blogs from "../../../utils/blogs";
 import BottomLine from "../../../components/BottomLine";
-import { FiArrowRight } from "react-icons/fi";
+import { FaAngleRight } from "react-icons/fa";
 
 const Informasi = () => {
     const [currentPage] = useState(1);
@@ -72,7 +72,7 @@ const Informasi = () => {
                 <button className="primary-button ">
                     <span>Lihat Semua</span>
                     <span>
-                        <FiArrowRight />
+                        <FaAngleRight />
                     </span>
                 </button>
             </Link>
