@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import Services from "../../../utils/Services";
-import { FiArrowRight } from "react-icons/fi";
+import { FaAngleRight } from "react-icons/fa";
 import {
   headingAnimation,
   sectionBodyAnimation,
@@ -78,8 +78,8 @@ const Service = () => {
                   <button className="btn text-black flex items-center gap-3 border-2 border-primary bg-transparent hover:bg-primary hover:border-transparent hover:text-white duration-500">
                     <span className="text-button-mobile">Hubungi Kami</span>
                     <span>
-                      <FiArrowRight />
-                    </span>
+                      <FaAngleRight />
+                   </span>
                   </button>
                 </a>
               </span>
