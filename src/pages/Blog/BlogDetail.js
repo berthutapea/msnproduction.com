@@ -42,10 +42,10 @@ const BlogDetail = () => {
       </div>
       <div className="flex items-center justify-between flex-wrap mt-16 mb-4">
         <span>
-          Author : <strong className="text-primary">Gilbert Hutapea</strong>
+          <strong className="text-primary">MSN PRODUCTION</strong>
         </span>
         <span>
-          Published at: <strong className="text-primary">{blog?.date}</strong>
+          <strong className="text-primary">{blog?.date}</strong>
         </span>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-4 gap-12">
