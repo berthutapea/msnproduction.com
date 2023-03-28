@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { FiArrowRight } from "react-icons/fi";
+import { FaAngleRight } from "react-icons/fa";
 import { motion } from "framer-motion";
 import bannerImg from "../../../assets/images/banner-msn-production.png"
 import "../../shared/Shared.css";
@@ -34,7 +34,7 @@ const Banner = () => {
             <button className="primary-button">
               <span className="text-button-mobile">Konsultasi Gratis</span>
               <span>
-                <FiArrowRight />
+                <FaAngleRight />
               </span>
             </button>
           </a>
@@ -42,7 +42,7 @@ const Banner = () => {
             <SecondaryBtn>
               <span className="text-button-mobile ">Lihat Penawaran</span>
               <span>
-                <FiArrowRight />
+                <FaAngleRight />
               </span>
             </SecondaryBtn>
           </Link>
