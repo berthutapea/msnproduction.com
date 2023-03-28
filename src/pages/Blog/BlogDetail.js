@@ -51,12 +51,10 @@ const BlogDetail = () => {
       <div className="grid grid-cols-1 md:grid-cols-4 gap-12">
         <div className="md:col-span-2 lg:col-span-3">
           {blog?.description?.split("\n")?.map((s, i) => (
-            <>
-              <p key={i + 1} className="text-accent text-justify">
-                {s}
-              </p>{" "}
+            <React.Fragment key={i + 1}>
+              <p className="text-accent text-justify">{s}</p>
               <br />
-            </>
+            </React.Fragment>
           ))}
         </div>
         <div className="md:col-span-2 lg:col-span-1 bg-neutral px-4 py-6 rounded shadow-lg">
