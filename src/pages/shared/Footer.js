@@ -82,7 +82,7 @@ const Footer = () => {
       <footer className="text-sm text-center px-10 py-6 text-base-100 border-base-300 bg-neutral ">
         <div className="w-full h-[2px] bg-gray-600"></div>
         <div className="flex flex-col md:flex-row items-center justify-center mt-6 text-accent">
-          <p>&copy; Copyright 2023, MSN PRODUCTION - PT. Mulia Sejati Nusantara. All Rights Reserved</p>
+          <p>&copy; Copyright 2022, MSN PRODUCTION - PT. Mulia Sejati Nusantara. All Rights Reserved</p>
         </div>
 
       </footer>
