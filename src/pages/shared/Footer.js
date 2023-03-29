@@ -71,7 +71,7 @@ const Footer = () => {
             <FaTwitterSquare></FaTwitterSquare>
           </a>
           <a
-            href="https://www.instagram.com/bethup97/"
+            href="https://www.instagram.com/msn.production/"
             target="blank"
             className="text-2xl text-accent hover:text-primary hover:-translate-y-1.5 shadow-lg mx-1 duration-300"
           >
