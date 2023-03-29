@@ -50,7 +50,7 @@ const Footer = () => {
         </div>
         <div className="mt-4 flex items-center">
           <a
-            href="https://linkedin.com/in/gilberthutapea"
+            href="https://www.linkedin.com/in/mulia-sejati-nusantara-production-a766b3258/"
             target="blank"
             className="text-2xl text-accent hover:text-primary hover:-translate-y-1.5 shadow-lg mx-1 duration-300"
           >
