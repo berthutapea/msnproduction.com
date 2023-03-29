@@ -15,6 +15,7 @@ import { useNavigate } from "react-router-dom";
 import { useInView } from "react-intersection-observer";
 import { headingAnimation, contactAnimation } from "../../hooks/useAnimation";
 import BottomLine from "../../components/BottomLine";
+import Map from "../../pages/Contact/Map/Map";
 
 const Contact = () => {
   const navigate = useNavigate();
@@ -188,6 +189,7 @@ const Contact = () => {
           </div> */}
         </motion.div>
       </div>
+      <Map />
     </div>
   );
 };
