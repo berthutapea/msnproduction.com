@@ -28,3 +28,11 @@ input:-webkit-autofill:focus {
 input[data-autocompleted] {
     background-color: transparent !important;
 }
+
+.map-action {
+    top: 15px;
+    height: 400px;
+    z-index: 1;
+    border-radius: 10px;
+    width: 100%
+}

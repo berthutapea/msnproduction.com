@@ -1,6 +1,7 @@
 import { MapContainer, TileLayer, ZoomControl, Marker, Popup } from 'react-leaflet';
 import 'leaflet/dist/leaflet.css';
 import L from 'leaflet';
+import "../Contact.css";
 
 const position = [-6.502413979455505, 107.18427222453857];
 
@@ -13,7 +14,7 @@ L.Icon.Default.mergeOptions({
 })
 
 const Map = () => (
-    <MapContainer center={position} zoom={13} zoomControl={false} style={{ height: '500px', width: '100%' }}>
+    <MapContainer className='map-action' center={position} zoom={13} zoomControl={false}>
         <TileLayer
             attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
             url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
