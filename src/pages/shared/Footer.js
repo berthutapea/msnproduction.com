@@ -18,6 +18,7 @@ const Footer = () => {
       >
         <div>
           <Link to='/'><img src={logoMSN} alt="MSN PRODUCTION" className="sm:w-46 w-32" /></Link>
+          <h1 className=" text-accent text-2xl font-bold">MSN PRODUCTION</h1>
           <span className="text-accent">Kp. Cigintung RT 010 RW 004, <br />
             Ds. Kertasari, Kec. Pangkalan, <br />
             Kab. Karawang Jawa Barat, 41362.</span>
@@ -31,22 +32,22 @@ const Footer = () => {
           </div>
         </div>
         <div>
-          <span className="footer-title text-accent">Tautan</span>
-          <a className="link link-hover text-accent">Beranda</a>
-          <a className="link link-hover text-accent">Jasa</a>
-          <a className="link link-hover text-accent">Tentang</a>
-          <a className="link link-hover text-accent">Paket</a>
-          <a className="link link-hover text-accent">Artikel</a>
-          <a className="link link-hover text-accent">Kontak</a>
+          <span className="font-bold text-black">Tautan</span>
+          <a className="link link-hover hover:text-primary text-accent">Beranda</a>
+          <a className="link link-hover hover:text-primary text-accent">Jasa</a>
+          <a className="link link-hover hover:text-primary text-accent">Tentang</a>
+          <a className="link link-hover hover:text-primary text-accent">Paket</a>
+          <a className="link link-hover hover:text-primary text-accent">Artikel</a>
+          <a className="link link-hover hover:text-primary text-accent">Kontak</a>
         </div>
         <div>
-          <span className="footer-title text-accent">Fokus & Layanan</span>
-          <a className="link link-hover text-accent">Web Wedding</a>
-          <a className="link link-hover text-accent">Web E-Commerce</a>
-          <a className="link link-hover text-accent">Web Company Profile</a>
-          <a className="link link-hover text-accent">Web & Mobile Applications</a>
-          <a className="link link-hover text-accent">Branding & Content Creative</a>
-          <a className="link link-hover text-accent">Digital Marketing & Advertising</a>
+          <span className="font-bold text-accent">Fokus & Layanan</span>
+          <a className="link link-hover hover:text-primary text-accent">Web Wedding</a>
+          <a className="link link-hover hover:text-primary text-accent">Web E-Commerce</a>
+          <a className="link link-hover hover:text-primary text-accent">Web Company Profile</a>
+          <a className="link link-hover hover:text-primary text-accent">Web & Mobile Applications</a>
+          <a className="link link-hover hover:text-primary text-accent">Branding & Content Creative</a>
+          <a className="link link-hover hover:text-primary text-accent">Digital Marketing & Advertising</a>
         </div>
         <div className="mt-4 flex items-center">
           <a
