@@ -57,14 +57,14 @@ const Footer = () => {
             <FaLinkedin></FaLinkedin>
           </a>
           <a
-            href="https://www.github.com/berthutapea"
+            href="https://web.facebook.com/profile.php?id=100088222058988"
             target="blank"
             className="text-2xl text-accent hover:text-primary hover:-translate-y-1.5 shadow-lg mx-1 duration-300"
           >
             <FaFacebookSquare></FaFacebookSquare>
           </a>
           <a
-            href="https://web.facebook.com/profile.php?id=100088222058988 "
+            href="https://twitter.com/MSN_Production"
             target="blank"
             className="text-2xl text-accent hover:text-primary hover:-translate-y-1.5 shadow-lg mx-1 duration-300"
           >
