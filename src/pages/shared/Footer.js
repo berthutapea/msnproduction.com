@@ -18,7 +18,7 @@ const Footer = () => {
       >
         <div>
           <Link to='/'><img src={logoMSN} alt="MSN PRODUCTION" className="sm:w-46 w-32" /></Link>
-          <h1 className=" text-accent text-2xl font-bold">MSN PRODUCTION</h1>
+          <h1 className=" text-black text-2xl font-bold">MSN PRODUCTION</h1>
           <span className="text-accent">Kp. Cigintung RT 010 RW 004, <br />
             Ds. Kertasari, Kec. Pangkalan, <br />
             Kab. Karawang Jawa Barat, 41362.</span>
