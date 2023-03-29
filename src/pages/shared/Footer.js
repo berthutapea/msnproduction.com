@@ -64,7 +64,7 @@ const Footer = () => {
             <FaFacebookSquare></FaFacebookSquare>
           </a>
           <a
-            href="https://twitter.com/GilbertHutapeaa"
+            href="https://web.facebook.com/profile.php?id=100088222058988 "
             target="blank"
             className="text-2xl text-accent hover:text-primary hover:-translate-y-1.5 shadow-lg mx-1 duration-300"
           >
