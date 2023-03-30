@@ -11,8 +11,9 @@ const Informasi = () => {
     const [blogsPerPage] = useState(3);
     const indexOfLastBlog = currentPage * blogsPerPage;
     const indexOfFirstBlog = indexOfLastBlog - blogsPerPage;
-    const currentBlogs = blogs.slice(indexOfFirstBlog, indexOfLastBlog);
-
+    const currentBlogs = blogs
+        .sort((a, b) => new Date(b.date) - new Date(a.date)) // Menyortir posting blog dari yang terbaru ke yang terlama
+        .slice(indexOfFirstBlog, indexOfLastBlog);
     // const totalPages = Math.ceil(blogs.length / blogsPerPage);
 
     // const handleNextPageClick = () => {
@@ -58,7 +59,7 @@ const Informasi = () => {
                                     <p>{date}</p>
                                 </span>
                                 <p className="text-accent mt-1 mb-6">
-                                    {description?.slice(0, 100)} ...
+                                    {description?.slice(0, 80)} ...
                                 </p>
                             </div>
                         </div>

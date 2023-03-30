@@ -11,7 +11,9 @@ const BlogIndex = () => {
   const [blogsPerPage] = useState(6);
   const indexOfLastBlog = currentPage * blogsPerPage;
   const indexOfFirstBlog = indexOfLastBlog - blogsPerPage;
-  const currentBlogs = blogs.slice(indexOfFirstBlog, indexOfLastBlog);
+  const currentBlogs = blogs
+    .sort((a, b) => new Date(b.date) - new Date(a.date)) // Menyortir posting blog dari yang terbaru ke yang terlama
+    .slice(indexOfFirstBlog, indexOfLastBlog);
 
   const totalPages = Math.ceil(blogs.length / blogsPerPage);
 
@@ -58,7 +60,7 @@ const BlogIndex = () => {
                   <p>{date}</p>
                 </span>
                 <p className="text-accent mt-1 mb-6">
-                  {description?.slice(0, 100)} ...
+                  {description?.slice(0, 80)} ...
                 </p>
                 {/* <Link to={"/blog/" + path}> */}
                 {/* <button className="px-6 py-1 border-accent border rounded hover:border-primary duration-300">

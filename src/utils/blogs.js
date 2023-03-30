@@ -3,7 +3,7 @@ const blogs = [
     _id: 1,
     title: "5 Cara Optimasi SEO Instagram, Tingkatkan Visibilitas Akun Anda",
     path: "optimasi-seo-instagram",
-    date: "09 September 2022",
+    date: "10 September 2022",
     img: "https://res.cloudinary.com/dh6s3dche/image/upload/v1680151015/Blog%20MSN/01-5_Cara_Optimasi_SEO_Instagram_Tingkatkan_Visibilitas_Akun_Mu_e0acku.jpg",
     instagram_link:
       "https://www.instagram.com/msn.production/",
@@ -17,7 +17,7 @@ const blogs = [
     _id: 2,
     title: "5 Prospek Pekerjaan Jurusan Teknik Informatika",
     path: "pekerjaan-jurusan-teknik-informatika",
-    date: "22 September 2022",
+    date: "20 September 2022",
     img: "https://res.cloudinary.com/dh6s3dche/image/upload/v1680154547/Blog%20MSN/5_Prospek_Pekerjaan_Jurusan_Teknik_Informatika_leo1iw.jpg",
     instagram_link:
       "https://www.instagram.com/msn.production/",
@@ -31,7 +31,7 @@ const blogs = [
     _id: 3,
     title: "Mengenal Apa Itu Redux Cara Kerja & Kelebihannya",
     path: "mengenal-redux",
-    date: "02 Oktober 2022",
+    date: "25 September 2022",
     img: "https://res.cloudinary.com/dh6s3dche/image/upload/v1680156651/Blog%20MSN/REDUX_d0qd51.jpg",
     instagram_link:
       "https://www.instagram.com/msn.production/",
@@ -45,7 +45,7 @@ const blogs = [
     _id: 4,
     title: "Janji dan Potensi Teknologi 5G",
     path: "teknologi-5g",
-    date: "10 Oktober 2022",
+    date: "06 November 2022",
     img: "https://res.cloudinary.com/dh6s3dche/image/upload/v1680158117/Blog%20MSN/teknologi-5g_w9c16l.jpg",
     instagram_link:
       "https://www.instagram.com/msn.production/",
@@ -59,7 +59,7 @@ const blogs = [
     _id: 5,
     title: "5 Teknologi Terbaru yang Akan Mengubah Cara Kita Hidup",
     path: "teknologi-terbaru",
-    date: "24 Oktober 2022",
+    date: "09 November 2022",
     img: "https://res.cloudinary.com/dh6s3dche/image/upload/v1680159590/Blog%20MSN/5_Teknologi_Terbaru_yang_Akan_Mengubah_Cara_Kita_Hidup_h4qzjc.jpg",
     instagram_link:
       "https://www.instagram.com/msn.production/",
@@ -73,7 +73,7 @@ const blogs = [
     _id: 6,
     title: "Bagaimana Teknologi Cloud Computing Membantu Meningkatkan Efisiensi Bisnis",
     path: "cloud-computing",
-    date: "03 November 2022",
+    date: "12 November 2022",
     img: "https://res.cloudinary.com/dh6s3dche/image/upload/v1680161513/Blog%20MSN/Bagaimana_Teknologi_Cloud_Computing_Membantu_Meningkatkan_Efisiensi_Bisnis_r8zznr.jpg",
     instagram_link:
       "https://www.instagram.com/msn.production/",
@@ -115,7 +115,7 @@ const blogs = [
     _id: 9,
     title: "Mengapa Internet of Things (IoT) Akan Menjadi Trend Teknologi Terbesar di Masa Depan",
     path: "internet-of-things",
-    date: "05 Desember 2022",
+    date: "30 November 2022",
     img: "https://res.cloudinary.com/dh6s3dche/image/upload/v1680165664/Blog%20MSN/iot_slasgq.jpg",
     instagram_link:
       "https://www.instagram.com/msn.production/",
