@@ -183,9 +183,23 @@ const blogs = [
   },
   {
     _id: 14,
+    title: "Mengenal Strategi Ecommerce Marketing Untuk Bisnis Anda",
+    path: "mengenal-strategi-ecommerce-marketing",
+    date: "09 Maret 2023",
+    img: "https://res.cloudinary.com/dh6s3dche/image/upload/v1680192645/Blog%20MSN/ecommerce-marketing_omm6ep.jpg",
+    instagram_link:
+      "https://www.instagram.com/msn.production/",
+    linkedin_link:
+      "https://www.linkedin.com/in/mulia-sejati-nusantara-production-a766b3258/",
+    tags: ["e-commerce", "marketing", "strategi", "bisnis"],
+    description:
+      "Jika Anda menjalankan bisnis ecommerce, maka Anda harus memahami bahwa penting untuk memiliki strategi pemasaran yang efektif untuk mempromosikan produk Anda, memikat pelanggan baru, dan meningkatkan penjualan. Dalam blog ini, kita akan membahas beberapa strategi pemasaran ecommerce yang bisa Anda gunakan untuk meningkatkan bisnis Anda. \n 1. Optimalkan Situs Web Ecommerce Anda \n Situs web ecommerce Anda harus dioptimalkan untuk mesin pencari sehingga mudah ditemukan oleh calon pelanggan. Ini termasuk memastikan situs Anda memiliki struktur URL yang baik, menggunakan meta deskripsi yang relevan, dan memastikan kata kunci penting dipertimbangkan dalam konten Anda. Selain itu, situs web Anda harus mudah dinavigasi, responsif dan cepat dalam memuat halaman. \n 2. Gunakan Media Sosial \n Media sosial dapat menjadi alat pemasaran yang sangat efektif untuk ecommerce. Buat akun bisnis di platform sosial media populer seperti Facebook, Instagram, Twitter, dan LinkedIn, dan gunakan fitur-fiturnya untuk mempromosikan produk Anda, mengiklankan penawaran khusus, dan menjalin koneksi dengan pelanggan Anda. \n 3. Gunakan Email Marketing \n Email marketing masih menjadi cara yang efektif untuk mempromosikan produk Anda. Dengan membangun daftar email pelanggan, Anda dapat mengirim email promosi, memberi tahu pelanggan tentang penawaran khusus dan penjualan, serta mengirim pesan terkait produk terbaru atau pembaruan bisnis. \n 4. Gunakan Influencer Marketing \n Influencer marketing telah menjadi tren dalam beberapa tahun terakhir. Dengan mencari influencer yang relevan dengan bisnis Anda, Anda dapat memperoleh paparan yang lebih besar untuk produk Anda. Pastikan untuk bekerja dengan influencer yang memiliki audiens yang relevan dengan produk Anda dan memastikan bahwa mereka mempromosikan produk Anda dengan cara yang autentik dan memperhatikan etika bisnis. \n 5. Gunakan Iklan Online \n Iklan online adalah cara yang efektif untuk mempromosikan produk Anda dan menjangkau pelanggan baru. Anda dapat menggunakan platform iklan online seperti Google AdWords, Facebook Ads, dan Instagram Ads untuk memasang iklan yang relevan dengan audiens Anda. Pastikan untuk mengoptimalkan iklan Anda dengan konten visual yang menarik dan menarik perhatian. \n 6. Gunakan Analisis Data \n Pemahaman tentang data bisnis Anda sangat penting untuk memahami efektivitas dari strategi pemasaran Anda. Dengan menggunakan alat analisis web seperti Google Analytics, Anda dapat memantau dan memahami perilaku pelanggan Anda di situs web Anda, serta mengetahui mana strategi pemasaran yang paling efektif. \n Kesimpulannya strategi pemasaran ecommerce yang efektif dapat membantu meningkatkan bisnis Anda dengan menjangkau pelanggan baru, mempromosikan produk Anda, dan meningkatkan penjualan. Dengan menggunakan kombinasi dari beberapa strategi pemasaran di atas, Anda dapat mencapai tujuan pemasaran Anda dan mencapai kesuksesan dalam bisnis ecommerce Anda.",
+  },
+  {
+    _id: 15,
     title: "Mengenal Apa itu CMS, Manfaat & Cara Kerjanya",
     path: "mengenal-cms",
-    date: "09 Maret 2023",
+    date: "21 Maret 2023",
     img: "https://res.cloudinary.com/dh6s3dche/image/upload/v1680191358/Blog%20MSN/cms_qmdhgp.jpg",
     instagram_link:
       "https://www.instagram.com/msn.production/",
