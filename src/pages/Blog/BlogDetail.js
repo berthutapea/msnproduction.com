@@ -71,7 +71,7 @@ const BlogDetail = () => {
                 rel="noopener noreferrer"
                 className="text-blue-600 hover:underline flex items-center"
               >
-                <span>Visit Instagram</span> <FiExternalLink />
+                <span>Instagram</span> <FiExternalLink />
               </a>
             </p>
             <p className="flex items-center gap-3">
@@ -84,7 +84,7 @@ const BlogDetail = () => {
                 rel="noopener noreferrer"
                 className="text-blue-600 hover:underline flex items-center"
               >
-                <span>Visit LinkedIn</span> <FiExternalLink />
+                <span>LinkedIn</span> <FiExternalLink />
               </a>
             </p>
           </div>
