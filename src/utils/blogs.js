@@ -2,7 +2,7 @@ const blogs = [
   {
     _id: 1,
     title: "5 Cara Optimasi SEO Instagram, Tingkatkan Visibilitas Akun Anda",
-    path: "5-cara-optimasi-seo-instagram-tingkatkan-visibilitas-akun-anda",
+    path: "optimasi-seo-instagram",
     date: "09 September 2022",
     img: "https://res.cloudinary.com/dh6s3dche/image/upload/v1680151015/Blog%20MSN/01-5_Cara_Optimasi_SEO_Instagram_Tingkatkan_Visibilitas_Akun_Mu_e0acku.jpg",
     instagram_link:
@@ -16,7 +16,7 @@ const blogs = [
   {
     _id: 2,
     title: "5 Prospek Pekerjaan Jurusan Teknik Informatika",
-    path: "5-prospek-pekerjaan-jurusan-teknik-informatika",
+    path: "pekerjaan-jurusan-teknik-informatika",
     date: "22 September 2022",
     img: "https://res.cloudinary.com/dh6s3dche/image/upload/v1680154547/Blog%20MSN/5_Prospek_Pekerjaan_Jurusan_Teknik_Informatika_leo1iw.jpg",
     instagram_link:
@@ -24,6 +24,20 @@ const blogs = [
     linkedin_link:
       "https://www.linkedin.com/in/mulia-sejati-nusantara-production-a766b3258/",
     tags: ["teknikinformatika", "it", "prospek", "informatika", "pekerjaan", "teknologi"],
+    description:
+      "Jurusan Teknik Informatika adalah salah satu jurusan yang memiliki prospek kerja yang menjanjikan di masa depan. Hal ini dikarenakan perkembangan teknologi yang semakin pesat dan banyaknya kebutuhan akan tenaga ahli di bidang teknologi informasi. Berikut adalah lima prospek pekerjaan yang bisa diambil oleh lulusan Teknik Informatika. \n 1. Software Developer \n Software developer adalah seorang profesional yang bertanggung jawab untuk membuat, mengembangkan, dan memelihara perangkat lunak atau software. Lulusan Teknik Informatika memiliki kemampuan dalam memprogram dan mengembangkan software yang dibutuhkan oleh berbagai industri seperti perbankan, perusahaan e-commerce, hingga industri gaming. \n 2. Database Administrator \n Seorang Database Administrator (DBA) bertanggung jawab untuk merancang, mengatur, dan memelihara database organisasi. Lulusan Teknik Informatika memiliki kemampuan untuk merancang database dan menyelesaikan masalah terkait basis data yang rumit, sehingga pekerjaan sebagai DBA bisa menjadi pilihan karir yang menarik. \n 3. Cybersecurity Specialist \n Cybersecurity specialist adalah seorang profesional yang bertanggung jawab untuk melindungi sistem, jaringan, dan data organisasi dari ancaman keamanan siber. Dalam era digital yang semakin maju, kebutuhan akan ahli keamanan siber semakin meningkat. Lulusan Teknik Informatika memiliki pengetahuan yang cukup untuk mengembangkan strategi keamanan dan menerapkan kebijakan keamanan yang efektif di organisasi. \n 4. Data Analyst \n Data analyst adalah seorang profesional yang bertanggung jawab untuk mengumpulkan, menganalisis, dan menafsirkan data. Dalam era digital, data menjadi hal yang sangat berharga dan digunakan dalam pengambilan keputusan di berbagai industri. Lulusan Teknik Informatika memiliki kemampuan untuk mengelola data dan menganalisis data secara efektif, sehingga dapat menjadi pilihan karir sebagai data analyst. \n 5. Mobile Application Developer \n Mobile application developer adalah seorang profesional yang bertanggung jawab untuk mengembangkan aplikasi mobile. Dalam era smartphone yang semakin berkembang, kebutuhan akan aplikasi mobile semakin meningkat. Lulusan Teknik Informatika memiliki kemampuan dalam memprogram dan mengembangkan aplikasi mobile yang menarik dan inovatif. \n Kesimpulannya, lulusan Teknik Informatika memiliki banyak prospek karir di masa depan. Dari software developer hingga mobile application developer, banyak pekerjaan yang membutuhkan keterampilan teknis yang dimiliki oleh lulusan Teknik Informatika. Dalam era digital yang semakin maju, lulusan Teknik Informatika menjadi sangat penting bagi berbagai industri yang membutuhkan tenaga ahli di bidang teknologi informasi.",
+  },
+  {
+    _id: 3,
+    title: "Mengenal Apa Itu Redux Cara Kerja & Kelebihannya",
+    path: "mengenal-redux",
+    date: "02 Oktober 2022",
+    img: "https://res.cloudinary.com/dh6s3dche/image/upload/v1680156651/Blog%20MSN/REDUX_d0qd51.jpg",
+    instagram_link:
+      "https://www.instagram.com/msn.production/",
+    linkedin_link:
+      "https://www.linkedin.com/in/mulia-sejati-nusantara-production-a766b3258/",
+    tags: ["redux", "react-redux"],
     description:
       "Jurusan Teknik Informatika adalah salah satu jurusan yang memiliki prospek kerja yang menjanjikan di masa depan. Hal ini dikarenakan perkembangan teknologi yang semakin pesat dan banyaknya kebutuhan akan tenaga ahli di bidang teknologi informasi. Berikut adalah lima prospek pekerjaan yang bisa diambil oleh lulusan Teknik Informatika. \n 1. Software Developer \n Software developer adalah seorang profesional yang bertanggung jawab untuk membuat, mengembangkan, dan memelihara perangkat lunak atau software. Lulusan Teknik Informatika memiliki kemampuan dalam memprogram dan mengembangkan software yang dibutuhkan oleh berbagai industri seperti perbankan, perusahaan e-commerce, hingga industri gaming. \n 2. Database Administrator \n Seorang Database Administrator (DBA) bertanggung jawab untuk merancang, mengatur, dan memelihara database organisasi. Lulusan Teknik Informatika memiliki kemampuan untuk merancang database dan menyelesaikan masalah terkait basis data yang rumit, sehingga pekerjaan sebagai DBA bisa menjadi pilihan karir yang menarik. \n 3. Cybersecurity Specialist \n Cybersecurity specialist adalah seorang profesional yang bertanggung jawab untuk melindungi sistem, jaringan, dan data organisasi dari ancaman keamanan siber. Dalam era digital yang semakin maju, kebutuhan akan ahli keamanan siber semakin meningkat. Lulusan Teknik Informatika memiliki pengetahuan yang cukup untuk mengembangkan strategi keamanan dan menerapkan kebijakan keamanan yang efektif di organisasi. \n 4. Data Analyst \n Data analyst adalah seorang profesional yang bertanggung jawab untuk mengumpulkan, menganalisis, dan menafsirkan data. Dalam era digital, data menjadi hal yang sangat berharga dan digunakan dalam pengambilan keputusan di berbagai industri. Lulusan Teknik Informatika memiliki kemampuan untuk mengelola data dan menganalisis data secara efektif, sehingga dapat menjadi pilihan karir sebagai data analyst. \n 5. Mobile Application Developer \n Mobile application developer adalah seorang profesional yang bertanggung jawab untuk mengembangkan aplikasi mobile. Dalam era smartphone yang semakin berkembang, kebutuhan akan aplikasi mobile semakin meningkat. Lulusan Teknik Informatika memiliki kemampuan dalam memprogram dan mengembangkan aplikasi mobile yang menarik dan inovatif. \n Kesimpulannya, lulusan Teknik Informatika memiliki banyak prospek karir di masa depan. Dari software developer hingga mobile application developer, banyak pekerjaan yang membutuhkan keterampilan teknis yang dimiliki oleh lulusan Teknik Informatika. Dalam era digital yang semakin maju, lulusan Teknik Informatika menjadi sangat penting bagi berbagai industri yang membutuhkan tenaga ahli di bidang teknologi informasi.",
   },
