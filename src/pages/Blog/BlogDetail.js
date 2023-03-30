@@ -66,12 +66,12 @@ const BlogDetail = () => {
                 <SiInstagram />
               </span>
               <a
-                href={blog?.website_link}
+                href={blog?.instagram_link}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-blue-600 hover:underline flex items-center"
               >
-                <span>Visit Website</span> <FiExternalLink />
+                <span>Visit Instagram</span> <FiExternalLink />
               </a>
             </p>
             <p className="flex items-center gap-3">
