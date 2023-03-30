@@ -5,7 +5,8 @@ import blogs from "../../utils/blogs";
 import { useState } from "react";
 import { useEffect } from "react";
 import { LazyLoadImage } from "react-lazy-load-image-component";
-import { FiExternalLink, FiLinkedin, FiGlobe } from "react-icons/fi";
+import { FiExternalLink } from "react-icons/fi";
+import { SiLinkedin, SiInstagram } from "react-icons/si";
 import {
   EmailShareButton,
   EmailIcon,
@@ -59,10 +60,10 @@ const BlogDetail = () => {
         </div>
         <div className="md:col-span-2 lg:col-span-1 bg-neutral px-4 py-6 rounded shadow-lg">
           <div className="">
-            <h4 className="text-lg font-medium mb-3">Sponsor:</h4>
+            <h4 className="text-lg font-medium mb-3">Lainnya:</h4>
             <p className="flex items-center gap-3">
               <span>
-                <FiGlobe />
+                <SiInstagram />
               </span>
               <a
                 href={blog?.website_link}
@@ -75,7 +76,7 @@ const BlogDetail = () => {
             </p>
             <p className="flex items-center gap-3">
               <span>
-                <FiLinkedin />
+                <SiLinkedin />
               </span>
               <a
                 href={blog?.linkedin_link}
