@@ -86,7 +86,7 @@ const blogs = [
   {
     _id: 7,
     title: "Mengenal AI (Artificial Intelligence) dan Perannya dalam Dunia Teknologi",
-    path: "artificial-intelligence",
+    path: "mengenal-artificial-intelligence",
     date: "15 November 2022",
     img: "https://res.cloudinary.com/dh6s3dche/image/upload/v1680162572/Blog%20MSN/Mengenal_AI_Artificial_Intelligence_dan_Perannya_dalam_Dunia_Teknologi_bypsuh.jpg",
     instagram_link:
@@ -128,7 +128,7 @@ const blogs = [
   {
     _id: 10,
     title: "Mengenal Teknologi Big Data untuk Mengoptimalkan Bisnis Anda",
-    path: "big-data",
+    path: "mengenal-big-data",
     date: "12 January 2023",
     img: "https://res.cloudinary.com/dh6s3dche/image/upload/v1680167041/Blog%20MSN/BIG-DATA_g70lqg.jpg",
     instagram_link:
@@ -156,7 +156,7 @@ const blogs = [
   {
     _id: 12,
     title: "Mengenal Perbedaan Antara Front End dan Back End Developer",
-    path: "fronted-backend-developer",
+    path: "mengenal-fronted-backend-developer",
     date: "07 February 2023",
     img: "https://res.cloudinary.com/dh6s3dche/image/upload/v1680187840/Blog%20MSN/fronted-backend-developer_maczhk.jpg",
     instagram_link:
@@ -170,16 +170,30 @@ const blogs = [
   {
     _id: 13,
     title: "Mengenal Apa itu Proxy Server & Cara Kerjanya",
-    path: "proxy-server",
+    path: "mengenal-proxy-server",
     date: "23 February 2023",
     img: "https://res.cloudinary.com/dh6s3dche/image/upload/v1680189684/Blog%20MSN/proxy-serevr_wzls0y.jpg",
     instagram_link:
       "https://www.instagram.com/msn.production/",
     linkedin_link:
       "https://www.linkedin.com/in/mulia-sejati-nusantara-production-a766b3258/",
-    tags: ["proxy-server", "proxy", "server",],
+    tags: ["proxy-server", "proxy", "server"],
     description:
       "Proxy server atau sering disebut dengan istilah proxy adalah sebuah server yang berfungsi sebagai perantara antara komputer pengguna dengan internet. Dengan menggunakan proxy server, pengguna internet dapat menyembunyikan alamat IP asli dan menyediakan akses yang lebih aman dan terkontrol ke internet. Proxy server dapat digunakan untuk mempercepat akses internet, menghemat bandwidth, memblokir akses ke situs tertentu, dan masih banyak lagi. \n Ketika komputer pengguna terhubung ke internet melalui proxy server, data yang dikirimkan dari komputer pengguna ke internet terlebih dahulu melewati proxy server. Proxy server kemudian meneruskan permintaan tersebut ke internet dan mengambil data yang diminta. Data tersebut kemudian dikirimkan kembali ke komputer pengguna melalui proxy server. \n Secara umum, ada dua jenis proxy server yang dapat digunakan, yaitu proxy server http dan proxy server socks. Berikut adalah cara kerja dari masing-masing jenis proxy server: \n 1. Proxy Server HTTP \n Proxy server http (Hypertext Transfer Protocol) bekerja dengan meneruskan permintaan yang dibuat oleh browser web. Ketika pengguna mengakses situs web, browser web mengirimkan permintaan ke proxy server http yang kemudian meneruskannya ke situs web yang diminta. Data dari situs web tersebut kemudian diteruskan kembali ke pengguna melalui proxy server http. Proxy server http umumnya digunakan untuk mengakses situs web yang umum dan memungkinkan pengguna untuk memblokir situs web tertentu. \n 2. Proxy Server Socks \n Proxy server socks (Socket Secure) bekerja dengan meneruskan semua jenis data yang dikirimkan dari komputer pengguna ke internet. Proxy server socks memungkinkan pengguna untuk mengakses berbagai jenis layanan internet, seperti e-mail dan file sharing. Proxy server socks dapat digunakan untuk mempercepat koneksi internet dan menghemat bandwidth. \n Berikut adalah beberapa keuntungan yang dapat diperoleh dengan menggunakan proxy server: \n 1. Meningkatkan Keamanan Internet \n Dengan menggunakan proxy server, pengguna internet dapat menyembunyikan alamat IP asli dan meningkatkan keamanan internet. Hal ini dapat membantu melindungi pengguna dari serangan peretas dan malware. \n 2. Mempercepat Koneksi Internet \n Proxy server dapat digunakan untuk mempercepat koneksi internet dengan menyimpan data yang sering diakses oleh pengguna. Data tersebut dapat diakses dengan lebih cepat karena tidak perlu diunduh dari internet setiap kali diakses. \n 3. Menghemat Bandwidth \n Dengan menggunakan proxy server, pengguna internet dapat menghemat bandwidth dengan menyimpan data yang sering diakses. Hal ini dapat membantu mengurangi biaya internet dan meningkatkan efisiensi jaringan. \n 4. Mengakses Situs Web yang Diblokir \n Proxy server dapat digunakan untuk mengakses situs web yang diblokir oleh pemerintah atau penyedia layanan internet. Hal ini dapat membantu pengguna untuk mengakses informasi yang diblokir dan memperoleh akses yang lebih terbuka ke internet. \n 5. Meningkatkan Kontrol Akses Internet \n Proxy server dapat digunakan untuk memblokir akses ke situs web tertentu dan mengatur akses internet untuk pengguna. Hal ini dapat membantu mengurangi risiko penggunaan internet yang tidak tepat dan meningkatkan produktivitas di tempat kerja. \n Demikianlah penjelasan mengenai proxy server dan cara kerjanya. Penggunaan proxy server dapat membantu meningkatkan keamanan, mempercepat koneksi internet, menghemat bandwidth, dan memberikan kontrol akses yang lebih baik ke internet. Namun, penggunaan proxy server juga dapat memiliki kelemahan, seperti menurunkan kecepatan koneksi internet dan mempengaruhi kualitas data yang diterima. Oleh karena itu, penggunaan proxy server harus dipertimbangkan dengan hati-hati dan dilakukan dengan benar.",
+  },
+  {
+    _id: 14,
+    title: "Mengenal Apa itu CMS, Manfaat & Cara Kerjanya",
+    path: "mengenal-cms",
+    date: "09 Maret 2023",
+    img: "https://res.cloudinary.com/dh6s3dche/image/upload/v1680191358/Blog%20MSN/cms_qmdhgp.jpg",
+    instagram_link:
+      "https://www.instagram.com/msn.production/",
+    linkedin_link:
+      "https://www.linkedin.com/in/mulia-sejati-nusantara-production-a766b3258/",
+    tags: ["cms", "wordpress", "joomla", "drupal", "magento"],
+    description:
+      "CMS atau Content Management System adalah sebuah sistem manajemen konten yang memungkinkan pengguna untuk membuat, mengedit, dan mengatur konten di sebuah website tanpa perlu memiliki pengetahuan teknis yang mendalam. CMS biasanya digunakan untuk mengelola website, blog, forum, atau bahkan toko online. \n Ada beberapa manfaat CMS yaitu : \n 1. Mudah digunakan: CMS dirancang untuk memudahkan pengguna dalam membuat, mengedit, dan mengatur konten tanpa perlu pengetahuan teknis yang mendalam. \n 2. Menghemat waktu: Dengan CMS, pengguna dapat mengelola konten website dengan cepat dan efisien. \n 3. Mudah diupdate: CMS sering diperbarui dengan patch keamanan dan fitur baru sehingga pengguna tidak perlu mengupdate website secara manual. \n 4. Konsistensi: CMS memungkinkan pengguna untuk memastikan konsistensi konten dan tampilan pada seluruh website. \n 5. Kolaborasi: CMS memungkinkan beberapa pengguna untuk bekerja pada website yang sama dengan tingkat akses yang berbeda. \n CMS bekerja dengan menyediakan antarmuka yang mudah digunakan untuk mengelola konten website. Beberapa langkah yang umum dilakukan dalam penggunaan CMS antara lain : \n 1. Instalasi: Pengguna harus menginstal CMS pada server hosting website. \n 2. Konfigurasi: Setelah CMS terinstal, pengguna harus mengkonfigurasi CMS sesuai dengan kebutuhan website. \n 3. Pembuatan Konten: Pengguna dapat membuat konten website dengan menggunakan editor yang telah disediakan oleh CMS. \n 4. Publikasi Konten: Setelah konten selesai dibuat, pengguna dapat mempublikasikan konten pada website. \n 5. Manajemen Konten: CMS memungkinkan pengguna untuk mengatur konten website seperti mengedit, menghapus, dan memperbarui konten. \n Beberapa contoh CMS yang populer antara lain : \n 1. WordPress: CMS yang paling populer dan paling banyak digunakan di dunia dengan fitur yang lengkap dan mudah digunakan. \n 2. Joomla: CMS yang memungkinkan pengguna untuk membuat website yang kompleks dengan banyak fitur. \n 3. Drupal: CMS yang sangat fleksibel dan dapat digunakan untuk membuat website yang kompleks dan besar. \n 4. Magento: CMS yang dirancang khusus untuk toko online dengan fitur lengkap untuk e-commerce. \n CMS telah memudahkan pengguna untuk membuat dan mengelola website tanpa perlu pengetahuan teknis yang mendalam. Dengan banyaknya pilihan CMS yang tersedia, pengguna dapat memilih CMS yang sesuai dengan kebutuhan website yang akan dibuat.",
   },
 ];
 
