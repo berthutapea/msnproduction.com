@@ -58,7 +58,7 @@ const BlogDetail = () => {
             </React.Fragment>
           ))}
         </div>
-        <div className="md:col-span-2 lg:col-span-1 bg-neutral px-4 py-6 rounded shadow-lg">
+        <div className="md:col-span-2 lg:col-span-1 px-4 py-6 rounded shadow-lg">
           <div className="">
             <h4 className="text-lg font-medium mb-3">Lainnya:</h4>
             <p className="flex items-center gap-3">
@@ -92,7 +92,7 @@ const BlogDetail = () => {
           <div className="w-full h-[1px] bg-neutral my-6"></div>
 
           <h4 className="text-lg font-medium mb-3">
-            Share with Social Media:{" "}
+            Bagikan:{" "}
           </h4>
           <div className="flex items-center gap-4 flex-wrap">
             <EmailShareButton url={url} title="MSN PRODUCTION -">
@@ -119,7 +119,7 @@ const BlogDetail = () => {
             {blog?.tags?.map((tag) => (
               <button
                 key={tag}
-                className="bg-accent bg-opacity-40 px-2 py-0 m-1 rounded"
+                className="bg-gray-300 text-primary bg-opacity-40 px-2 py-0 m-1 rounded"
               >
                 {tag}
               </button>
