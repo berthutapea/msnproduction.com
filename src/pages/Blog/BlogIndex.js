@@ -51,14 +51,14 @@ const BlogIndex = () => {
                 </Link>
               </div>
               <div className="w-full">
-                <h2 className="text-2xl font-medium text-accent cursor-pointer hover:text-primary">
+                <h2 className="text-[25px] font-medium text-accent cursor-pointer hover:text-primary">
                   <Link to={"/blog/" + path}>{title}</Link>
                 </h2>
                 <span className="text-gray-600 text-sm">
                   <p>{date}</p>
                 </span>
                 <p className="text-accent mt-2 mb-6">
-                  {description?.slice(0, 150)} ...
+                  {description?.slice(0, 100)} ...
                 </p>
                 {/* <Link to={"/blog/" + path}> */}
                 {/* <button className="px-6 py-1 border-accent border rounded hover:border-primary duration-300">
