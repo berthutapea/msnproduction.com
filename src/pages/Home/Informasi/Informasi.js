@@ -39,7 +39,7 @@ const Informasi = () => {
                     return (
                         <div
                             key={_id}
-                            className="flex flex-col w-full items-center justify-between gap-8 my-2 rounded-lg min-h-32"
+                            className="flex flex-col w-full items-center justify-between gap-8 rounded-lg min-h-32"
                         >
                             <div className="w-full">
                                 <Link to={"/blog/" + path}>
@@ -51,14 +51,14 @@ const Informasi = () => {
                                 </Link>
                             </div>
                             <div className="w-full">
-                                <h2 className="text-2xl font-medium text-accent cursor-pointer hover:text-primary">
+                                <h2 className="text-[22px] font-medium text-accent cursor-pointer hover:text-primary">
                                     <Link to={"/blog/" + path}>{title}</Link>
                                 </h2>
                                 <span className="text-gray-600 text-sm">
                                     <p>{date}</p>
                                 </span>
-                                <p className="text-accent mt-2 mb-6">
-                                    {description?.slice(0, 150)} ...
+                                <p className="text-accent mt-1 mb-6">
+                                    {description?.slice(0, 100)} ...
                                 </p>
                             </div>
                         </div>

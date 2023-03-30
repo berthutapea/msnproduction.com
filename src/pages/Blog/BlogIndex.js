@@ -39,7 +39,7 @@ const BlogIndex = () => {
           return (
             <div
               key={_id}
-              className="flex flex-col w-full items-center justify-between gap-8 my-2 rounded-lg min-h-32"
+              className="flex flex-col w-full items-center justify-between gap-8 rounded-lg min-h-32"
             >
               <div className="w-full">
                 <Link to={"/blog/" + path}>
@@ -51,13 +51,13 @@ const BlogIndex = () => {
                 </Link>
               </div>
               <div className="w-full">
-                <h2 className="text-[25px] font-medium text-accent cursor-pointer hover:text-primary">
+                <h2 className="text-[22px] font-medium text-accent cursor-pointer hover:text-primary">
                   <Link to={"/blog/" + path}>{title}</Link>
                 </h2>
                 <span className="text-gray-600 text-sm">
                   <p>{date}</p>
                 </span>
-                <p className="text-accent mt-2 mb-6">
+                <p className="text-accent mt-1 mb-6">
                   {description?.slice(0, 100)} ...
                 </p>
                 {/* <Link to={"/blog/" + path}> */}
@@ -71,23 +71,23 @@ const BlogIndex = () => {
         })}
       </div>
       <div className="flex justify-center items-center mt-10">
-          <button
-            onClick={handlePreviousPageClick}
-            disabled={currentPage === 1}
-            className="btn text-black flex items-center gap-3 border-2 border-primary bg-transparent hover:bg-primary hover:border-transparent hover:text-white duration-500"
-          >
-            <FaAngleDoubleLeft />
-          </button>
+        <button
+          onClick={handlePreviousPageClick}
+          disabled={currentPage === 1}
+          className="btn text-black flex items-center gap-3 border-2 border-primary bg-transparent hover:bg-primary hover:border-transparent hover:text-white duration-500"
+        >
+          <FaAngleDoubleLeft />
+        </button>
         <span className="text-accent text-2xl px-4">
           {currentPage} / {totalPages}
         </span>
-          <button
-            onClick={handleNextPageClick}
-            disabled={currentPage === totalPages}
-            className="btn text-black flex items-center gap-3 border-2 border-primary bg-transparent hover:bg-primary hover:border-transparent hover:text-white duration-500"
-          >
-            <FaAngleDoubleRight />
-          </button>
+        <button
+          onClick={handleNextPageClick}
+          disabled={currentPage === totalPages}
+          className="btn text-white flex items-center gap-3 border-2 bg-primary hover:bg-transparent hover:border-primary hover:text-black duration-500"
+        >
+          <FaAngleDoubleRight />
+        </button>
       </div>
     </div>
   );
