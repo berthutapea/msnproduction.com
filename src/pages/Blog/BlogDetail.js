@@ -113,7 +113,7 @@ const BlogDetail = () => {
 
           <div className="w-full h-[1px] bg-neutral my-6"></div>
 
-          <h4 className="text-lg font-medium mb-3">Tags: </h4>
+          <h4 className="text-lg font-medium mb-3">Tag: </h4>
           <div>
             {blog?.tags?.map((tag) => (
               <button
