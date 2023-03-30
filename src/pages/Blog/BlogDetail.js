@@ -95,19 +95,19 @@ const BlogDetail = () => {
             Share with Social Media:{" "}
           </h4>
           <div className="flex items-center gap-4 flex-wrap">
-            <EmailShareButton url={url} title="Email">
+            <EmailShareButton url={url} title="MSN PRODUCTION -">
               <EmailIcon size={32} round={true} />
             </EmailShareButton>
-            <FacebookShareButton url={url} title="Facebook">
+            <FacebookShareButton url={url} title="MSN PRODUCTION -">
               <FacebookIcon size={32} round={true} />
             </FacebookShareButton>
-            <TwitterShareButton url={url} title="Mern Blog by Gilbert Hutapea - ">
+            <TwitterShareButton url={url} title="MSN PRODUCTION -">
               <TwitterIcon size={32} round={true} />
             </TwitterShareButton>
-            <LinkedinShareButton url={url} title="Mern Blog by Gilbert Hutapea -">
+            <LinkedinShareButton url={url} title="MSN PRODUCTION -">
               <LinkedinIcon size={32} round={true} />
             </LinkedinShareButton>
-            <WhatsappShareButton url={url} title="Mern Blog by Gilbert Hutapea -">
+            <WhatsappShareButton url={url} title="MSN PRODUCTION -">
               <WhatsappIcon size={32} round={true} />
             </WhatsappShareButton>
           </div>
