@@ -12,19 +12,19 @@ const CountdownTimer = () => {
             return (
                 <div className="flex justify-center">
                     <div className="flex flex-col items-center mr-2">
-                        <span className=" btn-sm bottom-100 px-4 text-2xl border-2 rounded-lg border-primary text-primary mx-2 my-2 sm:my-0 ">{days}</span>
+                        <span className=" btn-sm bottom-100 px-4 text-[18px] border-2 rounded-lg border-primary text-primary mx-2 my-2 sm:my-0 ">{days}</span>
                         <span>Hari</span>
                     </div>
                     <div className="flex flex-col items-center mr-2">
-                        <span className="btn-sm  text-2xl border-2 rounded-lg border-primary text-primary mx-2 my-2 sm:my-0">{hours}</span>
+                        <span className="btn-sm  text-[18px] border-2 rounded-lg border-primary text-primary mx-2 my-2 sm:my-0">{hours}</span>
                         <span>Jam</span>
                     </div>
                     <div className="flex flex-col items-center mr-2">
-                        <span className="btn-sm  text-2xl border-2 rounded-lg border-primary text-primary mx-2 my-2 sm:my-0">{minutes}</span>
+                        <span className="btn-sm  text-[18px] border-2 rounded-lg border-primary text-primary mx-2 my-2 sm:my-0">{minutes}</span>
                         <span>Menit</span>
                     </div>
                     <div className="flex flex-col items-center">
-                        <span className="btn-sm  text-2xl border-2 rounded-lg border-primary text-primary mx-2 my-2 sm:my-0">{seconds}</span>
+                        <span className="btn-sm  text-[18px] border-2 rounded-lg border-primary text-primary mx-2 my-2 sm:my-0">{seconds}</span>
                         <span>Detik</span>
                     </div>
                 </div>
