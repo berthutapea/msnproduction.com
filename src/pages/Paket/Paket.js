@@ -197,7 +197,7 @@ const Paket = () => {
                       <span
                         onClick={handleOnClick}
                       >
-                        {showMore ? "Lihat Lebih Sedikit" : "Lihat Fitur Lengkap"}
+                        {showMore ? "Lihat Lebih Sedikit" : "Lihat Lebih Banyak"}
                       </span>
                     </motion.button>
                   </span>

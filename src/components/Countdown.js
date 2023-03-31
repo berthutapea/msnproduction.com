@@ -2,11 +2,11 @@ import React, { useState } from 'react';
 import Countdown from 'react-countdown';
 
 const CountdownTimer = () => {
-    const [setCompleted] = useState(false);
+    const [isCompleted, setIsCompleted] = useState(false);
 
     const renderer = ({ days, hours, minutes, seconds, completed }) => {
         if (completed) {
-            setCompleted(true);
+            setIsCompleted(true);
             return <span>Promo Sudah Habis</span>;
         } else {
             return (
@@ -37,7 +37,11 @@ const CountdownTimer = () => {
 
     return (
         <div className="container mx-auto mt-10">
-            <Countdown date={targetDate} renderer={renderer} />
+            {isCompleted ? (
+                <span>Promo Sudah Habis</span>
+            ) : (
+                <Countdown date={targetDate} renderer={renderer} />
+            )}
         </div>
     );
 };
