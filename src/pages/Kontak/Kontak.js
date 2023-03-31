@@ -153,41 +153,15 @@ const Kontak = () => {
               Kab. Karawang, Jawa Barat, 41362
             </h3>
           </div>
-          {/* <div className="mt-8 flex items-center">
-            <h3 className="text-xl text-accent">Social</h3>
-            <div className="bg-accent w-10 h-[2px] mx-4"></div>
-            <a
-              href="https://linkedin.com/in/gilberthutapea"
-              target="blank"
-              className="text-3xl text-accent hover:text-primary hover:-translate-y-1.5 shadow-lg mx-1 duration-300"
-            >
-              <FaLinkedin></FaLinkedin>
-            </a>
-            <a
-              href="https://www.github.com/berthutapea"
-              target="blank"
-              className="text-3xl text-accent hover:text-primary hover:-translate-y-1.5 shadow-lg mx-1 duration-300"
-            >
-              <FaGithubSquare></FaGithubSquare>
-            </a>
-            <a
-              href="https://twitter.com/GilbertHutapeaa"
-              target="blank"
-              className="text-3xl text-accent hover:text-primary hover:-translate-y-1.5 shadow-lg mx-1 duration-300"
-            >
-              <FaTwitterSquare></FaTwitterSquare>
-            </a>
-            <a
-              href="https://www.instagram.com/bethup97/"
-              target="blank"
-              className="text-3xl text-accent hover:text-primary hover:-translate-y-1.5 shadow-lg mx-1 duration-300"
-            >
-              <FaInstagramSquare></FaInstagramSquare>
-            </a>
-          </div> */}
         </motion.div>
       </div>
-      <Map />
+      <motion.div
+        initial="hidden"
+        animate={viewDiv && "visible"}
+        variants={headingAnimation}
+      >
+        <Map />
+      </motion.div>
     </div>
   );
 };
