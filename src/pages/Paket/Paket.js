@@ -15,7 +15,7 @@ import CountdownTimer from "../../components/Countdown";
 
 const Paket = () => {
   const [items, setItems] = useState(Items);
-  const [activeBtn, setActiveBtn] = useState("all");
+  const [activeBtn, setActiveBtn] = useState("");
   const location = useLocation();
   const [ref, inView] = useInView();
   const [viewDiv, setViewDiv] = useState(false);
@@ -71,12 +71,22 @@ const Paket = () => {
           variants={sectionBodyAnimation}
         >
           <div className="flex flex-wrap justify-center mt-2 mb-6 items-center">
-            <button
+            {/* <button
               className={`btn btn-sm bg-primary border-2 border-primary text-white hover:bg-transparent hover:border-primary hover:text-primary duration-300 mx-3 my-3 sm:my-0 ${activeBtn === "all" && "active-btn"
                 }`}
               onClick={() => {
                 setActiveBtn("all");
                 setItems(location.pathname === "/" ? Items.slice(0, 4) : Items);
+              }}
+            >
+              Semua
+            </button> */}
+            <button
+              className={`btn btn-sm bg-primary border-2 border-primary text-white hover:bg-transparent hover:border-primary hover:text-primary duration-300 mx-3 my-3 sm:my-0 ${activeBtn === "wedding" && "active-btn"
+                }`}
+              onClick={() => {
+                setActiveBtn("wedding");
+                filterItem("wedding");
               }}
             >
               Website Wedding
@@ -106,10 +116,10 @@ const Paket = () => {
           </div>
 
           <div className="mt-6 mb-6 flex items-center justify-center flex-wrap">
-            {activeBtn === "all" && (
+            {activeBtn === "wedding" && (
               <h3 className="text-3xl font-semibold text-center" onClick={() => {
-                setItems(location.pathname === "/" ? Items.slice(0, 4) : Items);
-                setActiveBtn("all");
+                filterItem("wedding");
+                setActiveBtn("wedding");
               }}>
                 Paket Pembuatan Website <span className="text-primary">Wedding</span>
               </h3>
