@@ -72,13 +72,6 @@ const Paket = () => {
         >
           <div className="flex flex-wrap justify-center mt-2 mb-6 items-center">
             {/* <button
-              className={`btn btn-sm bg-primary border-2 border-primary text-white hover:bg-transparent hover:border-primary hover:text-primary duration-300 mx-3 my-3 sm:my-0 ${activeBtn === "all" && "active-btn"
-                }`}
-              onClick={() => {
-                setActiveBtn("all");
-                setItems(location.pathname === "/" ? Items.slice(0, 4) : Items);
-              }}
-            >
               Semua
             </button> */}
             <button
