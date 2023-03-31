@@ -1,18 +1,11 @@
 import React, { useState, useEffect } from "react";
 import { Link, NavLink } from "react-router-dom";
-import {
-  RiMenu3Fill,
-  RiContactsBook2Fill,
-  RiFolderInfoFill,
-} from "react-icons/ri";
-import logo from "../../assets/images/MSN-PRODUCTION-LOGO.png";
-import { GiCrossMark } from "react-icons/gi";
-import { FaHome } from "react-icons/fa";
-import { MdWork } from "react-icons/md";
-import { ImBlog } from "react-icons/im";
+import { FaBars } from "react-icons/fa";
+import logo from "../../../assets/images/MSN-PRODUCTION-LOGO.png";
+import { ImCross } from "react-icons/im";
 import Drawer from "react-modern-drawer";
 import "react-modern-drawer/dist/index.css";
-import "./Shared.css";
+import "../Shared.css";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = React.useState(false);
@@ -21,11 +14,11 @@ export default function Navbar() {
   };
 
   const navLinks = [
-    { title: "Beranda", link: "/", icon: <FaHome /> },
-    { title: "Tentang", link: "/tentang", icon: <RiFolderInfoFill /> },
-    { title: "Paket", link: "/paket", icon: <MdWork /> },
-    { title: "Kontak", link: "/kontak", icon: <RiContactsBook2Fill /> },
-    { title: "Blog", link: "/blog", icon: <ImBlog /> },
+    { title: "Beranda", link: "/" },
+    { title: "Tentang", link: "/tentang" },
+    { title: "Paket", link: "/paket" },
+    { title: "Kontak", link: "/kontak" },
+    { title: "Blog", link: "/blog" },
   ];
   const activeLink = ({ isActive }) => {
     return {
@@ -86,8 +79,8 @@ export default function Navbar() {
             ))}
           </ul>
           <div className="block lg:hidden">
-            <button onClick={toggleDrawer} className="btn btn-ghost text-accent">
-              <RiMenu3Fill></RiMenu3Fill>
+            <button onClick={toggleDrawer} className="hover:text-primary">
+              <FaBars></FaBars>
             </button>
             <Drawer
               open={isOpen}
@@ -98,10 +91,10 @@ export default function Navbar() {
             >
               <ul className="">
                 <li className="mt-6 mb-10 ml-4">
-                  <GiCrossMark
+                  <ImCross
                     className="cursor-pointer hover:text-primary duration-300"
                     onClick={() => setIsOpen(!isOpen)}
-                  ></GiCrossMark>
+                  ></ImCross>
                 </li>
                 {navLinks.map((navItem) => (
                   <li

@@ -1,5 +1,5 @@
 import React from "react";
-import logoMSN from "../../assets/images/MSN-PRODUCTION-LOGO.png";
+import logoMSN from "../../../assets/images/MSN-PRODUCTION-LOGO.png";
 import { Link } from 'react-router-dom'
 import {
   FaPhoneAlt,
