@@ -4,7 +4,7 @@ import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import { Link, useLocation } from "react-router-dom";
 import { FaWhatsapp, FaAngleRight } from "react-icons/fa";
-import "./Project.css";
+import "./Paket.css";
 import "../../components/Blur.css";
 import {
   headingAnimation,
@@ -13,7 +13,7 @@ import {
 import BottomLine from "../../components/BottomLine";
 import CountdownTimer from "../../components/Countdown";
 
-const Project = () => {
+const Paket = () => {
   const [items, setItems] = useState(Items);
   const [activeBtn, setActiveBtn] = useState("all");
   const location = useLocation();
@@ -209,7 +209,7 @@ const Project = () => {
         {location.pathname === "/" && (
           <div className="mt-4 text-right">
             <Link
-              to="/project"
+              to="/paket"
               className="text-1xl hover:text-primary duration-300"
             >
               <button className="primary-button ">
@@ -226,4 +226,4 @@ const Project = () => {
   );
 };
 
-export default Project;
+export default Paket;

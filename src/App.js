@@ -11,7 +11,7 @@ import BlogIndex from "./pages/Blog/BlogIndex";
 import Contact from "./pages/Contact/Contact";
 import About from "./pages/About/About";
 const Home = React.lazy(() => import("./pages/Home/Home"));
-const Project = React.lazy(() => import("./pages/Project/Project"));
+const Paket = React.lazy(() => import("./pages/Paket/Paket"));
 
 function App() {
   const location = useLocation();
@@ -24,10 +24,10 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
-          <Route path="/project" element={<Project />} />
+          <Route path="/paket" element={<Paket />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/blog" element={<Blog />}>
-            <Route index element={<BlogIndex/>} />
+            <Route index element={<BlogIndex />} />
             <Route path=":blog_path" element={<BlogDetail />} />
           </Route>
           <Route path="/404" element={<NotFound />} />
