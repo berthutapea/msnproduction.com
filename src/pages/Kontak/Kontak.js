@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
-import "./Contact.css";
+import "./Kontak.css";
 import "../../components/PrimaryBtn/PrimaryBtn";
 import "../shared/Shared.css";
 import { motion, useAnimation } from "framer-motion";
@@ -13,11 +13,11 @@ import emailjs from "@emailjs/browser";
 import Swal from "sweetalert2";
 import { useNavigate } from "react-router-dom";
 import { useInView } from "react-intersection-observer";
-import { headingAnimation, contactAnimation } from "../../hooks/useAnimation";
+import { headingAnimation, kontakAnimation } from "../../hooks/useAnimation";
 import BottomLine from "../../components/BottomLine/BottomLine";
-import Map from "../../pages/Contact/Map/Map";
+import Map from "../../pages/Kontak/Map/Map";
 
-const Contact = () => {
+const Kontak = () => {
   const navigate = useNavigate();
   const form = useRef();
   const [ref, inView] = useInView({ threshold: 0.3, triggerOnce: true });
@@ -60,13 +60,13 @@ const Contact = () => {
     e.target.reset();
   };
   return (
-    <div className="parent py-10">
+    <div className="parent py-16">
       <motion.div
         initial="hidden"
         animate={viewDiv && "visible"}
         variants={headingAnimation}
       >
-        <h3 className="text-accent text-center">Kontak</h3>
+        <h3 className="text-accent text-center mt-16">Kontak</h3>
         <h1 className="text-4xl font-semibold drop-shadow-md text-center">
           Hubungi <span className="text-primary">Kami</span>
         </h1>
@@ -80,9 +80,8 @@ const Contact = () => {
           ref={ref}
           initial="hidden"
           animate={viewDiv && "visible"}
-          variants={contactAnimation}
+          variants={kontakAnimation}
         >
-          {/* <h2 className="text-2xl font-medium">Contact Me</h2> */}
           <form ref={form} onSubmit={handleSend}>
             <div className="grid grid-cols-1 lg:grid-cols-2 lg:gap-6">
               <input
@@ -133,9 +132,8 @@ const Contact = () => {
           className=""
           initial={{ y: 50, opacity: 0 }}
           animate={viewDiv && "visible"}
-          variants={contactAnimation}
+          variants={kontakAnimation}
         >
-          {/* <h2 className="text-2xl font-medium">Contact Info</h2> */}
           <div className="flex items-center my-6">
             <FaPhoneAlt className="text-2xl mr-8 hover:text-primary cursor-pointer duration-300"></FaPhoneAlt>
             <h3 className="font-medium text-primary">+62 821 2566 4554</h3>
@@ -194,4 +192,4 @@ const Contact = () => {
   );
 };
 
-export default Contact;
+export default Kontak;

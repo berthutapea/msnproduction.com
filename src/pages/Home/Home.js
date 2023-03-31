@@ -1,10 +1,10 @@
 import React from "react";
-import Contact from "../Contact/Contact";
-import Paket from "../Paket/Paket";
 import Banner from "./Banner/Banner";
-import Informasi from "./Informasi/Informasi";
 import Service from "./Service/Service";
+import Paket from "../Paket/Paket";
 import Testimonial from "./Testimonial/Testimonial";
+import Informasi from "./Informasi/Informasi";
+import Kontak from "../Kontak/Kontak";
 
 const Home = () => {
   return (
@@ -14,7 +14,7 @@ const Home = () => {
       <Paket />
       <Testimonial />
       <Informasi />
-      <Contact />
+      <Kontak />
     </div>
   );
 };

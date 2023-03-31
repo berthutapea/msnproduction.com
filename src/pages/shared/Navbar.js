@@ -21,10 +21,10 @@ export default function Navbar() {
   };
 
   const navLinks = [
-    { title: "Home", link: "/", icon: <FaHome /> },
+    { title: "Beranda", link: "/", icon: <FaHome /> },
     { title: "About", link: "/about", icon: <RiFolderInfoFill /> },
     { title: "Paket", link: "/paket", icon: <MdWork /> },
-    { title: "Contact", link: "/contact", icon: <RiContactsBook2Fill /> },
+    { title: "Kontak", link: "/kontak", icon: <RiContactsBook2Fill /> },
     { title: "Blog", link: "/blog", icon: <ImBlog /> },
   ];
   const activeLink = ({ isActive }) => {

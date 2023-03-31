@@ -29,7 +29,7 @@ const Informasi = () => {
     // };
 
     return (
-        <div className=" parent py-20">
+        <div className=" parent py-16">
             <h1 className="text-3xl font-semibold text-center">
                 Informasi <span className="text-primary">Terbaru</span>
             </h1>

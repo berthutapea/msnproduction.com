@@ -8,7 +8,7 @@ import Footer from "./pages/shared/Footer";
 import Blog from "./pages/Blog/Blog";
 import BlogDetail from "./pages/Blog/BlogDetail";
 import BlogIndex from "./pages/Blog/BlogIndex";
-import Contact from "./pages/Contact/Contact";
+import Kontak from "./pages/Kontak/Kontak";
 import About from "./pages/About/About";
 const Home = React.lazy(() => import("./pages/Home/Home"));
 const Paket = React.lazy(() => import("./pages/Paket/Paket"));
@@ -25,7 +25,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/paket" element={<Paket />} />
-          <Route path="/contact" element={<Contact />} />
+          <Route path="/kontak" element={<Kontak />} />
           <Route path="/blog" element={<Blog />}>
             <Route index element={<BlogIndex />} />
             <Route path=":blog_path" element={<BlogDetail />} />

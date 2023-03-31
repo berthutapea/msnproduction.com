@@ -12,7 +12,7 @@ const BlogIndex = () => {
   const indexOfLastBlog = currentPage * blogsPerPage;
   const indexOfFirstBlog = indexOfLastBlog - blogsPerPage;
   const currentBlogs = blogs
-    .sort((a, b) => new Date(b.date) - new Date(a.date)) // Menyortir posting blog dari yang terbaru ke yang terlama
+    .sort((a, b) => new Date(b.date) - new Date(a.date))
     .slice(indexOfFirstBlog, indexOfLastBlog);
 
   const totalPages = Math.ceil(blogs.length / blogsPerPage);
@@ -30,7 +30,7 @@ const BlogIndex = () => {
   };
 
   return (
-    <div className="mt-20">
+    <div className="mt-16">
       <h1 className="text-3xl font-semibold text-center">
         Informasi <span className="text-primary">Terbaru</span>
       </h1>

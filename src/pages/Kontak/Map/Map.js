@@ -1,7 +1,7 @@
 import { MapContainer, TileLayer, ZoomControl, Marker, Popup } from 'react-leaflet';
 import 'leaflet/dist/leaflet.css';
 import L from 'leaflet';
-import "../Contact.css";
+import "../Kontak.css";
 
 const position = [-6.502413979455505, 107.18427222453857];
 

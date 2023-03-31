@@ -27,7 +27,7 @@ export const sectionBodyAnimation = {
   },
 };
 
-export const contactAnimation = {
+export const kontakAnimation = {
   hidden: {
     y: -200,
     opacity: 0,
