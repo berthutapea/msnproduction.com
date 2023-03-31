@@ -15,7 +15,7 @@ import CountdownTimer from "../../components/Countdown";
 
 const Paket = () => {
   const [items, setItems] = useState(Items);
-  const [activeBtn, setActiveBtn] = useState("");
+  const [activeBtn, setActiveBtn] = useState("wedding");
   const location = useLocation();
   const [ref, inView] = useInView();
   const [viewDiv, setViewDiv] = useState(false);
@@ -37,12 +37,18 @@ const Paket = () => {
   }, [inView, animation, location, items]);
 
   const filterItem = (category) => {
-    const filtered = Items.filter((item) => item.category === category);
+    const filtered = category === "all" ? Items : Items.filter((item) => item.category === category);
     setItems(filtered);
     if (filtered.length > 4 && location.pathname === "/") {
       setItems(filtered.slice(0, 4));
     }
   };
+
+  useEffect(() => {
+    filterItem("wedding");
+  }, []);
+
+
 
   return (
     <div className={`${location.pathname !== "/" && "pt-16"}`}>
