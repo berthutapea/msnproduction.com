@@ -1,7 +1,6 @@
 import React from "react";
 import Contact from "../Contact/Contact";
 import Paket from "../Paket/Paket";
-// import Project from "../Project/Project";
 import Banner from "./Banner/Banner";
 import Informasi from "./Informasi/Informasi";
 import Service from "./Service/Service";
