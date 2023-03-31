@@ -22,7 +22,7 @@ export default function Navbar() {
 
   const navLinks = [
     { title: "Beranda", link: "/", icon: <FaHome /> },
-    { title: "About", link: "/about", icon: <RiFolderInfoFill /> },
+    { title: "Tentang", link: "/tentang", icon: <RiFolderInfoFill /> },
     { title: "Paket", link: "/paket", icon: <MdWork /> },
     { title: "Kontak", link: "/kontak", icon: <RiContactsBook2Fill /> },
     { title: "Blog", link: "/blog", icon: <ImBlog /> },

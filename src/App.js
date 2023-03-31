@@ -9,7 +9,7 @@ import Blog from "./pages/Blog/Blog";
 import BlogDetail from "./pages/Blog/BlogDetail";
 import BlogIndex from "./pages/Blog/BlogIndex";
 import Kontak from "./pages/Kontak/Kontak";
-import About from "./pages/About/About";
+import Tentang from "./pages/Tentang/Tentang";
 const Home = React.lazy(() => import("./pages/Home/Home"));
 const Paket = React.lazy(() => import("./pages/Paket/Paket"));
 
@@ -23,7 +23,7 @@ function App() {
       <Suspense fallback={<Loader />}>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
+          <Route path="/tentang" element={<Tentang />} />
           <Route path="/paket" element={<Paket />} />
           <Route path="/kontak" element={<Kontak />} />
           <Route path="/blog" element={<Blog />}>

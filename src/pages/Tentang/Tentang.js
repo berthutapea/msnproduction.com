@@ -1,16 +1,16 @@
 import React from "react";
-import Tentang from "./Tentang/Tentang";
+import TentangKami from "./TentangKami/TentangKami";
 import VisiMisi from "./VisiMisi/VisiMisi";
 import Tim from "./Tim/Tim";
 
-const About = () => {
+const Tentang = () => {
   return (
     <div className="pt-16">
-      <Tentang />
+      <TentangKami />
       <VisiMisi />
       <Tim />
     </div>
   );
 };
 
-export default About;
+export default Tentang;
