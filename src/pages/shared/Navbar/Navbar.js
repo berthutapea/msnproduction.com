@@ -58,7 +58,7 @@ export default function Navbar() {
         <div>
           <Link to="/">
             <img
-              className="w-40 pr-10 "
+              className="w-40 pr-10"
               src={logo}
               alt="MSN PRODUCTION Logo"
             />
