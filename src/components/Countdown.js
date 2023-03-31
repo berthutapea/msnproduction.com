@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Countdown from 'react-countdown';
 
 const CountdownTimer = () => {
-    const [completed, setCompleted] = useState(false);
+    const [setCompleted] = useState(false);
 
     const renderer = ({ days, hours, minutes, seconds, completed }) => {
         if (completed) {
