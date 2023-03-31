@@ -59,7 +59,7 @@ const Tim = () => {
                 {TimPeople.title}
               </h2>
               <div className="text-center">
-                <div className="w-20 h-[1px] bg-primary mx-auto mt-" style={{ marginLeft: 'auto', marginRight: 'auto !important' }}></div>
+                <div className="w-20 h-[1px] bg-primary mx-auto" style={{ marginLeft: 'auto', marginRight: 'auto !important' }}></div>
               </div>
               <p className="text-accent text-[15px] text-center">
                 {TimPeople.description}

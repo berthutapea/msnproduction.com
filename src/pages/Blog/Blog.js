@@ -1,27 +1,14 @@
 import React from "react";
-// import { BsArrowDown } from "react-icons/bs";
 import { Outlet } from "react-router-dom";
-import { motion } from "framer-motion";
-import "./Blog.css";
+// import BottomLine from "../../components/BottomLine/BottomLine";
 
 const Blog = () => {
   return (
-    <div className="px-2 md:px-12 py-16 min-h-screen">
-      {/* <div className="blog_cover"> */}
-        {/* <h1 className="text-2xl md:text-5xl font-semibold text-primary">
-          Informasi Terbaru
-        </h1> */}
-        <motion.button
-          initial={{ y: -500 }}
-          animate={{ y: 0 }}
-          transition={{ duration: 0.25, type: "spring" }}
-          className="font-medium px-8 py-2 border border-white rounded flex items-center gap-2 hover:border-primary hover:text-primary focus:scale-90 duration-300"
-          onClick={() => window.scrollBy(0, 550)}
-        >
-          {/* <span>Read Below</span> <BsArrowDown /> */}
-        </motion.button>
-      {/* </div> */}
-
+    <div className="px-2 md:px-12 py-16 min-h-screen ">
+      {/* <h1 className="text-3xl font-semibold text-center">
+        Informasi <span className="text-primary">Terbaru</span>
+      </h1> */}
+      {/* <BottomLine /> */}
       <Outlet />
     </div>
   );

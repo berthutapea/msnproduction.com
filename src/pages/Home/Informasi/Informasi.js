@@ -69,7 +69,7 @@ const Informasi = () => {
                                     </Link>
                                 </div>
                                 <div className="w-full">
-                                    <h2 className="text-[22px] font-medium text-accent cursor-pointer hover:text-primary">
+                                    <h2 className="text-[22px] font-medium text-accent cursor-pointer hover:text-primary mt-[-25px]">
                                         <Link to={"/blog/" + path}>{title}</Link>
                                     </h2>
                                     <span className="text-gray-600 text-sm">
