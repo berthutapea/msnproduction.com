@@ -4,7 +4,7 @@ import { FaAngleRight } from "react-icons/fa";
 import { motion } from "framer-motion";
 import bannerImg from "../../../assets/images/banner-msn-production.png"
 import "../../shared/Shared.css";
-import SecondaryBtn from "../../../components/SecondaryBtn";
+import SecondaryBtn from "../../../components/SecondaryBtn/SecondaryBtn";
 
 const Banner = () => {
   // const defaultOptions = {

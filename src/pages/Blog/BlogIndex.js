@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import placeholderImage from "../../assets/images/placeholder.jpg";
 import blogs from "../../utils/blogs";
 import { FaAngleDoubleRight, FaAngleDoubleLeft } from "react-icons/fa";
-import BottomLine from "../../components/BottomLine";
+import BottomLine from "../../components/BottomLine/BottomLine";
 
 const BlogIndex = () => {
   const [currentPage, setCurrentPage] = useState(1);

@@ -11,7 +11,7 @@ import {
   headingAnimation,
   sectionBodyAnimation,
 } from "../../../hooks/useAnimation";
-import BottomLine from "../../../components/BottomLine";
+import BottomLine from "../../../components/BottomLine/BottomLine";
 
 const Testimonial = () => {
   const [ref, inView] = useInView();

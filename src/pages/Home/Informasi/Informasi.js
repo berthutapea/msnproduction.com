@@ -3,7 +3,7 @@ import { LazyLoadImage } from "react-lazy-load-image-component";
 import { Link } from "react-router-dom";
 import placeholderImage from "../../../assets/images/placeholder.jpg";
 import blogs from "../../../utils/blogs";
-import BottomLine from "../../../components/BottomLine";
+import BottomLine from "../../../components/BottomLine/BottomLine";
 import { FaAngleRight } from "react-icons/fa";
 
 const Informasi = () => {

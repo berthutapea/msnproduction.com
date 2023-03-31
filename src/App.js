@@ -2,7 +2,7 @@ import { Route, Routes, useLocation, Navigate } from "react-router-dom";
 import React, { Suspense } from "react";
 import NotFound from "./pages/shared/NotFound";
 import Loader from "./pages/shared/Loader";
-import ScrollToTop from "./components/ScrollToTop";
+import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
 import Navbar from "./pages/shared/Navbar";
 import Footer from "./pages/shared/Footer";
 import Blog from "./pages/Blog/Blog";

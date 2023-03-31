@@ -6,8 +6,8 @@ import {
   headingAnimation,
   sectionBodyAnimation,
 } from "../../../hooks/useAnimation"
-import BottomLine from "../../../components/BottomLine";
-import "../../../components/Blur.css";
+import BottomLine from "../../../components/BottomLine/BottomLine";
+import "../../../components/Blur/Blur.css";
 
 const VisiMisi = () => {
   const [ref, inView] = useInView();

@@ -7,8 +7,8 @@ import {
   headingAnimation,
   sectionBodyAnimation,
 } from "../../../hooks/useAnimation";
-import BottomLine from "../../../components/BottomLine";
-import "../../../components/Blur.css";
+import BottomLine from "../../../components/BottomLine//BottomLine";
+import "../../../components/Blur/Blur.css";
 
 const Service = () => {
   const [ref, inView] = useInView();
@@ -79,7 +79,7 @@ const Service = () => {
                     <span className="text-button-mobile">Hubungi Kami</span>
                     <span>
                       <FaAngleRight />
-                   </span>
+                    </span>
                   </button>
                 </a>
               </span>

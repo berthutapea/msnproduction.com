@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import BottomLine from "../../../components/BottomLine";
+import BottomLine from "../../../components/BottomLine/BottomLine";
 
 const Tentang = () => {
     return (

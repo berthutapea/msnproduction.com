@@ -5,13 +5,13 @@ import { useInView } from "react-intersection-observer";
 import { Link, useLocation } from "react-router-dom";
 import { FaWhatsapp, FaAngleRight } from "react-icons/fa";
 import "./Paket.css";
-import "../../components/Blur.css";
 import {
   headingAnimation,
   sectionBodyAnimation,
 } from "../../hooks/useAnimation";
-import BottomLine from "../../components/BottomLine";
-import CountdownTimer from "../../components/Countdown";
+import BottomLine from "../../components/BottomLine/BottomLine";
+import CountdownTimer from "../../components/Countdown/Countdown";
+import "../../components/Blur/Blur.css";
 
 const Paket = () => {
   const [items, setItems] = useState(Items);
