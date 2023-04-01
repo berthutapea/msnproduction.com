@@ -32,14 +32,46 @@ const Footer = () => {
             <h3 className="font-medium text-accent">info@msnproduction.com</h3>
           </div>
         </div>
+        {/* Tautan */}
         <div>
           <span className="font-bold text-black">Tautan</span>
-          <a className="link link-hover hover:text-primary text-accent">Beranda</a>
-          <a className="link link-hover hover:text-primary text-accent">Tentang</a>
-          <a className="link link-hover hover:text-primary text-accent">Paket</a>
-          <a className="link link-hover hover:text-primary text-accent">Kontak</a>
-          <a className="link link-hover hover:text-primary text-accent">Blog</a>
+          <Link
+            to="/"
+            className="link link-hover hover:text-primary text-accent"
+          >
+            <span>Beranda</span>
+          </Link>
+          <Link
+            to="/tentang"
+            className="link link-hover hover:text-primary text-accent"
+          >
+            <span>Tentang</span>
+          </Link>
+          <Link
+            to="/paket"
+            className="link link-hover hover:text-primary text-accent"
+          >
+            <span>Paket</span>
+          </Link>
+          <Link
+            to="/kontak"
+            className="link link-hover hover:text-primary text-accent"
+          >
+            <span>Kontak</span>
+          </Link>
+          <Link
+            to="/blog"
+            className="link link-hover hover:text-primary text-accent"
+          >
+            <span>Blog</span>
+          </Link>
+          {/* <a className="link link-hover hover:text-primary text-accent">Beranda</a> */}
+          {/* <a className="link link-hover hover:text-primary text-accent">Tentang</a> */}
+          {/* <a className="link link-hover hover:text-primary text-accent">Paket</a> */}
+          {/* <a className="link link-hover hover:text-primary text-accent">Kontak</a> */}
+          {/* <a className="link link-hover hover:text-primary text-accent">Blog</a> */}
         </div>
+        {/* Fokus & Layanan */}
         <div>
           <span className="font-bold text-accent">Fokus & Layanan</span>
           <Link
