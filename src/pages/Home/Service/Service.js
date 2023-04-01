@@ -69,7 +69,6 @@ const Service = () => {
                 </React.Fragment>
               ))}
               <br />
-              {/* <div className="flex items-center mb-5"> */}
               <span className="flex justify-center mb-5">
                 <a
                   href="https://wa.me/6282125664554"
@@ -83,7 +82,6 @@ const Service = () => {
                   </button>
                 </a>
               </span>
-              {/* </div> */}
             </p>
           </div>
         ))}
