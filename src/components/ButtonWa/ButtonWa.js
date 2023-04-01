@@ -26,7 +26,7 @@ const ButtonWa = () => {
                 )}
                 <img
                     src={WaMSN}
-                    alt="WhatsApp Icon"
+                    alt="WhatsApp MSN PRODUCTION"
                     className="sm:w-50 w-36"
                 />
             </div>
