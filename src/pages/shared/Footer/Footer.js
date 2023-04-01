@@ -35,15 +35,20 @@ const Footer = () => {
         <div>
           <span className="font-bold text-black">Tautan</span>
           <a className="link link-hover hover:text-primary text-accent">Beranda</a>
-          <a className="link link-hover hover:text-primary text-accent">Jasa</a>
           <a className="link link-hover hover:text-primary text-accent">Tentang</a>
           <a className="link link-hover hover:text-primary text-accent">Paket</a>
-          <a className="link link-hover hover:text-primary text-accent">Artikel</a>
           <a className="link link-hover hover:text-primary text-accent">Kontak</a>
+          <a className="link link-hover hover:text-primary text-accent">Blog</a>
         </div>
         <div>
           <span className="font-bold text-accent">Fokus & Layanan</span>
-          <a className="link link-hover hover:text-primary text-accent">Web Wedding</a>
+          <Link
+            to="/paket"
+            className="link link-hover hover:text-primary text-accent"
+          >
+            <span>Web Wedding</span>
+          </Link>
+          {/* <a className="link link-hover hover:text-primary text-accent">Web Wedding</a> */}~
           <a className="link link-hover hover:text-primary text-accent">Web E-Commerce</a>
           <a className="link link-hover hover:text-primary text-accent">Web Company Profile</a>
           <a className="link link-hover hover:text-primary text-accent">Web & Mobile Applications</a>
