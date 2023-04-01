@@ -213,7 +213,7 @@ const Paket = () => {
           </div>
         </motion.div>
         {location.pathname === "/" && (
-          <div className="mt-4 text-right">
+          <div className="mt-8 text-right">
             <Link
               to="/paket"
               className="text-1xl hover:text-primary duration-300"
