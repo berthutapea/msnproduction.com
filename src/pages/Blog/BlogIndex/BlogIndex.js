@@ -1,16 +1,16 @@
 import React, { useState, useEffect } from "react";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import { Link } from "react-router-dom";
-import placeholderImage from "../../assets/images/placeholder.jpg";
-import blogs from "../../utils/blogs";
+import placeholderImage from "../../../assets/images/placeholder.jpg";
+import blogs from "../../../utils/blogs";
 import { FaAngleDoubleRight, FaAngleDoubleLeft } from "react-icons/fa";
-import BottomLine from "../../components/BottomLine/BottomLine";
+import BottomLine from "../../../components/BottomLine/BottomLine";
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import {
   headingAnimation,
   sectionBodyAnimation,
-} from "../../hooks/useAnimation";
+} from "../../../hooks/useAnimation";
 
 const BlogIndex = () => {
   const [currentPage, setCurrentPage] = useState(1);
