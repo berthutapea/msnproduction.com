@@ -83,7 +83,7 @@ const Footer = () => {
           {/* <a className="link link-hover hover:text-primary text-accent">Web Company Profile</a> */}
           {/* <a className="link link-hover hover:text-primary text-accent">Web & Mobile Applications</a> */}
           {/* <a className="link link-hover hover:text-primary text-accent">Branding & Content Creative</a> */}
-          {/* <a className="link link-hover hover:text-primary text-accent">Digital Marketing & Advertising</a> */}
+
         </div>
         <div className="mt-4 flex items-center">
           <a
