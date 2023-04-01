@@ -7,11 +7,6 @@ import "../../shared/Shared.css";
 import SecondaryBtn from "../../../components/SecondaryBtn/SecondaryBtn";
 
 const Banner = () => {
-  // const defaultOptions = {
-  //   rendererSettings: {
-  //     preserveAspectRatio: "xMidYMid slice",
-  //   },
-  // };
   return (
     <div className="parent min-h-[100vh] flex flex-col-reverse lg:flex-row items-center justify-between">
       <motion.div
