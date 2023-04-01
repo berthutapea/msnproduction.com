@@ -69,7 +69,6 @@ const Footer = () => {
           {/* <a className="link link-hover hover:text-primary text-accent">Tentang</a> */}
           {/* <a className="link link-hover hover:text-primary text-accent">Paket</a> */}
           {/* <a className="link link-hover hover:text-primary text-accent">Kontak</a> */}
-          {/* <a className="link link-hover hover:text-primary text-accent">Blog</a> */}
         </div>
         {/* Fokus & Layanan */}
         <div>
