@@ -48,12 +48,42 @@ const Footer = () => {
           >
             <span>Web Wedding</span>
           </Link>
-          {/* <a className="link link-hover hover:text-primary text-accent">Web Wedding</a> */}~
-          <a className="link link-hover hover:text-primary text-accent">Web E-Commerce</a>
-          <a className="link link-hover hover:text-primary text-accent">Web Company Profile</a>
-          <a className="link link-hover hover:text-primary text-accent">Web & Mobile Applications</a>
-          <a className="link link-hover hover:text-primary text-accent">Branding & Content Creative</a>
-          <a className="link link-hover hover:text-primary text-accent">Digital Marketing & Advertising</a>
+          <Link
+            to="/paket"
+            className="link link-hover hover:text-primary text-accent"
+          >
+            <span>Web E-Commerce</span>
+          </Link>
+          <Link
+            to="/paket"
+            className="link link-hover hover:text-primary text-accent"
+          >
+            <span>Web Company Profile</span>
+          </Link>
+          <Link
+            to="/paket"
+            className="link link-hover hover:text-primary text-accent"
+          >
+            <span>Web & Mobile Applications</span>
+          </Link>
+          <Link
+            to="/paket"
+            className="link link-hover hover:text-primary text-accent"
+          >
+            <span>Branding & Content Creative</span>
+          </Link>
+          <Link
+            to="/paket"
+            className="link link-hover hover:text-primary text-accent"
+          >
+            <span>Digital Marketing & Advertising</span>
+          </Link>
+          {/* <a className="link link-hover hover:text-primary text-accent">Web Wedding</a> */}
+          {/* <a className="link link-hover hover:text-primary text-accent">Web E-Commerce</a> */}
+          {/* <a className="link link-hover hover:text-primary text-accent">Web Company Profile</a> */}
+          {/* <a className="link link-hover hover:text-primary text-accent">Web & Mobile Applications</a> */}
+          {/* <a className="link link-hover hover:text-primary text-accent">Branding & Content Creative</a> */}
+          {/* <a className="link link-hover hover:text-primary text-accent">Digital Marketing & Advertising</a> */}
         </div>
         <div className="mt-4 flex items-center">
           <a
