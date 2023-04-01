@@ -9,6 +9,7 @@ import {
   FaInstagramSquare,
 } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
+import ButtonWa from "../../../components/ButtonWa/ButtonWa";
 
 const Footer = () => {
   return (
@@ -87,6 +88,7 @@ const Footer = () => {
         </div>
 
       </footer>
+      <ButtonWa />
     </div>
   );
 };
