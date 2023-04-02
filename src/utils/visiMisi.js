@@ -1,6 +1,6 @@
-import MisiMSN from "../assets/images/VisiMisiImg/misi.png"
-import LayananMSN from "../assets/images/VisiMisiImg/layanan.png"
-import VisiMSN from "../assets/images/VisiMisiImg/visi.png"
+import MisiMSN from "../assets/images/VisiMisiImg/misi.svg"
+import LayananMSN from "../assets/images/VisiMisiImg/layanan.svg"
+import VisiMSN from "../assets/images/VisiMisiImg/visi.svg"
 
 const visiMisi = [
     {
