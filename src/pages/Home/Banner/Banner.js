@@ -33,7 +33,7 @@ const Banner = () => {
               </span>
             </button>
           </a>
-          <Link to="/about" className="ml-4">
+          <Link to="/paket" className="ml-4">
             <SecondaryBtn>
               <span className="text-button-mobile ">Lihat Penawaran</span>
               <span>
