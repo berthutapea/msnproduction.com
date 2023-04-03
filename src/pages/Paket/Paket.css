@@ -4,15 +4,7 @@
 }
 
 .paket-featured {
-    width: 200px;
-    position: absolute;
-    top: 21px;
-    right: -68px;
-    transform: rotate(45deg);
-    /* z-index: -1; */
-    font-size: 13px;
-    padding: 1px 0 3px 0;
-    /* background: #0011ff; */
+    font-size: 15px;
     color: #ff0000;
     animation: blink 1s ease-in-out infinite;
 }
@@ -21,13 +13,4 @@
     50% {
         opacity: 0.5;
     }
-}
-.item:hover .overlay {
-    opacity: 1;
-    -webkit-transform: scale3d(1, 1, 1);
-    transform: scale3d(1, 1, 1);
-}
-
-.item:hover img {
-    opacity: 0.8;
 }

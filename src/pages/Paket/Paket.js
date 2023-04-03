@@ -152,13 +152,13 @@ const Paket = () => {
                 key={item.id}
                 className=" rounded-lg shadow-lg p-3 flex flex-col duration-500 impactfull-card"
               >
-                <span className="paket-featured text-center">Diskon 34%</span>
                 <h3 className="text-lg text-accent font-semibold text-center">
                   {item.title}
                 </h3>
-                <h3 className="text-sm text-gray-600 text-center">
+                <h3 className="text-sm text-gray-600 text-center py-2">
                   {item.subtitle}
                 </h3>
+                <span className="paket-featured text-center justify-center">Diskon 34%</span>
                 <div className="text-center py-2">
                   <sup className="text-2xl text-accent bottom-2">
                     {item.label}
