@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import WaMSN from "../../assets/images/icon/wa.png"
+import WaMSN from "../../assets/images/icon/wa.svg"
 
 const ButtonWa = () => {
     const [isHovering, setIsHovering] = useState(false);
