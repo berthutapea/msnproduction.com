@@ -1,4 +1,5 @@
-<H1 align ="center" > MERN BLOG  </h1>
+<img align ="center" >![MSN-PRODUCTION-LOGO](https://user-images.githubusercontent.com/111676859/230091561-cbb6e02f-387d-46dc-a3fa-ea789047550d.png)
+</img>
 <h5  align ="center"> 
 Fullstack open source blogging application made with MongoDB, Express, React & Nodejs (MERN) </h5>
 <br/>
