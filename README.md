@@ -5,7 +5,7 @@
 </div> -->
 
 <h5  align ="center"> 
-Fullstack open source blogging application made with MongoDB, Express, React & Nodejs (MERN) </h5>
+PT. MULIA SEJATI NUSANTARA Berdiri Pada Tanggal 24 Juni 2019 Sebuah Perseroan Terbatas yang bergerak di bidang jasa Suplier & Contractor. Kemudian pada 22 January 2022 PT. MULIA SEJATI NUSANTARA Membuka cabang usaha Baru di Bidang Teknologi yang meliputi Pembuatan Website, Apilkasi Mobile, Branding, Content Creative, Digital Marketing & Advertising. Cabang ini di namakan “Mulia Sejati Nusantara Production" atau di singkat MSN PRODUCTION.</h5>
 <br/>
 
   * [Configuration and Setup](#configuration-and-setup)
