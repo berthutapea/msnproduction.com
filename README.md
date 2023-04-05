@@ -1,14 +1,14 @@
 <H1 align ="center" > MERN BLOG  </h1>
 <h5  align ="center"> 
-Fullstack open source blogging application made with MongoDB, Express, React & Nodejs (MERN) </h5>
+PT. MULIA SEJATI NUSANTARA Berdiri Pada Tanggal 24 Juni 2019 Sebuah Perseroan Terbatas yang bergerak di bidang jasa Suplier & Contractor. Kemudian pada 22 January 2022 PT. MULIA SEJATI NUSANTARA Membuka cabang usaha Baru di Bidang Teknologi yang meliputi Pembuatan Website, Apilkasi Mobile, Branding, Content Creative, Digital Marketing & Advertising. Cabang ini di namakan “Mulia Sejati Nusantara Production" atau di singkat MSN PRODUCTION. </h5>
 <br/>
 
   * [Configuration and Setup](#configuration-and-setup)
   * [Key Features](#key-features)
   * [Technologies used](#technologies-used)
-      - [Frontend](#frontend)
+      <!-- - [Frontend](#frontend)
       - [Backend](#backend)
-      - [Database](#database)
+      - [Database](#database) -->
   * [📸 Screenshots](#screenshots)
   * [Author](#author)
   * [License](#license)
@@ -38,30 +38,8 @@ In the second terminal
 - Supply the following credentials
 
 ```
-#  ---  Config.env  ---
-
-NODE_ENV = development
-PORT =5000
-URI =http://localhost:3000
-MONGO_URI =
-JWT_SECRET_KEY =
-JWT_EXPIRE = 60m
-RESET_PASSWORD_EXPIRE = 3600000 
-
-# Nodemailer
-
-SMTP_HOST =smtp.gmail.com
-SMTP_PORT =587
-EMAIL_USERNAME = example@gmail.com
-EMAIL_PASS = your_password
-```
-
 
 ```
-# --- Terminal ---
-
-$ npm install (to install backend-side dependencies)
-$ npm start (to start the backend)
 ```
 
 
@@ -122,7 +100,7 @@ This project was created using the following technologies.
  
 
 
-![1](https://user-images.githubusercontent.com/111676859/226197211-8abc5de5-7659-4811-b28a-ef885de64267.png)
+<!-- ![1](https://user-images.githubusercontent.com/111676859/226197211-8abc5de5-7659-4811-b28a-ef885de64267.png)
 ---- -
 ![2](https://user-images.githubusercontent.com/111676859/226197288-1f0cf951-dd30-464f-b70a-10c449fe33b4.png)
 --- - 
@@ -142,7 +120,7 @@ This project was created using the following technologies.
 --- - 
 ![10](https://user-images.githubusercontent.com/111676859/226197329-025091a0-642b-4d68-ac4e-f365e0e78e82.png)
 --- - 
-![11](https://user-images.githubusercontent.com/111676859/226197338-3e530bc6-e7bf-4e4a-9284-165f85be47d2.png)
+![11](https://user-images.githubusercontent.com/111676859/226197338-3e530bc6-e7bf-4e4a-9284-165f85be47d2.png) -->
 
 
 
