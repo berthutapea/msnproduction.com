@@ -1,4 +1,4 @@
-<h1 align ="center" >MULIA SEJATI NUSANTARA PRODUCTION (MSN PRODUCTION)</h1>
+<h1 align ="center" >MULIA SEJATI NUSANTARA PRODUCTION <br/>(MSN PRODUCTION)</h1>
 
 <!-- <div style="text-align: center; justify-content: center;">
   <img src="https://user-images.githubusercontent.com/111676859/230091561-cbb6e02f-387d-46dc-a3fa-ea789047550d.png" width="150" height="150">
@@ -31,9 +31,9 @@ In order to run this project locally, simply fork and clone the repository or do
 In the first terminal
 
 ```
-$ cd Frontend
-$ npm install (to install frontend-side dependencies)
-$ npm run  start (to start the frontend)
+$ cd msnproduction.com
+$ npm install 
+$ npm run  start
 ```
 
 In the second terminal
