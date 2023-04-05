@@ -117,12 +117,6 @@ This project was created using the following technologies.
 - [cors](https://www.npmjs.com/package/uuid) - Provides a Connect/Express middleware
 
 
-####  Database 
-
- - [MongoDB ](https://www.npmjs.com/package/uuid) - It provides a free cloud service to store MongoDB collections.
- 
-
-
  ##  Screenshots 
  
 
