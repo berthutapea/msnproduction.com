@@ -1,5 +1,5 @@
 <div style="display: flex; justify-content: center;">
-  <img src="https://user-images.githubusercontent.com/111676859/230091561-cbb6e02f-387d-46dc-a3fa-ea789047550d.png" width="100" height="100">
+  <img src="https://user-images.githubusercontent.com/111676859/230091561-cbb6e02f-387d-46dc-a3fa-ea789047550d.png" width="200" height="200">
 </div>
 
 <h5  align ="center"> 
