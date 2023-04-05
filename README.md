@@ -1,14 +1,14 @@
 <H1 align ="center" > MERN BLOG  </h1>
 <h5  align ="center"> 
-PT. MULIA SEJATI NUSANTARA Berdiri Pada Tanggal 24 Juni 2019 Sebuah Perseroan Terbatas yang bergerak di bidang jasa Suplier & Contractor. Kemudian pada 22 January 2022 PT. MULIA SEJATI NUSANTARA Membuka cabang usaha Baru di Bidang Teknologi yang meliputi Pembuatan Website, Apilkasi Mobile, Branding, Content Creative, Digital Marketing & Advertising. Cabang ini di namakan “Mulia Sejati Nusantara Production" atau di singkat MSN PRODUCTION. </h5>
+Fullstack open source blogging application made with MongoDB, Express, React & Nodejs (MERN) </h5>
 <br/>
 
   * [Configuration and Setup](#configuration-and-setup)
   * [Key Features](#key-features)
   * [Technologies used](#technologies-used)
-      <!-- - [Frontend](#frontend)
+      - [Frontend](#frontend)
       - [Backend](#backend)
-      - [Database](#database) -->
+      - [Database](#database)
   * [📸 Screenshots](#screenshots)
   * [Author](#author)
   * [License](#license)
@@ -38,8 +38,30 @@ In the second terminal
 - Supply the following credentials
 
 ```
+#  ---  Config.env  ---
+
+NODE_ENV = development
+PORT =5000
+URI =http://localhost:3000
+MONGO_URI =
+JWT_SECRET_KEY =
+JWT_EXPIRE = 60m
+RESET_PASSWORD_EXPIRE = 3600000 
+
+# Nodemailer
+
+SMTP_HOST =smtp.gmail.com
+SMTP_PORT =587
+EMAIL_USERNAME = example@gmail.com
+EMAIL_PASS = your_password
+```
+
 
 ```
+# --- Terminal ---
+
+$ npm install (to install backend-side dependencies)
+$ npm start (to start the backend)
 ```
 
 
@@ -99,28 +121,15 @@ This project was created using the following technologies.
  ##  Screenshots 
  
 
-
-<!-- ![1](https://user-images.githubusercontent.com/111676859/226197211-8abc5de5-7659-4811-b28a-ef885de64267.png)
+![01-Beranda](https://user-images.githubusercontent.com/111676859/230090598-01108d49-5451-405c-90b1-a027f144852a.png)
 ---- -
-![2](https://user-images.githubusercontent.com/111676859/226197288-1f0cf951-dd30-464f-b70a-10c449fe33b4.png)
+![02-Tentang](https://user-images.githubusercontent.com/111676859/230090622-1b37cea0-ee41-4bf5-9bcd-4412e2a8880e.png)
 --- - 
-![3](https://user-images.githubusercontent.com/111676859/226197295-e9525dd5-1346-4951-a1c8-d5620166d7aa.png)
+![03-Paket](https://user-images.githubusercontent.com/111676859/230090644-41d98d99-916e-40dd-9043-69cbe77e74e9.png)
 --- - 
-![4](https://user-images.githubusercontent.com/111676859/226197298-ca0f5b6e-f523-4040-98a8-b92a17bbe22e.png)
+![04-Kontak](https://user-images.githubusercontent.com/111676859/230090672-963a4569-43d7-4b8b-98a2-ea9ae5d8f1d2.png)
 --- - 
-![5](https://user-images.githubusercontent.com/111676859/226197303-5d8a1a39-07f7-409f-8614-12d0ca0b2836.png)
---- - 
-![6](https://user-images.githubusercontent.com/111676859/226197307-1d95a1f6-147a-4edb-b899-449c90c07713.png)
---- - 
-![7](https://user-images.githubusercontent.com/111676859/226197312-b7bf6ae6-2c05-4b1d-bc25-4262af3f04f2.png)
---- - 
-![8](https://user-images.githubusercontent.com/111676859/226197316-eb387e87-9690-44ca-b138-f15b03bed7d4.png)
---- - 
-![9](https://user-images.githubusercontent.com/111676859/226197324-dcbad05b-2283-4ef5-bae9-2da8d09d55c9.png)
---- - 
-![10](https://user-images.githubusercontent.com/111676859/226197329-025091a0-642b-4d68-ac4e-f365e0e78e82.png)
---- - 
-![11](https://user-images.githubusercontent.com/111676859/226197338-3e530bc6-e7bf-4e4a-9284-165f85be47d2.png) -->
+![05-Blog](https://user-images.githubusercontent.com/111676859/230090684-19c9932f-3a4a-4346-8c08-be28987deae2.png)
 
 
 
