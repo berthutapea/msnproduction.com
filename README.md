@@ -1,6 +1,8 @@
-<div style="text-align: center; justify-content: center;">
+<h1 align ="center" >MULIA SEJATI NUSANTARA PRODUCTION (MSN PRODUCTION)</h1>
+
+<!-- <div style="text-align: center; justify-content: center;">
   <img src="https://user-images.githubusercontent.com/111676859/230091561-cbb6e02f-387d-46dc-a3fa-ea789047550d.png" width="150" height="150">
-</div>
+</div> -->
 
 <h5  align ="center"> 
 Fullstack open source blogging application made with MongoDB, Express, React & Nodejs (MERN) </h5>
