@@ -36,10 +36,10 @@ const Kontak = () => {
     e.preventDefault();
     emailjs
       .sendForm(
-        "itsproali_portfolio",
-        "itsproali_portfolio",
+        "service_6xnj05v",
+        "template_exk29f8",
         form.current,
-        "H-ispiDvwdbG_76iq"
+        "kLfLk-o6LKj-L9c77"
       )
       .then(
         (result) => {
