@@ -63,7 +63,7 @@ const Paket = () => {
               Segera Booking Slot Promo Sebelum Kehabisan!
             </h3>
             <h1 className="text-4xl font-semibold text-center">
-              Harga Paket Promo <span className="text-primary">Spesial Idul Fitri !</span>
+              Harga Paket Promo <span className="text-primary">Awal Bulan Mei</span>
             </h1>
             <BottomLine />
             <CountdownTimer />
