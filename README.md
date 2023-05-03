@@ -1,9 +1,5 @@
 <h1 align ="center" >MULIA SEJATI NUSANTARA PRODUCTION <br/>(MSN PRODUCTION)</h1>
 
-<!-- <div style="text-align: center; justify-content: center;">
-  <img src="https://user-images.githubusercontent.com/111676859/230091561-cbb6e02f-387d-46dc-a3fa-ea789047550d.png" width="150" height="150">
-</div> -->
-
 <h5  align ="center"> 
 PT. MULIA SEJATI NUSANTARA Berdiri Pada Tanggal 24 Juni 2019 Sebuah Perseroan Terbatas yang bergerak di bidang jasa Suplier & Contractor. Kemudian pada 22 January 2022 PT. MULIA SEJATI NUSANTARA Membuka cabang usaha Baru di Bidang Teknologi yang meliputi Pembuatan Website, Apilkasi Mobile, Branding, Content Creative, Digital Marketing & Advertising. Cabang ini di namakan “Mulia Sejati Nusantara Production" atau di singkat MSN PRODUCTION.</h5>
 <br/>
@@ -53,6 +49,7 @@ This project was created using the following technologies.
 - [React icons](https://react-icons.github.io/react-icons/) -
  Small library that helps you add icons  to your react apps.
  - [Tailwind CSS](https://tailwindcss.com/) - For User Interface
+ - [daisyUI  ](https://daisyui.com/docs/changelog/) - For User Interface
 
  ##  Screenshots 
  
