@@ -11,8 +11,6 @@ PT. MULIA SEJATI NUSANTARA Berdiri Pada Tanggal 24 Juni 2019 Sebuah Perseroan Te
   * [Author](#author)
   * [License](#license)
 
-
-
 ## Configuration and Setup
 
 In order to run this project locally, simply fork and clone the repository or download as zip and unzip on your machine.
@@ -35,7 +33,6 @@ $ npm run start
 - Kontak
 - Blog
 
-
 <br/>
 
 ##  Technologies used
@@ -53,7 +50,6 @@ This project was created using the following technologies.
 
  ##  Screenshots 
  
-
 ![01-Beranda](https://user-images.githubusercontent.com/111676859/230090598-01108d49-5451-405c-90b1-a027f144852a.png)
 ---- -
 ![02-Tentang](https://user-images.githubusercontent.com/111676859/230090622-1b37cea0-ee41-4bf5-9bcd-4412e2a8880e.png)
@@ -64,12 +60,11 @@ This project was created using the following technologies.
 --- - 
 ![05-Blog](https://user-images.githubusercontent.com/111676859/230090684-19c9932f-3a4a-4346-8c08-be28987deae2.png)
 
-
-
 ## Author
 - Portfolio: [berthutapea](https://berthutapea.vercel.app/)
-- Github: [@bert-hutapea](https://github.com/berthutapea)
-- Linkedin: [@gilbert-hutapea](https://www.linkedin.com/in/gilberthutapea/)
+- Github: [berthutapea](https://github.com/berthutapea)
+- Sponsor: [berthutapea](https://saweria.co/berthutapea)
+- Linkedin: [gilberthutapea](https://www.linkedin.com/in/gilberthutapea/)
 - Email: [berthutapea@gmail.com](mailto:berthutapea@gmail.com)
 
 ## License
