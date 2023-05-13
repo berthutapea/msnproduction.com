@@ -1,17 +1,11 @@
 import { Route, Routes, useLocation, Navigate } from "react-router-dom";
 import React, { Suspense } from "react";
-import NotFound from "./pages/shared/NotFound/NotFound";
-import Loader from "./pages/shared/Loader/Loader";
-import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
-import Navbar from "./pages/shared/Navbar/Navbar";
-import Footer from "./pages/shared/Footer/Footer";
-import Blog from "./pages/Blog/Blog";
-import BlogDetail from "./pages/Blog/BlogDetail/BlogDetail";
-import BlogIndex from "./pages/Blog/BlogIndex/BlogIndex";
-import Kontak from "./pages/Kontak/Kontak";
-import Tentang from "./pages/Tentang/Tentang";
-const Home = React.lazy(() => import("./pages/Home/Home"));
-const Paket = React.lazy(() => import("./pages/Paket/Paket"));
+import { NotFound, Loader, ScrollToTop, Navbar, Footer, BlogDetail, BlogIndex } from "./components";
+import Blog from "./pages/Blog";
+import Kontak from "./pages/Kontak";
+import Tentang from "./pages/Tentang";
+const Home = React.lazy(() => import("./pages/Home"));
+const Paket = React.lazy(() => import("./pages/Paket"));
 
 function App() {
   const location = useLocation();
