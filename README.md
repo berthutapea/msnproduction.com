@@ -1,7 +1,7 @@
 <h1 align ="center" >MULIA SEJATI NUSANTARA PRODUCTION <br/>(MSN PRODUCTION)</h1>
 
 <h5  align ="center"> 
-PT. MULIA SEJATI NUSANTARA Berdiri Pada Tanggal 24 Juni 2019 Sebuah Perseroan Terbatas yang bergerak di bidang jasa Suplier & Contractor. Kemudian pada 22 January 2022 PT. MULIA SEJATI NUSANTARA Membuka cabang usaha Baru di Bidang Teknologi yang meliputi Pembuatan Website, Apilkasi Mobile, Branding, Content Creative, Digital Marketing & Advertising. Cabang ini di namakan “Mulia Sejati Nusantara Production" atau di singkat MSN PRODUCTION.</h5>
+PT. MULIA SEJATI NUSANTARA Established on June 24, 2019, a limited liability company engaged in supplier & contractor services. Then on 22 January 2022 PT. MULIA SEJATI NUSANTARA Opening a new business branch in the Technology Sector which includes Website Creation, Mobile Applications, Branding, Creative Content, Digital Marketing & Advertising. This branch is called "Mulia Sejati Nusantara Production" or abbreviated as MSN PRODUCTION.</h5>
 <br/>
 
   * [Configuration and Setup](#configuration-and-setup)
@@ -27,11 +27,12 @@ $ npm run start
 
 ##  Key Features
 
-- Beranda
-- Tentang
-- Paket 
-- Kontak
+- Home
+- About
+- Package
+- Contact
 - Blog
+- Responsive Design
 
 <br/>
 
@@ -46,19 +47,22 @@ This project was created using the following technologies.
 - [React icons](https://react-icons.github.io/react-icons/) -
  Small library that helps you add icons  to your react apps.
  - [Tailwind CSS](https://tailwindcss.com/) - For User Interface
- - [daisyUI  ](https://daisyui.com/docs/changelog/) - For User Interface
+ - [daisyUI](https://daisyui.com/docs/changelog/) - For User Interface
+ - [React Leafet](https://react-leaflet.js.org/) - For User Interface
+ - [Email js](https://www.emailjs.com/) - For User Interface
+ - [Framer Motion](https://www.framer.com/motion/) - For User Interface
 
  ##  Screenshots 
  
-![01-Beranda](https://user-images.githubusercontent.com/111676859/230090598-01108d49-5451-405c-90b1-a027f144852a.png)
+![img-1](https://github.com/berthutapea/msnproduction.com/assets/111676859/99fbd0c0-1f92-4bb7-9802-367e997ee2c3)
 ---- -
-![02-Tentang](https://user-images.githubusercontent.com/111676859/230090622-1b37cea0-ee41-4bf5-9bcd-4412e2a8880e.png)
+![img-2](https://github.com/berthutapea/msnproduction.com/assets/111676859/28601988-b305-47c4-a2d3-6de2f590bf07)
 --- - 
-![03-Paket](https://user-images.githubusercontent.com/111676859/230090644-41d98d99-916e-40dd-9043-69cbe77e74e9.png)
+![img-3](https://github.com/berthutapea/msnproduction.com/assets/111676859/e642ebeb-6090-4825-af78-0ca62ae2482e)
 --- - 
-![04-Kontak](https://user-images.githubusercontent.com/111676859/230090672-963a4569-43d7-4b8b-98a2-ea9ae5d8f1d2.png)
+![img-4](https://github.com/berthutapea/msnproduction.com/assets/111676859/7e3ef8cf-6127-41be-86de-66f465d6dc3d)
 --- - 
-![05-Blog](https://user-images.githubusercontent.com/111676859/230090684-19c9932f-3a4a-4346-8c08-be28987deae2.png)
+![img-5](https://github.com/berthutapea/msnproduction.com/assets/111676859/e1301e3f-0dbb-44c6-a0b6-d973087f6140)
 
 ## Author
 - Portfolio: [berthutapea](https://berthutapea.vercel.app/)
