@@ -46,8 +46,6 @@ const Paket = () => {
     filterItem("wedding");
   }, []);
 
-
-
   return (
     <div className={`${location.pathname !== "/" && "pt-16"}`}>
       <div className="py-16 parent ">
@@ -61,7 +59,7 @@ const Paket = () => {
               Segera Booking Slot Promo Sebelum Kehabisan!
             </h3>
             <h1 className="text-4xl font-semibold text-center">
-              Harga Paket Promo <span className="text-primary">Bulan Mei</span>
+              Harga Paket Promo <span className="text-primary">Akhir Bulan Mei</span>
             </h1>
             <BottomLine />
             <Countdown />
