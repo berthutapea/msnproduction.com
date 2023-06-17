@@ -33,7 +33,7 @@ const CountdownTimer = () => {
     };
 
     // Set tanggal target
-    const targetDate = new Date('Jun 18, 2023 00:00:00');
+    const targetDate = new Date('Jun 25, 2023 00:00:00');
 
     return (
         <div className="container mx-auto mt-10">
