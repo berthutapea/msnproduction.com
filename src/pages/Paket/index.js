@@ -59,7 +59,7 @@ const Paket = () => {
               Segera Booking Slot Promo Sebelum Kehabisan!
             </h3>
             <h1 className="text-4xl font-semibold text-center">
-              Harga Paket Promo <span className="text-primary">Hari Raya Idul Adha 1444 H</span>
+              Harga Paket Promo <span className="text-primary">Awal Bulan Juli</span>
             </h1>
             <BottomLine />
             <Countdown />

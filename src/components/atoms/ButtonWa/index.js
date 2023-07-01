@@ -5,7 +5,7 @@ const ButtonWa = () => {
     const [isHovering, setIsHovering] = useState(false);
 
     const handleClick = () => {
-        const number = '6282125664554';
+        const number = '6281398097276';
         const text = 'Mulia Sejati Nusantara Production';
         const url = `https://wa.me/${number}?text=${encodeURIComponent(text)}`;
         window.open(url, '_blank');
