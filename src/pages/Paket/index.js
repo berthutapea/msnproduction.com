@@ -59,7 +59,7 @@ const Paket = () => {
               Segera Booking Slot Promo Sebelum Kehabisan!
             </h3>
             <h1 className="text-4xl font-semibold text-center">
-              Harga Paket Promo <span className="text-primary">Awal Bulan Agustus</span>
+              Harga Paket Promo <span className="text-primary">Hari Kemerdekaan RI 17 Agustus</span>
             </h1>
             <BottomLine />
             <Countdown />
