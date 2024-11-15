@@ -1,17 +1,17 @@
-import React from "react";
-import "./BottomLine.css";
+// import React from "react";
+// import "./BottomLine.css";
 
-const BottomLine = () => {
-  return (
-    <>
-      <div className="flex items-center justify-center mt-4">
-        <div className="side-line"></div>
-        <div className="middle-line">
-        </div>
-        <div className="side-line"></div>
-      </div>
-    </>
-  );
-};
+// const BottomLine = () => {
+//   return (
+//     <>
+//       <div className="flex items-center justify-center mt-4">
+//         <div className="side-line"></div>
+//         <div className="middle-line">
+//         </div>
+//         <div className="side-line"></div>
+//       </div>
+//     </>
+//   );
+// };
 
-export default BottomLine;
+// export default BottomLine;
